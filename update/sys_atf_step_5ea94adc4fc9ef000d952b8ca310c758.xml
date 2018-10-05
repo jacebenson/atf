@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Open the 'Incident' form with id '{{Step 4: Submit a Form.Record}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <order>15</order>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:18:58</sys_created_on>
+        <sys_id>5ea94adc4fc9ef000d952b8ca310c758</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_5ea94adc4fc9ef000d952b8ca310c758</sys_update_name>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:18:58</sys_updated_on>
+        <table>incident</table>
+        <test display_value="Incident Management Full Record Test">7905ce584fc9ef000d952b8ca310c786</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5ea94adc4fc9ef000d952b8ca310c758"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ea94adc4fc9ef000d952b8ca310c758</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:18:58</sys_created_on>
+        <sys_id>37a94adc4fc9ef000d952b8ca310c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:18:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ea94adc4fc9ef000d952b8ca310c758</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:18:58</sys_created_on>
+        <sys_id>bba94adc4fc9ef000d952b8ca310c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:18:58</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5ea94adc4fc9ef000d952b8ca310c758</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:18:58</sys_created_on>
+        <sys_id>f7a94adc4fc9ef000d952b8ca310c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:18:58</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5ea94adc4fc9ef000d952b8ca310c758"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>5ea94adc4fc9ef000d952b8ca310c758</id>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:18:58</sys_created_on>
+        <sys_id>ffa94adc4fc9ef000d952b8ca310c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:18:58</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['d6268ed84fc9ef000d952b8ca310c7e6'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>5ea94adc4fc9ef000d952b8ca310c758</id>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:18:58</sys_created_on>
+        <sys_id>b3a94adc4fc9ef000d952b8ca310c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:18:58</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
