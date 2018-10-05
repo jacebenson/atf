@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+Assignment group = Incident Management</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <order>6</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:09:08</sys_created_on>
+        <sys_id>ae578e1c4fc9ef000d952b8ca310c72f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_ae578e1c4fc9ef000d952b8ca310c72f</sys_update_name>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:17:26</sys_updated_on>
+        <table>incident</table>
+        <test display_value="Incident Management Full Record Test">7905ce584fc9ef000d952b8ca310c786</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ae578e1c4fc9ef000d952b8ca310c72f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ae578e1c4fc9ef000d952b8ca310c72f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:09:08</sys_created_on>
+        <sys_id>7f67825c4fc9ef000d952b8ca310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:09:08</sys_updated_on>
+        <value>assignment_group=12a586cd0bb23200ecfd818393673a30^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ae578e1c4fc9ef000d952b8ca310c72f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-10-05 16:09:08</sys_created_on>
+        <sys_id>bb67825c4fc9ef000d952b8ca310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-10-05 16:09:08</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+</record_update>
