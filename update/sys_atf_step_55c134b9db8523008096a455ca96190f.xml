@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Open the 'Marketing Request' form with id '{{Step 9: Submit a Form.Record}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <order>13</order>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jace.benson@protonmail.com</sys_created_by>
+        <sys_created_on>2018-10-10 01:45:58</sys_created_on>
+        <sys_id>55c134b9db8523008096a455ca96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_55c134b9db8523008096a455ca96190f</sys_update_name>
+        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
+        <sys_updated_on>2018-10-10 01:45:58</sys_updated_on>
+        <table>sn_sm_marketing_request</table>
+        <test display_value="Create Marketing Request via standard gui">413964f1db8523008096a455ca961902</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=55c134b9db8523008096a455ca96190f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>55c134b9db8523008096a455ca96190f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jace.benson@protonmail.com</sys_created_by>
+        <sys_created_on>2018-10-10 01:45:58</sys_created_on>
+        <sys_id>24d134b9db8523008096a455ca9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
+        <sys_updated_on>2018-10-10 01:45:58</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>55c134b9db8523008096a455ca96190f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jace.benson@protonmail.com</sys_created_by>
+        <sys_created_on>2018-10-10 01:45:58</sys_created_on>
+        <sys_id>60d134b9db8523008096a455ca9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
+        <sys_updated_on>2018-10-10 01:45:58</sys_updated_on>
+        <value/>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>55c134b9db8523008096a455ca96190f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jace.benson@protonmail.com</sys_created_by>
+        <sys_created_on>2018-10-10 01:45:58</sys_created_on>
+        <sys_id>e4d134b9db8523008096a455ca9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
+        <sys_updated_on>2018-10-10 01:45:58</sys_updated_on>
+        <value>sn_sm_marketing_request</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=55c134b9db8523008096a455ca96190f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>55c134b9db8523008096a455ca96190f</id>
+        <sys_created_by>jace.benson@protonmail.com</sys_created_by>
+        <sys_created_on>2018-10-10 01:45:58</sys_created_on>
+        <sys_id>2cd134b9db8523008096a455ca9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
+        <sys_updated_on>2018-10-10 01:45:58</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['7b59a4f1db8523008096a455ca9619d0'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>55c134b9db8523008096a455ca96190f</id>
+        <sys_created_by>jace.benson@protonmail.com</sys_created_by>
+        <sys_created_on>2018-10-10 01:45:58</sys_created_on>
+        <sys_id>ecd134b9db8523008096a455ca9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
+        <sys_updated_on>2018-10-10 01:45:58</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
