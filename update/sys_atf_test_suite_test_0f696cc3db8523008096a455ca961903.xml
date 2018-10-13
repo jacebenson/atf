@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-13 22:21:49</sys_created_on>
+        <sys_id>0f696cc3db8523008096a455ca961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fbf9fd1cdb0123008096a455ca961917</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_0f696cc3db8523008096a455ca961903</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-13 22:21:49</sys_updated_on>
+        <test display_value="Create Test Email via API">b9280276db0123008096a455ca9619cb</test>
+        <test_suite display_value="API Testing">fbf9fd1cdb0123008096a455ca961917</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
