@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_config">
+    <sys_atf_step_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_order_constraint/>
+        <category display_value="Server">317c4dc20b202200a8d7a12cf6673aa8</category>
+        <class_name/>
+        <class_type>script</class_type>
+        <description_generator><![CDATA[function generateDescription() {
+    // the global variable 'step' represents the current glide record
+    var description = "";
+	// your code here
+	return description;
+}
+ generateDescription();
+]]></description_generator>
+        <html_description><![CDATA[<p>This step creates a user, a group, assigns roles to the group, and assigns the user to the group.</p>]]></html_description>
+        <icon>icon-article-document</icon>
+        <inputs/>
+        <name>Create user with rights</name>
+        <order>100</order>
+        <outputs/>
+        <step_env display_value="Server - Independent">6c2bcea1870312009dccc9ded0e3ecca</step_env>
+        <step_execution_generator><![CDATA[// The inputs are a map of the variables defined in the inputs related list below.
+// Inputs are consumed in the step configuration. Input
+// values may be hardcoded or mapped from the outputs of a previous step.
+// If a test author using your step uses mapping to pass in an output from a previous 
+// test step then when referencing the input variable the mapping will be resolved 
+// automatically
+//  Example:
+//      var myRecords = new GlideRecord(inputs.table);
+//
+// The outputs are a map of the variables defined in the outputs related list.
+// Outputs should be set (assigned) in order to pass data out of a test step that
+// can be consumed my mapping as an input to subsequent steps. 
+//  Example:
+//      outputs.table = gr.getRecordClassName()
+//
+//
+// Note that inputs and outputs are strongly typed as defined in their variable definition.
+// Their behavior is the same as a dictionary defined field of the same type in a table.
+//
+// The stepResult is a simple API for controlling the step pass/fail and logging with three
+// methods:
+//      stepResult.setFailed: Causes step to fail
+//
+//      stepResult.setSuccess: Causes step to succeed
+//
+//      stepResult.setOutputMessage: Log a message to step results after step executes.
+//            Can only be called once or will overwrite previous 
+//            message
+//
+// If neither setFailed or setSuccess is called the default is to succeed.
+//
+// See 'Record Query' for an example of a scripted step config 
+// or see test 'Check change approvals get generated'
+//
+// Example usage of step timeout in script
+//      var counter = 0;
+//      // 'timeout' is a field on the step form
+//      while (counter <= timeout) {
+//            if (desiredOutcome) {
+//                stepResult.setOutputMessage('Success!');
+//                stepResult.setSuccess();
+//                return;
+//            }
+//            counter++;
+//            gs.sleep(1000);
+//      }
+//
+//      // desired outcome did not occur within the timeout
+//      stepResult.setOutputMessage('Failure!');
+//      stepResult.setFailed();
+//
+(function executeStep(inputs, outputs, stepResult, timeout) {
+	try {
+		var message = [];
+		var gdt = new GlideDateTime();
+		var ms = gdt.getNumericValue();
+		var date = new Date(ms).toISOString().replace(/\:/g,'.');
+
+		message.push('creating admin_' + date);
+		var adminUser = new GlideRecord('sys_user');
+		adminUser.newRecord();
+		adminUser.setValue('first_name', inputs.u_firstname);
+		adminUser.setValue('last_name', 'admin_' + date);
+		adminUser.setValue('user_name', 'admin_' + date);
+		adminUser.user_password.setDisplayValue('password');
+		adminUser.setValue('active','true');
+		adminUser.setValue('locked_out','false');
+		var adminUserID = adminUser.insert();
+		message.push('created admin_' + date + ': ' + adminUserID);
+		var adminRole = new GlideRecord('sys_user_role');
+		if(adminRole.get('name','admin')){
+			message.push('assigning role admin');
+			var assignRole = new GlideRecord('sys_user_has_role');
+			assignRole.newRecord();
+			assignRole.setValue('role',adminRole.getValue('sys_id'));
+			assignRole.setValue('user',adminUserID);
+			assignRole.insert();
+			message.push('assigned role admin');
+		}
+		var start0 = parseInt(new Date().getTime()) + 5000;
+		while(start0>parseInt(new Date().getTime())){
+			// do nothing
+		}
+		message.push('starting rest call');
+		var restMessage = new sn_ws.RESTMessageV2();
+		// restMessage.setBasicAuth('admin_' + date, "password");
+		 restMessage.setRequestHeader('authorization', 'Basic ' + gs.base64Encode('admin_' + date + ':' + 'password'));
+		// var g_ck = gs.getSession().getSessionToken();
+		// restMessage.setRequestHeader('X-UserToken', g_ck);
+		restMessage.setHttpMethod("post");
+		restMessage.setEndpoint("http://"+ gs.getProperty('instance_name') +".service-now.com/api/now/table/sys_user_group");
+		restMessage.setRequestBody(JSON.stringify({
+			name: inputs.u_group + '_admin_' + date,
+			manager: adminUserID
+		}));
+		var response = restMessage.execute();
+		var error = response.haveError();
+		if(error){
+			var errorCode = response.getErrorCode();
+			var errorMsg = response.getErrorMessage();
+		} else {
+		}
+		var headerVal = response.getHeader("Content-Type");
+		var headers = response.getHeaders();
+		var queryString = response.getQueryString();
+		var statusCode = response.getStatusCode();
+		var responseBody = response.getBody();
+		message.push(JSON.stringify(restMessage.getRequestHeaders()));
+		message.push(JSON.stringify(headers));
+		message.push(statusCode);
+		message.push(responseBody);
+		
+
+		message.push('Creating user: ' + inputs.u_firstname + ' ' + inputs.u_lastname + '_' + date);
+		var sys_user = new GlideRecord('sys_user');
+		sys_user.newRecord();
+		sys_user.setValue('first_name', inputs.u_firstname);
+		sys_user.setValue('last_name', inputs.u_lastname + '_' + date);
+		sys_user.user_password.setDisplayValue('password');
+		sys_user.setValue('active','true');
+		sys_user.setValue('locked_out','false');
+		outputs.u_user = sys_user.insert();
+		message.push('Created user: ' + outputs.u_user);
+
+		message.push('Creating group: ' + inputs.u_group + '_' + date);
+		var sys_user_group = new GlideRecord('sys_user_group');
+		sys_user_group.initialize();
+		sys_user_group.setValue('name', inputs.u_group + '_' + date);
+		sys_user_group.setValue('manager', outputs.u_user);
+		sys_user_group.insert();
+		var group_sysid = sys_user_group.getValue('sys_id');
+		outputs.u_group = group_sysid;
+		message.push('Created group: ' + outputs.u_group);
+		if(group_sysid === null){
+			message.push('Check your /sys_db_object.do?sysparm_query=name=sys_user_group');
+			message.push('It is likely not set to allow create, update, and delete.');
+			message.push('Do this in global.');
+			stepResult.setOutputMessage(message.join('\n'));
+			stepResult.setFailed();
+		} else {
+
+			message.push('Adding user to group');
+			var sys_user_grmember = new GlideRecord('sys_user_grmember');
+			sys_user.newRecord();
+			sys_user.setValue('user', outputs.u_user);
+			sys_user.setValue('group', outputs.u_group);
+			sys_user.insert();
+			message.push('Added user to group');
+			message.push('Creating Roles: ' + inputs.u_roles);
+			var roles = inputs.u_roles.toString().split(',');
+			message.push(typeof roles);
+			message.push(roles.length);
+			for(var x = 0;x<roles.length;x++){
+				var sys_group_has_role = new GlideRecord('sys_group_has_role');
+				sys_group_has_role.newRecord();
+				sys_group_has_role.setValue('group', outputs.u_group);
+				sys_group_has_role.setValue('role', roles[x]);
+				var group_role = sys_group_has_role.insert();
+				message.push('Created group->role: ' + group_role);
+			}
+			// var start = parseInt(new Date().getTime()) + 30000;
+			// while(start>parseInt(new Date().getTime())){
+				// do nothing
+			// }
+			stepResult.setOutputMessage(message.join('\n'));
+			stepResult.setSuccess();
+		}
+	} catch(e) {
+		stepResult.setOutputMessage(JSON.stringify(e));
+		stepResult.setFailed();
+	}
+}(inputs, outputs, stepResult, timeout));
+]]></step_execution_generator>
+        <sys_class_name>sys_atf_step_config</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-25 03:56:25</sys_created_on>
+        <sys_id>154f1ea2db9523008096a455ca96196e</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Create user with rights</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_config_154f1ea2db9523008096a455ca96196e</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-25 18:52:28</sys_updated_on>
+        <template_reminder>Template reminder</template_reminder>
+        <type display_value="Test Step" name="sys_atf_step">9146772181d31300aadba4a47c598e12</type>
+        <wizard_redirect/>
+    </sys_atf_step_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=154f1ea2db9523008096a455ca96196e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=154f1ea2db9523008096a455ca96196e"/>
+</record_update>
