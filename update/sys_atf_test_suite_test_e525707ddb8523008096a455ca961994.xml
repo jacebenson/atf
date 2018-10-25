@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>100</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-10 02:00:42</sys_created_on>
+        <sys_id>e525707ddb8523008096a455ca961994</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>c509a0f1db8523008096a455ca961939</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_e525707ddb8523008096a455ca961994</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-10 02:00:47</sys_updated_on>
+        <test display_value="Create Marketing Request via standard gui">413964f1db8523008096a455ca961902</test>
+        <test_suite display_value="Marketing">c509a0f1db8523008096a455ca961939</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
