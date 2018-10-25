@@ -12,14 +12,14 @@ Assignment group = {{Step 1: Record Insert.Record}}</description>
         <sys_created_by>jace.benson@protonmail.com</sys_created_by>
         <sys_created_on>2018-10-10 01:17:43</sys_created_on>
         <sys_id>554b6475db8523008096a455ca9619ca</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Set Field Values</sys_name>
         <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_554b6475db8523008096a455ca9619ca</sys_update_name>
-        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
-        <sys_updated_on>2018-10-10 01:45:58</sys_updated_on>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-13 22:29:28</sys_updated_on>
         <table>sn_sm_marketing_request</table>
         <test display_value="Create Marketing Request via standard gui">413964f1db8523008096a455ca961902</test>
         <timeout/>
