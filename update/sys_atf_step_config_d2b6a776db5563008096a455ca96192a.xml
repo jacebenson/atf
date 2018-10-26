@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_config">
     <sys_atf_step_config action="INSERT_OR_UPDATE">
         <active>true</active>
-        <batch_order_constraint/>
+        <batch_order_constraint>middle</batch_order_constraint>
         <category display_value="Server">317c4dc20b202200a8d7a12cf6673aa8</category>
         <class_name/>
         <class_type>script</class_type>
         <description_generator><![CDATA[function generateDescription() {
     // the global variable 'step' represents the current glide record
-    var description = "This step creates a user, a group, assigns roles to the group, and assigns the user to the group.";
+    var description = "";
 	// your code here
 	return description;
 }
  generateDescription();
 ]]></description_generator>
-        <html_description><![CDATA[<p>This step creates a user, a group, assigns roles to the group, and assigns the user to the group.</p>]]></html_description>
+        <html_description><![CDATA[<p>Waits X seconds</p>]]></html_description>
         <icon>icon-article-document</icon>
         <inputs/>
-        <name>Create user with rights</name>
+        <name>Wait</name>
         <order>100</order>
         <outputs/>
         <step_env display_value="Server - Independent">6c2bcea1870312009dccc9ded0e3ecca</step_env>
@@ -72,87 +72,31 @@
 //      stepResult.setFailed();
 //
 (function executeStep(inputs, outputs, stepResult, timeout) {
-	try {
-		var message = [];
-		var gdt = new GlideDateTime();
-		var ms = gdt.getNumericValue();
-		var date = new Date(ms).toISOString().replace(/\:/g,'.');
-		var username = inputs.u_firstname +'.atf.'+ inputs.u_lastname;
-		var password = inputs.u_firstname +'.atf.'+ inputs.u_lastname;
-		outputs.u_basic_auth = 'Basic ' + gs.base64Encode(username + ':' + password);
-		outputs.u_email = username + date + '@example.com';
-		
-		message.push('Creating user: ' + username);
-		var sys_user = new GlideRecord('sys_user');
-		sys_user.newRecord();
-
-		sys_user.setValue('user_name', username);
-		sys_user.setValue('first_name', inputs.u_firstname);
-		sys_user.setValue('last_name', inputs.u_lastname + '_' + date);
-		sys_user.user_password.setDisplayValue(password);
-		sys_user.setValue('active','true');
-		sys_user.setValue('locked_out','false');
-		sys_user.setValue('email', outputs.u_email);
-		outputs.u_user = sys_user.insert();
-		message.push('Created user: ' + outputs.u_user);
-
-		message.push('Creating group: ' + inputs.u_group + '_' + date);
-		var sys_user_group = new GlideRecord('sys_user_group');
-		sys_user_group.initialize();
-		sys_user_group.setValue('name', inputs.u_group + '_' + date);
-		sys_user_group.setValue('manager', outputs.u_user);
-		sys_user_group.insert();
-		var group_sysid = sys_user_group.getValue('sys_id');
-		outputs.u_group = group_sysid;
-		message.push('Created group: ' + outputs.u_group);
-		if(group_sysid === null){
-			message.push('Check your /sys_db_object.do?sysparm_query=name=sys_user_group');
-			message.push('It is likely not set to allow create, update, and delete.');
-			message.push('Do this in global.');
-			stepResult.setOutputMessage(message.join('\n'));
-			stepResult.setFailed();
-		} else {
-			message.push('Adding user to group');
-			var sys_user_grmember = new GlideRecord('sys_user_grmember');
-			sys_user_grmember.newRecord();
-			sys_user_grmember.setValue('user', outputs.u_user);
-			sys_user_grmember.setValue('group', outputs.u_group);
-			sys_user_grmember.insert();
-			message.push('Added user to group');
-			message.push('Creating Roles: ' + inputs.u_roles);
-			var roles = inputs.u_roles.toString().split(',');
-			for(var x=0;x<roles.length;x++){//} prop in roles){
-				var sys_group_has_role = new GlideRecord('sys_group_has_role');
-				sys_group_has_role.newRecord();
-				sys_group_has_role.setValue('group', outputs.u_group);
-				sys_group_has_role.setValue('role', roles[x]);
-				var group_role = sys_group_has_role.insert();
-			}
-		}
-		stepResult.setOutputMessage(message.join('\n'));
-		stepResult.setSuccess();
-	} catch(e) {
-		stepResult.setOutputMessage(JSON.stringify(e));
-		stepResult.setFailed();
+	var seconds = parseInt(inputs.u_seconds, 10) * 1000;
+	var start = parseInt(new Date().getTime()) + seconds;
+	while(start>parseInt(new Date().getTime())){
+		// do nothing
 	}
+	stepResult.setOutputMessage('Waited ' + inputs.u_seconds + ' seconds.');
+	stepResult.setSuccess();
 }(inputs, outputs, stepResult, timeout));
 ]]></step_execution_generator>
         <sys_class_name>sys_atf_step_config</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2018-10-25 03:56:25</sys_created_on>
-        <sys_id>154f1ea2db9523008096a455ca96196e</sys_id>
-        <sys_mod_count>61</sys_mod_count>
-        <sys_name>Create user with rights</sys_name>
+        <sys_created_on>2018-10-26 03:47:28</sys_created_on>
+        <sys_id>d2b6a776db5563008096a455ca96192a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Wait</sys_name>
         <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
-        <sys_update_name>sys_atf_step_config_154f1ea2db9523008096a455ca96196e</sys_update_name>
+        <sys_update_name>sys_atf_step_config_d2b6a776db5563008096a455ca96192a</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2018-10-26 04:31:55</sys_updated_on>
+        <sys_updated_on>2018-10-26 04:02:44</sys_updated_on>
         <template_reminder>Template reminder</template_reminder>
         <type display_value="Test Step" name="sys_atf_step">9146772181d31300aadba4a47c598e12</type>
         <wizard_redirect/>
     </sys_atf_step_config>
-    <sys_translated_text action="delete_multiple" query="documentkey=154f1ea2db9523008096a455ca96196e"/>
-    <sys_variable_value action="delete_multiple" query="document_key=154f1ea2db9523008096a455ca96196e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2b6a776db5563008096a455ca96192a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d2b6a776db5563008096a455ca96192a"/>
 </record_update>

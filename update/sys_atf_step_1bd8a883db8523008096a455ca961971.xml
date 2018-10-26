@@ -4,20 +4,20 @@
         <description>Assert a response status code is '200'</description>
         <display_name>Assert Status Code</display_name>
         <inputs/>
-        <order>9</order>
+        <order>6</order>
         <step_config display_value="Assert Status Code">2f4fa7309f132200ef4afa7dc67fcf0f</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
         <sys_created_on>2018-10-13 22:19:20</sys_created_on>
         <sys_id>1bd8a883db8523008096a455ca961971</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Assert Status Code</sys_name>
         <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_1bd8a883db8523008096a455ca961971</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2018-10-13 22:19:20</sys_updated_on>
+        <sys_updated_on>2018-10-26 04:29:04</sys_updated_on>
         <table/>
         <test display_value="Create Test Email via API">b9280276db0123008096a455ca9619cb</test>
         <timeout/>

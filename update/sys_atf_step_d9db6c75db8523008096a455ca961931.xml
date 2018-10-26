@@ -2,25 +2,25 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>Validate that the form matches the following condition:
-Assigned to = {{Step 3: Record Insert.Record}}
+Assigned to = {{Step 1: Create user with rights.User}}
 With a failure timeout of 5 Seconds</description>
         <display_name>Field Values Validation</display_name>
         <inputs/>
         <inputs/>
-        <order>15</order>
+        <order>12</order>
         <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jace.benson@protonmail.com</sys_created_by>
         <sys_created_on>2018-10-10 01:20:05</sys_created_on>
         <sys_id>d9db6c75db8523008096a455ca961931</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Field Values Validation</sys_name>
         <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_d9db6c75db8523008096a455ca961931</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2018-10-13 22:29:28</sys_updated_on>
+        <sys_updated_on>2018-10-26 04:49:39</sys_updated_on>
         <table>sn_sm_marketing_request</table>
         <test display_value="Create Marketing Request via standard gui">413964f1db8523008096a455ca961902</test>
         <timeout>1970-01-01 00:00:05</timeout>
@@ -34,10 +34,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>jace.benson@protonmail.com</sys_created_by>
         <sys_created_on>2018-10-10 01:20:05</sys_created_on>
         <sys_id>59eba475db8523008096a455ca9619d6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
-        <sys_updated_on>2018-10-10 01:39:56</sys_updated_on>
-        <value>assigned_to={{step['052fa039db8523008096a455ca9619a0'].record_id}}^EQ</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 04:37:23</sys_updated_on>
+        <value>assigned_to={{step['b091f3fedb5563008096a455ca961982'].u_user}}^EQ</value>
         <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -61,10 +61,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>jace.benson@protonmail.com</sys_created_by>
         <sys_created_on>2018-10-10 01:20:05</sys_created_on>
         <sys_id>d5eba475db8523008096a455ca9619d6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>jace.benson@protonmail.com</sys_updated_by>
-        <sys_updated_on>2018-10-10 01:39:56</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 04:37:23</sys_updated_on>
         <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
-        <value>assigned_to={{step['052fa039db8523008096a455ca9619a0'].record_id}}^EQ</value>
+        <value>assigned_to={{step['b091f3fedb5563008096a455ca961982'].u_user}}^EQ</value>
     </sys_element_mapping>
 </record_update>
