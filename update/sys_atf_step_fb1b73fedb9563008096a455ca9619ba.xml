@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Send a 'GET' request to '/api/now/v1/email/{{invalid step_id=ff1b73fedb9563008096a455ca9619b0.}}'</description>
+        <display_name>Send REST Request - Inbound</display_name>
+        <inputs/>
+        <inputs/>
+        <order>3</order>
+        <step_config display_value="Send REST Request - Inbound">e00571a10b3222000b7da95e93673a8f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>fb1b73fedb9563008096a455ca9619ba</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Send REST Request - Inbound</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_fb1b73fedb9563008096a455ca9619ba</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:20:28</sys_updated_on>
+        <table/>
+        <test display_value="Test User Role Inheritance via API copy">a31bb7bedb9563008096a455ca961939</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=fb1b73fedb9563008096a455ca9619ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fb1b73fedb9563008096a455ca9619ba</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>331b73fedb9563008096a455ca9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">58408e250b3222000b7da95e93673a5c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fb1b73fedb9563008096a455ca9619ba</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>371b73fedb9563008096a455ca9619bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <value>{"Content-Type":"application/json","Accept":"application/json","authorization":"{{step['271bb7bedb9563008096a455ca96193d'].u_basic_auth}}"}</value>
+        <variable display_value="">cec002650b3222000b7da95e93673aae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fb1b73fedb9563008096a455ca9619ba</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>731b73fedb9563008096a455ca9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <value/>
+        <variable display_value="">020a6af09fd32200ef4afa7dc67fcfec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fb1b73fedb9563008096a455ca9619ba</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>7f1b73fedb9563008096a455ca9619bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <value>/api/now/v1/email/{{step['ff1b73fedb9563008096a455ca9619b0'].first_record}}</value>
+        <variable display_value="">50bff9250b3222000b7da95e93673a9b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fb1b73fedb9563008096a455ca9619ba</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>bb1b73fedb9563008096a455ca9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <value/>
+        <variable display_value="">81e042650b3222000b7da95e93673aa2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fb1b73fedb9563008096a455ca9619ba</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>f71b73fedb9563008096a455ca9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <value>get</value>
+        <variable display_value="">59877da10b3222000b7da95e93673a56</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fb1b73fedb9563008096a455ca9619ba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>end_point</field>
+        <id>fb1b73fedb9563008096a455ca9619ba</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>f71b73fedb9563008096a455ca9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value>/api/now/v1/email/{{step['ff1b73fedb9563008096a455ca9619b0'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>fb1b73fedb9563008096a455ca9619ba</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-26 05:15:06</sys_created_on>
+        <sys_id>371b73fedb9563008096a455ca9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-26 05:15:06</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value>{"Content-Type":"application/json","Accept":"application/json","authorization":"{{step['271bb7bedb9563008096a455ca96193d'].u_basic_auth}}"}</value>
+    </sys_element_mapping>
+</record_update>
