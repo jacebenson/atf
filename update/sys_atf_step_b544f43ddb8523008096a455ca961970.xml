@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>Open the 'Marketing Request' form with id '{{Step 6: Submit a Form.Record}}'</description>

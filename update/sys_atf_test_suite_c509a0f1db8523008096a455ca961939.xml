@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test_suite">
     <sys_atf_test_suite action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>https://docs.servicenow.com/bundle/london-service-management-for-the-enterprise/page/product/planning-and-policy/concept/c_MarketingServiceManagement.html</description>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
         <description>Send a 'GET' request to '/api/now/v1/email/{{invalid step_id=ff1b73fedb9563008096a455ca9619b0.}}'</description>
