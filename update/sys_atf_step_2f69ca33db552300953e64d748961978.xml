@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_atf_step">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>Insert a record into 'sm_maint_plan' with the following values: 
@@ -23,7 +22,7 @@ and Model = Asus A53 Series</description>
         <sys_updated_by>kcimpulse</sys_updated_by>
         <sys_updated_on>2018-10-28 23:35:51</sys_updated_on>
         <table>sm_maint_plan</table>
-        <test display_value="Service Management Planned Maintenance #108">09c88e33db552300953e64d748961903</test>
+        <test display_value="OAT: Service Management Planned Maintenance ">09c88e33db552300953e64d748961903</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=2f69ca33db552300953e64d748961978"/>

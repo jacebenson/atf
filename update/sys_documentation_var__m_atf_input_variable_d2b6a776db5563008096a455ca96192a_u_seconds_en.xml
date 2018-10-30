@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="u_seconds" label="Seconds" language="en" table="var__m_atf_input_variable_d2b6a776db5563008096a455ca96192a">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_seconds</element>

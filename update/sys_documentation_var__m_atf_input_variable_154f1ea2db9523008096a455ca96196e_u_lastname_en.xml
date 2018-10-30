@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="u_lastname" label="Last name" language="en" table="var__m_atf_input_variable_154f1ea2db9523008096a455ca96196e">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_lastname</element>

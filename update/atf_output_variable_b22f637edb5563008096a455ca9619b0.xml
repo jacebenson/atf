@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="atf_output_variable">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="atf_output_variable">
     <atf_output_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>

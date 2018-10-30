@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_atf_step">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>This step creates a user, a group, assigns roles to the group, and assigns the user to the group.</description>
@@ -20,7 +19,7 @@
         <sys_updated_by>jacebenson</sys_updated_by>
         <sys_updated_on>2018-10-26 05:15:05</sys_updated_on>
         <table/>
-        <test display_value="Test User Role Inheritance via API copy">a31bb7bedb9563008096a455ca961939</test>
+        <test display_value="OAT:Test User Role Inheritance via API">a31bb7bedb9563008096a455ca961939</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=271bb7bedb9563008096a455ca96193d"/>

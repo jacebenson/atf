@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_atf_step">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>Insert a record into 'sm_schedule' with the following values: 
+        <description>Insert a record into 'sm_schedule' with the following values:
 Repeat = 14 Days
-and Plan = {{Step 1: Record Insert.Record}}</description>
+and Plan = {{Step 1: Record Insert.Record}}
+Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
         <inputs/>
         <inputs/>
@@ -14,16 +14,16 @@ and Plan = {{Step 1: Record Insert.Record}}</description>
         <sys_created_by>kcimpulse</sys_created_by>
         <sys_created_on>2018-10-28 23:37:42</sys_created_on>
         <sys_id>c16a46b3db552300953e64d7489619a8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_c16a46b3db552300953e64d7489619a8</sys_update_name>
-        <sys_updated_by>kcimpulse</sys_updated_by>
-        <sys_updated_on>2018-10-28 23:47:22</sys_updated_on>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-30 07:03:34</sys_updated_on>
         <table>sm_schedule</table>
-        <test display_value="Service Management Planned Maintenance #108">09c88e33db552300953e64d748961903</test>
+        <test display_value="OAT: Service Management Planned Maintenance ">09c88e33db552300953e64d748961903</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=c16a46b3db552300953e64d7489619a8"/>

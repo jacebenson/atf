@@ -1,26 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_atf_step">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>Click UI Action 'Associate schedule with filtered records' on 'Maintenance Schedule' form.</description>
+        <description>Confirm that browser submits 'Maintenance Schedule' form to server when clicking UI Action 'Associate schedule with filtered records'.</description>
         <display_name>Click a UI Action</display_name>
         <inputs/>
-        <order>4</order>
+        <order>6</order>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>kcimpulse</sys_created_by>
         <sys_created_on>2018-10-28 23:38:54</sys_created_on>
         <sys_id>8dda0ab3db552300953e64d748961926</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Click a UI Action</sys_name>
         <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_8dda0ab3db552300953e64d748961926</sys_update_name>
-        <sys_updated_by>kcimpulse</sys_updated_by>
-        <sys_updated_on>2018-10-28 23:47:22</sys_updated_on>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-30 07:03:34</sys_updated_on>
         <table>sm_schedule</table>
-        <test display_value="Service Management Planned Maintenance #108">09c88e33db552300953e64d748961903</test>
+        <test display_value="OAT: Service Management Planned Maintenance ">09c88e33db552300953e64d748961903</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=8dda0ab3db552300953e64d748961926"/>
@@ -60,10 +59,10 @@
         <sys_created_by>kcimpulse</sys_created_by>
         <sys_created_on>2018-10-28 23:38:54</sys_created_on>
         <sys_id>dcfa46b3db552300953e64d748961947</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kcimpulse</sys_updated_by>
-        <sys_updated_on>2018-10-28 23:38:54</sys_updated_on>
-        <value/>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-30 07:02:17</sys_updated_on>
+        <value>form_submitted_to_server</value>
         <variable display_value="">7600f16353e0220002c6435723dc34d5</variable>
     </sys_variable_value>
 </record_update>
