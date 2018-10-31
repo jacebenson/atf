@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">799f9262db9523008096a455ca961944</sys_ui_form>
-            <sys_ui_section display_value="">f19f56e2db9523008096a455ca9619e9</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">f19f56e2db9523008096a455ca9619e9</sys_ui_section>
             <sys_updated_by>jacebenson</sys_updated_by>
             <sys_updated_on>2018-10-25 03:56:42</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">799f9262db9523008096a455ca961944</sys_ui_form>
-            <sys_ui_section display_value="">b99f56e2db9523008096a455ca9619ec</sys_ui_section>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b99f56e2db9523008096a455ca9619ec</sys_ui_section>
             <sys_updated_by>jacebenson</sys_updated_by>
             <sys_updated_on>2018-10-25 03:56:42</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">799f9262db9523008096a455ca961944</sys_ui_form>
-            <sys_ui_section display_value="">bd9f9262db9523008096a455ca961946</sys_ui_section>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">bd9f9262db9523008096a455ca961946</sys_ui_section>
             <sys_updated_by>jacebenson</sys_updated_by>
             <sys_updated_on>2018-10-25 03:56:42</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">799f9262db9523008096a455ca961944</sys_ui_form>
-            <sys_ui_section display_value="">b59f9262db9523008096a455ca961949</sys_ui_section>
+            <sys_ui_section caption="Dependent Field" display_value="Dependent Field" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b59f9262db9523008096a455ca961949</sys_ui_section>
             <sys_updated_by>jacebenson</sys_updated_by>
             <sys_updated_on>2018-10-25 03:56:42</sys_updated_on>
         </sys_ui_form_section>
@@ -66,7 +66,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">799f9262db9523008096a455ca961944</sys_ui_form>
-            <sys_ui_section display_value="">319f9262db9523008096a455ca96194b</sys_ui_section>
+            <sys_ui_section caption="Calculated Value" display_value="Calculated Value" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">319f9262db9523008096a455ca96194b</sys_ui_section>
             <sys_updated_by>jacebenson</sys_updated_by>
             <sys_updated_on>2018-10-25 03:56:42</sys_updated_on>
         </sys_ui_form_section>
@@ -80,7 +80,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="atf_input_variable" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">799f9262db9523008096a455ca961944</sys_ui_form>
-            <sys_ui_section display_value="">b99f56e2db9523008096a455ca9619ef</sys_ui_section>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="atf_input_variable" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">b99f56e2db9523008096a455ca9619ef</sys_ui_section>
             <sys_updated_by>jacebenson</sys_updated_by>
             <sys_updated_on>2018-10-25 03:56:42</sys_updated_on>
         </sys_ui_form_section>
