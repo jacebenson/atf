@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Send a 'GET' request to '/api/now/stats/sys_user'</description>
+        <display_name>Send REST Request - Inbound</display_name>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Send REST Request - Inbound">e00571a10b3222000b7da95e93673a8f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>3055116c4f6123000ec54f00a310c795</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Send REST Request - Inbound</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_3055116c4f6123000ec54f00a310c795</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:41:09</sys_updated_on>
+        <table/>
+        <test display_value="Aggregate API - Get">40c39da84f6123000ec54f00a310c7ab</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3055116c4f6123000ec54f00a310c795"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3055116c4f6123000ec54f00a310c795</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>3855116c4f6123000ec54f00a310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <value>/api/now/stats/sys_user</value>
+        <variable display_value="">50bff9250b3222000b7da95e93673a9b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3055116c4f6123000ec54f00a310c795</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>3c55116c4f6123000ec54f00a310c79a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <value/>
+        <variable display_value="">020a6af09fd32200ef4afa7dc67fcfec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3055116c4f6123000ec54f00a310c795</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>7455116c4f6123000ec54f00a310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <value/>
+        <variable display_value="">81e042650b3222000b7da95e93673aa2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3055116c4f6123000ec54f00a310c795</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>b055116c4f6123000ec54f00a310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <value>get</value>
+        <variable display_value="">59877da10b3222000b7da95e93673a56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3055116c4f6123000ec54f00a310c795</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>f855116c4f6123000ec54f00a310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <value>{"sysparm_query":"active=true","sysparm_avg_fields":"sys_mod_count","sysparm_count":"true"}</value>
+        <variable display_value="">58408e250b3222000b7da95e93673a5c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3055116c4f6123000ec54f00a310c795</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>fc55116c4f6123000ec54f00a310c79a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:41:09</sys_updated_on>
+        <value>{"Content-Type":"application/json","Accept":"application/json","authorization":"{{step['44c39da84f6123000ec54f00a310c7af'].u_basic_auth}}"}</value>
+        <variable display_value="">cec002650b3222000b7da95e93673aae</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3055116c4f6123000ec54f00a310c795"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>end_point</field>
+        <id>3055116c4f6123000ec54f00a310c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>f455116c4f6123000ec54f00a310c79a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>3055116c4f6123000ec54f00a310c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>7055116c4f6123000ec54f00a310c79a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:41:09</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value>{"Content-Type":"application/json","Accept":"application/json","authorization":"{{step['44c39da84f6123000ec54f00a310c7af'].u_basic_auth}}"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>3055116c4f6123000ec54f00a310c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>b855116c4f6123000ec54f00a310c79a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request_body</field>
+        <id>3055116c4f6123000ec54f00a310c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 03:40:06</sys_created_on>
+        <sys_id>3455116c4f6123000ec54f00a310c79a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 03:40:06</sys_updated_on>
+        <table>var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
