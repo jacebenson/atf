@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_config">
+    <sys_atf_step_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_order_constraint/>
+        <category display_value="Server">317c4dc20b202200a8d7a12cf6673aa8</category>
+        <class_name/>
+        <class_type>script</class_type>
+        <description_generator><![CDATA[function generateDescription() {	
+	var descriptionGenerator = new ATFStepDescriptionGenerator();
+	var description = gs.getMessage("There should be at least one notification of '{0}' related to '{1}' for the following recipients: '{2}'",
+								   [step.inputs.u_notification.name,
+									step.inputs.u_document.getDisplayValue(),
+									step.inputs.u_recipients]);
+	
+	return description;
+}
+ generateDescription();
+]]></description_generator>
+        <html_description><![CDATA[<p>Checks if a notification sent appropriately.</p>]]></html_description>
+        <icon>icon-article-document</icon>
+        <inputs/>
+        <name>Notification Check</name>
+        <order>45</order>
+        <outputs/>
+        <step_env display_value="Server - Independent">6c2bcea1870312009dccc9ded0e3ecca</step_env>
+        <step_execution_generator><![CDATA[//The inputs are a map of the variables defined in the inputs related list below.
+//Inputs are consumed in the step configuration. Input
+//values may be hardcoded or mapped from the outputs of a previous step.
+//If a test author using your step uses mapping to pass in an output from a previous 
+//test step then when referencing the input variable the mapping will be resolved 
+//automatically
+// Example:
+//  var myRecords = new GlideRecord(inputs.table);
+//
+//The outputs are a map of the variables defined in the outputs related list.
+//Outputs should be set (assigned) in order to pass data out of a test step that
+//can be consumed my mapping as an input to subsequent steps. 
+// Example:
+//  outputs.table = gr.getRecordClassName()
+//
+//
+//Note that inputs and outputs are strongly typed as defined in their variable definition.
+//Their behavior is the same as a dictionary defined field of the same type in a table.
+//
+//The stepResult is a simple API for controlling the step pass/fail and logging with three
+//methods:
+// stepResult.setFailed: Causes step to fail
+//
+// stepResult.setSuccess: Causes step to succeed
+//
+// stepResult.setOutputMessage: Outputs logging to step results (works pass or fail)
+//         Can only be called once or will overwrite previous 
+//         message
+//
+//If neither setFailed or setSuccess is called the default is to succeed.
+//
+//See 'Record Query' for an example of a scripted step config 
+//and 'Check change approvals get generated' 
+//
+(function executeStep(inputs, outputs, stepResult) {
+	if( gs.nil(inputs.u_notification) || gs.nil(inputs.u_document) || (gs.nil(inputs.u_recipients) && gs.nil(inputs.u_recipient_group)) ) {
+		stepResult.setOutputMessage(gs.getMessage("One of the input variables was not populated"));
+		stepResult.setFailed();
+		return;
+	}
+	var recipients = [];
+	if(!gs.nil(inputs.u_recipient_group)){
+		var grec = new GlideRecord('sys_user_grmember');
+		grec.addQuery('group', inputs.u_recipient_group);
+		grec.addQuery('user.active', true);
+		grec.query();
+		while(grec.next()){
+			var nd = new GlideRecord('cmn_notif_device');
+			nd.addQuery('user', grec.user);
+			nd.addQuery('type', 'Email');
+			nd.addActiveQuery();
+			nd.addQuery('primary_email', true);
+			nd.query();
+			if(nd.next()){
+				recipients.push(nd.email_address.toString());
+			}
+		}
+	}
+	recipients = recipients.join(',') + inputs.u_recipients;
+	var attempts = 12;
+	var sleepInt = 5;
+	var success = false;
+	
+	for( var i = 0; i < attempts; i++ ) {
+		
+		if( checkForNotification( inputs.u_notification, inputs.u_document, recipients ) == true ) {
+			success = true;
+			break;
+		} else {
+			gs.sleep(sleepInt * 1000);
+		}
+	}
+	
+	if( success ) {
+		stepResult.setOutputMessage(gs.getMessage("Notification found with all expected recipient email addresses"));
+		stepResult.setSuccess();
+	} else {
+		stepResult.setOutputMessage(gs.getMessage("No notification matching the submitted criteria found"));
+		stepResult.setFailed();
+	}
+	
+	
+}(inputs, outputs, stepResult));
+	
+function checkForNotification( notification, document, recipients ) {
+	
+	//Query for an email log record related to the passed-in notification and related record
+	var query = new GlideRecord('sys_email_log');
+	query.addQuery('notification', notification);
+	query.addQuery('email.instance', document);
+	query.orderByDesc('sys_created_on');
+	query.query();
+	
+	if( !query.next() ) {
+		
+		return( false );
+		
+	} else {
+		
+		var expectedRecip = recipients.split(',');
+		var recordRecip = query.email.recipients.toString().toLowerCase();
+		var missingRecip = '';
+		
+		//Walks through the list of expected recipient emails.  If one or more are not included in the notification's recipient list,
+		// compiles a list of missing users and logs this to the output.
+		for( var i = 0; i < expectedRecip.length; i++ ) {
+			if( !recordRecip.includes(expectedRecip[i].toString().toLowerCase()) )  {
+				if( missingRecip == '' ) {
+					missingRecip = expectedRecip[i];
+				} else {
+					missingRecip = missingRecip + ', ' + expectedRecip[i];
+				}
+			}
+		}
+		
+		if( missingRecip != '' ) {
+			return( false );
+		} else {
+			return( true );
+		}
+	}
+}
+]]></step_execution_generator>
+        <sys_class_name>sys_atf_step_config</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2018-10-31 21:16:41</sys_created_on>
+        <sys_id>0ae68d38db6123008096a455ca9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification Check</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_config_0ae68d38db6123008096a455ca9619d5</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2018-10-31 21:16:41</sys_updated_on>
+        <template_reminder>Checks if a notification sent appropriately.</template_reminder>
+        <type display_value="Test Step" name="sys_atf_step">9146772181d31300aadba4a47c598e12</type>
+        <wizard_redirect/>
+    </sys_atf_step_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ae68d38db6123008096a455ca9619d5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0ae68d38db6123008096a455ca9619d5"/>
+</record_update>
