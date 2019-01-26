@@ -2,6 +2,7 @@
     <sys_atf_test_suite action="INSERT_OR_UPDATE">
         <active>true</active>
         <description/>
+        <input_filter/>
         <name>OOB Tests</name>
         <parent/>
         <sys_class_name>sys_atf_test_suite</sys_class_name>

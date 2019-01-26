@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Create Group&#13;
 Create Group Membership&#13;
 Create User&#13;
@@ -9,7 +10,9 @@ Create Request&#13;
 Validate State cahgnes via UI Action&#13;
 Impersonate Created user&#13;
 Progess Request to completion</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>Create Marketing Request via standard gui</name>
+        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>jace.benson@protonmail.com</sys_created_by>
