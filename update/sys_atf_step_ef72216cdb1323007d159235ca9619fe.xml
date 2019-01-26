@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Impersonate">c538ea3953731300e321ddeeff7b1257</copied_from>
+        <description>Impersonate the user: cab approver with user Id: Cab Approver</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Impersonate Cab Approval User v2</notes>
+        <order>9</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-01-26 04:27:30</sys_created_on>
+        <sys_id>ef72216cdb1323007d159235ca9619fe</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_ef72216cdb1323007d159235ca9619fe</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-01-26 04:44:30</sys_updated_on>
+        <table/>
+        <test display_value="Emergency Type Change Request workflow copy">db7229a8db1323007d159235ca9619b5</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ef72216cdb1323007d159235ca9619fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ef72216cdb1323007d159235ca9619fe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-01-26 04:27:30</sys_created_on>
+        <sys_id>6f72216cdb1323007d159235ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-01-26 04:27:30</sys_updated_on>
+        <value>c97024fe53271300e321ddeeff7b1233</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ef72216cdb1323007d159235ca9619fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>ef72216cdb1323007d159235ca9619fe</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-01-26 04:44:30</sys_created_on>
+        <sys_id>e466a9ecdb1323007d159235ca961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-01-26 04:44:30</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['8f54adacdb1323007d159235ca961983'].u_user}}</value>
+    </sys_element_mapping>
+</record_update>

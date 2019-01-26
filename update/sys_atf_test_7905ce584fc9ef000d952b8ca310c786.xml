@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>1. Create an incident&#13;
 2. Assign incident to group&#13;
 3. Assign fulfiller to incident&#13;
 4. Transfer incident to another group and fulfiller&#13;
 5. Resolve the incident</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>Incident Management Full Record Test</name>
+        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>

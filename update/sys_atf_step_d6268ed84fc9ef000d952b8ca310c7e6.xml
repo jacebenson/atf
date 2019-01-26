@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Submit the current form and confirm form submitted to server</description>
         <display_name>Submit a Form</display_name>
         <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
         <order>4</order>
+        <snapshot/>
         <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
