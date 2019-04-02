@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Impersonate the user: System Administrator with user Id: admin</description>
         <display_name>Impersonate</display_name>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>1</order>
-        <snapshot/>
         <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>

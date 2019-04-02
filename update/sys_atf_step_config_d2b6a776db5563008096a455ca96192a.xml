@@ -2,7 +2,6 @@
     <sys_atf_step_config action="INSERT_OR_UPDATE">
         <active>true</active>
         <batch_order_constraint>middle</batch_order_constraint>
-        <can_mutate_page>false</can_mutate_page>
         <category display_value="Server">317c4dc20b202200a8d7a12cf6673aa8</category>
         <class_name/>
         <class_type>script</class_type>
@@ -95,7 +94,7 @@
         <sys_updated_by>jacebenson</sys_updated_by>
         <sys_updated_on>2018-10-26 04:02:44</sys_updated_on>
         <template_reminder>Template reminder</template_reminder>
-        <type display_value="Test Step" name="sys_atf_step">c8ffd771ddc323007850f2ee37a039eb</type>
+        <type display_value="Test Step" name="sys_atf_step">089cee3e64e32300aadba650cb85d453</type>
         <wizard_redirect/>
     </sys_atf_step_config>
     <sys_translated_text action="delete_multiple" query="documentkey=d2b6a776db5563008096a455ca96192a"/>

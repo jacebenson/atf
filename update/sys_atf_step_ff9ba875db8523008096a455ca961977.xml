@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Validate that the form matches the following condition:
 State = Assigned
 With a failure timeout of 5 Seconds</description>
         <display_name>Field Values Validation</display_name>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>11</order>
-        <snapshot/>
         <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jace.benson@protonmail.com</sys_created_by>

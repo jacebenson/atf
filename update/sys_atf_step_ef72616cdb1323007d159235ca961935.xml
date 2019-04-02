@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Open an Existing Record">4549b67d53731300e321ddeeff7b12ad</copied_from>
         <description>Open the 'Change Task' form with id '{{Step 18: Record Query.First record}}'</description>
         <display_name>Open an Existing Record</display_name>
         <inputs/>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>19</order>
-        <snapshot/>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

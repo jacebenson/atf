@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Open a new 'Marketing Request' form</description>
         <display_name>Open a New Form</display_name>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>2</order>
-        <snapshot/>
         <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jace.benson@protonmail.com</sys_created_by>

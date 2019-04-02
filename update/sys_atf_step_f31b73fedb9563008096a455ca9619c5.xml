@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Assert a response status code is '200'</description>
         <display_name>Assert Status Code</display_name>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>3</order>
-        <snapshot/>
         <step_config display_value="Assert Status Code">2f4fa7309f132200ef4afa7dc67fcf0f</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

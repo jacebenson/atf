@@ -2,7 +2,6 @@
     <sys_atf_test_suite action="INSERT_OR_UPDATE">
         <active>true</active>
         <description/>
-        <input_filter/>
         <name>Planned Maintenance</name>
         <parent display_value="Service Management">3fe86c71db8523008096a455ca9619a5</parent>
         <sys_class_name>sys_atf_test_suite</sys_class_name>

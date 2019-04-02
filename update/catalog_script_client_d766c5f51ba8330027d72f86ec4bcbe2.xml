@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Test Item">1ad474b51b68330027d72f86ec4bcb04</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Methods</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	g_form.addOption('Method', 'activateTab', 'activateTab');
+	g_form.addOption('Method', 'addAttribute', 'addAttribute');
+	g_form.addOption('Method', 'addDecoration', 'addDecoration');
+	g_form.addOption('Method', 'addErrorMessage', 'addErrorMessage');
+	g_form.addOption('Method', 'addGlideUIElement', 'addGlideUIElement');
+	g_form.addOption('Method', 'addInfoMessage', 'addInfoMessage');
+	g_form.addOption('Method', 'addNameMapEntry', 'addNameMapEntry');
+	g_form.addOption('Method', 'addOption', 'addOption');
+	g_form.addOption('Method', 'addSecurityReadOnlyFields', 'addSecurityReadOnlyFields');
+	g_form.addOption('Method', 'addValidator', 'addValidator');
+	g_form.addOption('Method', 'addWarningMessage', 'addWarningMessage');
+	g_form.addOption('Method', 'allChangedFieldsFilter', 'allChangedFieldsFilter');
+	g_form.addOption('Method', 'changedFieldsFilter', 'changedFieldsFilter');
+	g_form.addOption('Method', 'changeElementParent', 'changeElementParent');
+	g_form.addOption('Method', 'changeElementStyle', 'changeElementStyle');
+	g_form.addOption('Method', 'clearMessages', 'clearMessages');
+	g_form.addOption('Method', 'clearOptions', 'clearOptions');
+	g_form.addOption('Method', 'clearValue', 'clearValue');
+	g_form.addOption('Method', 'disable', 'disable');
+	g_form.addOption('Method', 'disableAttachments', 'disableAttachments');
+	g_form.addOption('Method', 'enable', 'enable');
+	g_form.addOption('Method', 'enableAttachments', 'enableAttachments');
+	g_form.addOption('Method', 'enableOption', 'enableOption');
+	g_form.addOption('Method', 'enableUIPolicyFields', 'enableUIPolicyFields');
+	g_form.addOption('Method', 'fieldChanged', 'fieldChanged');
+	g_form.addOption('Method', 'findV', 'findV');
+	g_form.addOption('Method', 'flash', 'flash');
+	g_form.addOption('Method', 'getAction', 'getAction');
+	g_form.addOption('Method', 'getActionName', 'getActionName');
+	g_form.addOption('Method', 'getBooleanValue', 'getBooleanValue');
+	g_form.addOption('Method', 'getControl', 'getControl');
+	g_form.addOption('Method', 'getControlByForm', 'getControlByForm');
+	g_form.addOption('Method', 'getDecimalValue', 'getDecimalValue');
+	g_form.addOption('Method', 'getDerivedFields', 'getDerivedFields');
+	g_form.addOption('Method', 'getDisplayBox', 'getDisplayBox');
+	g_form.addOption('Method', 'getDisplayValue', 'getDisplayValue');
+	g_form.addOption('Method', 'getEditableFields', 'getEditableFields');
+	g_form.addOption('Method', 'getElement', 'getElement');
+	g_form.addOption('Method', 'getEncodedRecord', 'getEncodedRecord');
+	g_form.addOption('Method', 'getFieldNames', 'getFieldNames');
+	g_form.addOption('Method', 'getFormElement', 'getFormElement');
+	g_form.addOption('Method', 'getGlideUIElement', 'getGlideUIElement');
+	g_form.addOption('Method', 'getHelpTextControl', 'getHelpTextControl');
+	g_form.addOption('Method', 'getIntValue', 'getIntValue');
+	g_form.addOption('Method', 'getLabel', 'getLabel');
+	g_form.addOption('Method', 'getLabelOf', 'getLabelOf');
+	g_form.addOption('Method', 'getMissingFields', 'getMissingFields');
+	g_form.addOption('Method', 'getNiBox', 'getNiBox');
+	g_form.addOption('Method', 'getOption', 'getOption');
+	g_form.addOption('Method', 'getOptionControl', 'getOptionControl');
+	g_form.addOption('Method', 'getParameter', 'getParameter');
+	g_form.addOption('Method', 'getPrefixHandler', 'getPrefixHandler');
+	g_form.addOption('Method', 'getReference', 'getReference');
+	g_form.addOption('Method', 'getRelatedListNames', 'getRelatedListNames');
+	g_form.addOption('Method', 'getScope', 'getScope');
+	g_form.addOption('Method', 'getSectionNames', 'getSectionNames');
+	g_form.addOption('Method', 'getSections', 'getSections');
+	g_form.addOption('Method', 'getSysId', 'getSysId');
+	g_form.addOption('Method', 'getTableName', 'getTableName');
+	g_form.addOption('Method', 'getTabNameForField', 'getTabNameForField');
+	g_form.addOption('Method', 'getTitle', 'getTitle');
+	g_form.addOption('Method', 'getUniqueValue', 'getUniqueValue');
+	g_form.addOption('Method', 'getValue', 'getValue');
+	g_form.addOption('Method', 'getViewName', 'getViewName');
+	g_form.addOption('Method', 'hasAttribute', 'hasAttribute');
+	g_form.addOption('Method', 'hasField', 'hasField');
+	g_form.addOption('Method', 'hasFieldMsgs', 'hasFieldMsgs');
+	g_form.addOption('Method', 'hideAllFieldMsgs', 'hideAllFieldMsgs');
+	g_form.addOption('Method', 'hideErrorBox', 'hideErrorBox');
+	g_form.addOption('Method', 'hideFieldMsg', 'hideFieldMsg');
+	g_form.addOption('Method', 'hideRelatedList', 'hideRelatedList');
+	g_form.addOption('Method', 'hideRelatedLists', 'hideRelatedLists');
+	g_form.addOption('Method', 'isDatabaseView', 'isDatabaseView');
+	g_form.addOption('Method', 'isDisabled', 'isDisabled');
+	g_form.addOption('Method', 'isDisplayNone', 'isDisplayNone');
+	g_form.addOption('Method', 'isEditableField', 'isEditableField');
+	g_form.addOption('Method', 'isInteger', 'isInteger');
+	g_form.addOption('Method', 'isLiveUpdating', 'isLiveUpdating');
+	g_form.addOption('Method', 'isMandatory', 'isMandatory');
+	g_form.addOption('Method', 'isNewRecord', 'isNewRecord');
+	g_form.addOption('Method', 'isNumeric', 'isNumeric');
+	g_form.addOption('Method', 'isReadOnly', 'isReadOnly');
+	g_form.addOption('Method', 'isSectionVisible', 'isSectionVisible');
+	g_form.addOption('Method', 'isTemplateCompatible', 'isTemplateCompatible');
+	g_form.addOption('Method', 'isUserPersonalizedField', 'isUserPersonalizedField');
+	g_form.addOption('Method', 'isVisible', 'isVisible');
+	g_form.addOption('Method', 'mandatoryCheck', 'mandatoryCheck');
+	g_form.addOption('Method', 'onSubmit', 'onSubmit');
+	g_form.addOption('Method', 'registerHandler', 'registerHandler');
+	g_form.addOption('Method', 'registerPrefixHandler', 'registerPrefixHandler');
+	g_form.addOption('Method', 'removeAllDecorations', 'removeAllDecorations');
+	g_form.addOption('Method', 'removeContextItem', 'removeContextItem');
+	g_form.addOption('Method', 'removeCurrentPrefix', 'removeCurrentPrefix');
+	g_form.addOption('Method', 'refreshSlushbucket', 'refreshSlushbucket');
+	g_form.addOption('Method', 'removeDecoration', 'removeDecoration');
+	g_form.addOption('Method', 'removeItem', 'removeItem');
+	g_form.addOption('Method', 'removeOption', 'removeOption');
+	g_form.addOption('Method', 'resetPersonalizeHiddenFields', 'resetPersonalizeHiddenFields');
+	g_form.addOption('Method', 'resolveLabelNameMap', 'resolveLabelNameMap');
+	g_form.addOption('Method', 'resolveNameMap', 'resolveNameMap');
+	g_form.addOption('Method', 'resolvePrettyNameMap', 'resolvePrettyNameMap');
+	g_form.addOption('Method', 'save', 'save');
+	g_form.addOption('Method', 'serialize', 'serialize');
+	g_form.addOption('Method', 'serializeChanged', 'serializeChanged');
+	g_form.addOption('Method', 'serializeChangedAll', 'serializeChangedAll');
+	g_form.addOption('Method', 'serializeTargetFields', 'serializeTargetFields');
+	g_form.addOption('Method', 'setAction', 'setAction');
+	g_form.addOption('Method', 'setDisabled', 'setDisabled');
+	g_form.addOption('Method', 'setDisabledControl', 'setDisabledControl');
+	g_form.addOption('Method', 'setDisplay', 'setDisplay');
+	g_form.addOption('Method', 'setFieldPlaceholder', 'setFieldPlaceholder');
+	g_form.addOption('Method', 'setLabel', 'setLabel');
+	g_form.addOption('Method', 'setLabelOf', 'setLabelOf');
+	g_form.addOption('Method', 'setLiveUpdating', 'setLiveUpdating');
+	g_form.addOption('Method', 'setMandatory', 'setMandatory');
+	g_form.addOption('Method', 'setMandatoryOnlyIfModified', 'setMandatoryOnlyIfModified');
+	g_form.addOption('Method', 'setReadOnly', 'setReadOnly');
+	g_form.addOption('Method', 'setReadonly', 'setReadonly');
+	g_form.addOption('Method', 'setRequiredChecked', 'setRequiredChecked');
+	g_form.addOption('Method', 'setScope', 'setScope');
+	g_form.addOption('Method', 'setSectionDisplay', 'setSectionDisplay');
+	g_form.addOption('Method', 'setSensitiveDisplayValue', 'setSensitiveDisplayValue');
+	g_form.addOption('Method', 'setStreamJournalFieldsDisplay', 'setStreamJournalFieldsDisplay');
+	g_form.addOption('Method', 'setTemplateValue', 'setTemplateValue');
+	g_form.addOption('Method', 'setUserDisplay', 'setUserDisplay');
+	g_form.addOption('Method', 'setValidation', 'setValidation');
+	g_form.addOption('Method', 'setValue', 'setValue');
+	g_form.addOption('Method', 'setVariablesReadOnly', 'setVariablesReadOnly');
+	g_form.addOption('Method', 'setVisible', 'setVisible');
+	g_form.addOption('Method', 'showErrorBox', 'showErrorBox');
+	g_form.addOption('Method', 'showFieldMsg', 'showFieldMsg');
+	g_form.addOption('Method', 'showRelatedList', 'showRelatedList');
+	g_form.addOption('Method', 'showRelatedLists', 'showRelatedLists');
+	g_form.addOption('Method', 'submit', 'submit');
+	g_form.addOption('Method', 'validate', 'validate');
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-04-02 02:56:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d766c5f51ba8330027d72f86ec4bcbe2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Methods</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>catalog_script_client_d766c5f51ba8330027d72f86ec4bcbe2</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-04-02 03:41:10</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

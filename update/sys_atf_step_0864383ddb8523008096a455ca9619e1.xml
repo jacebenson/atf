@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Click UI Action 'Close Complete' on 'Marketing Request' form.</description>
         <display_name>Click a UI Action</display_name>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>18</order>
-        <snapshot/>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

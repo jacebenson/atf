@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Insert a record into 'sm_schedule' with the following values:
 Repeat = 14 Days
 and Plan = {{Step 1: Record Insert.Record}}
@@ -9,10 +8,7 @@ Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
         <inputs/>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>2</order>
-        <snapshot/>
         <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>kcimpulse</sys_created_by>

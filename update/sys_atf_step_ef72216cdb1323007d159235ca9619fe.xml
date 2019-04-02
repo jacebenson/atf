@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Impersonate">c538ea3953731300e321ddeeff7b1257</copied_from>
         <description>Impersonate the user: cab approver with user Id: Cab Approver</description>
         <display_name>Impersonate</display_name>
         <inputs/>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes>Impersonate Cab Approval User v2</notes>
         <order>9</order>
-        <snapshot/>
         <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

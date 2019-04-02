@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Record Insert">f3b95e3153731300e321ddeeff7b12ea</copied_from>
         <description>Insert a record into 'change_request' with the following values:
 Description = Emergency Work flow
 and Assignment group = Help Desk
 Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>5</order>
-        <snapshot/>
         <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

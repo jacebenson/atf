@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Test the GET calls for the User Role Inheritance API.</description>
-        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>OAT:Test User Role Inheritance via API</name>
-        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

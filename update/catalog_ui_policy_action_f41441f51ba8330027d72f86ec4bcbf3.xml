@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Test Item">1ad474b51b68330027d72f86ec4bcb04</catalog_item>
+        <catalog_variable>IO:59e734f91b68330027d72f86ec4bcbc9</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-04-02 02:45:37</sys_created_on>
+        <sys_id>f41441f51ba8330027d72f86ec4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Function</sys_name>
+        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f41441f51ba8330027d72f86ec4bcbf3</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-04-02 02:45:37</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Function Read Only">440401f51ba8330027d72f86ec4bcb9b</ui_policy>
+        <variable>Function</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

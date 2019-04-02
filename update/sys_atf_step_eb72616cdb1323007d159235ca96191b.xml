@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Impersonate">62577a3d53731300e321ddeeff7b12df</copied_from>
         <description>Impersonate the user: ATF Change Management with user Id: change.atf</description>
         <display_name>Impersonate</display_name>
         <inputs/>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes>Impersonate Change user.</notes>
         <order>14</order>
-        <snapshot/>
         <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

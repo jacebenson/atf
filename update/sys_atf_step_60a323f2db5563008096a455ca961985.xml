@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description/>
         <display_name>Create user with rights</display_name>
         <inputs/>
-        <mugshots_cache_json/>
-        <notes/>
         <order>1</order>
-        <snapshot/>
         <step_config display_value="Create user with rights">154f1ea2db9523008096a455ca96196e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>

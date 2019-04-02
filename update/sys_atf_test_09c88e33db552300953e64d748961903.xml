@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
         <description>Service Management Planned Maintenance #108</description>
-        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>OAT: Service Management Planned Maintenance </name>
-        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>kcimpulse</sys_created_by>
