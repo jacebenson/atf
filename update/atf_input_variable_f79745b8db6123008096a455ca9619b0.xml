@@ -63,9 +63,9 @@
         <sys_id>f79745b8db6123008096a455ca9619b0</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Document</sys_name>
-        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>atf_input_variable_f79745b8db6123008096a455ca9619b0</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
         <sys_updated_on>2018-10-31 21:20:09</sys_updated_on>

@@ -152,9 +152,9 @@ function checkForNotification( notification, document, recipients ) {
         <sys_id>0ae68d38db6123008096a455ca9619d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Notification Check</sys_name>
-        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_config_0ae68d38db6123008096a455ca9619d5</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
         <sys_updated_on>2018-10-31 21:16:41</sys_updated_on>

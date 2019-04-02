@@ -12,9 +12,9 @@
         <sys_id>bf72616cdb1323007d159235ca96195c</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>Click a UI Action</sys_name>
-        <sys_package display_value="OOB Automated Testing" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
-        <sys_scope display_value="OOB Automated Testing">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_bf72616cdb1323007d159235ca96195c</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
         <sys_updated_on>2019-01-26 04:43:48</sys_updated_on>
