@@ -10,17 +10,86 @@
         <sys_created_by>jacebenson</sys_created_by>
         <sys_created_on>2019-04-02 02:35:51</sys_created_on>
         <sys_id>56c185351ba8330027d72f86ec4bcb3b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Test Macro</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_ui_macro_56c185351ba8330027d72f86ec4bcb3b</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-04-02 02:39:31</sys_updated_on>
+        <sys_updated_on>2019-04-03 10:36:15</sys_updated_on>
         <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-	<div>Hello Macro</div>
+	<script>
+	function execute(){
+		var params = (function(){
+			var fields = [
+				g_form.getValue('Variable'),
+				g_form.getValue('Parameter_1'),
+				g_form.getValue('Parameter_2'),
+				g_form.getValue('Parameter_3'),
+				g_form.getValue('Parameter_4')
+			].filter(function(param, index){
+				return param.length>0;
+			});
+			return fields.map(function(param){
+				return '"' + param + '"';
+			});
+		})();
+		var method = g_form.getValue('Method');
+		var va = g_form.getValue('Variable');
+		var p1 = g_form.getValue('Parameter_1');
+		var p2 = g_form.getValue('Parameter_2');
+		var p3 = g_form.getValue('Parameter_3');
+		var p4 = g_form.getValue('Parameter_4');
+			try{
+				var returnValue;
+				if(params.length === 0){
+					returnValue = g_form[method]();
+				} else {
+					if(va.length > 0 ${AMP}${AMP} p1.length === 0 ${AMP}${AMP} p2.length === 0 ${AMP}${AMP} p3.length === 0 ${AMP}${AMP} p4.length === 0){
+						returnValue = g_form[method](va);
+					}
+					if(va.length > 0 ${AMP}${AMP} p1.length  >  0 ${AMP}${AMP} p2.length === 0 ${AMP}${AMP} p3.length === 0 ${AMP}${AMP} p4.length === 0){
+						returnValue = g_form[method](va, p1);
+					}
+					if(va.length > 0 ${AMP}${AMP} p1.length  >  0 ${AMP}${AMP} p2.length  >  0 ${AMP}${AMP} p3.length === 0 ${AMP}${AMP} p4.length === 0){
+						returnValue = g_form[method](va, p1, p2);
+					}
+					if(va.length > 0 ${AMP}${AMP} p1.length  >  0 ${AMP}${AMP} p2.length  >  0 ${AMP}${AMP} p3.length  >  0 ${AMP}${AMP} p4.length === 0){
+						returnValue = g_form[method](va, p1, p2, p3);
+					}
+					if(va.length > 0 ${AMP}${AMP} p1.length  >  0 ${AMP}${AMP} p2.length  >  0 ${AMP}${AMP} p3.length  >  0 ${AMP}${AMP} p4.length  >  0){
+						returnValue = g_form[method](va, p1, p2, p3, p4);
+					}
+				}
+				console.log('returnValue', returnValue);
+				g_form.hideFieldMsg('Function',true);
+				var returnMessage = g_form.getValue('Function') + ' // returns ' + returnValue;
+				g_form.showFieldMsg('Function', returnMessage, 'info');
+
+				g_form.clearValue('Try_It');
+			}catch(e){
+				g_form.hideFieldMsg('Function',true);
+				var returnError = g_form.getValue('Function') + ' // returns ' + e.message;
+				g_form.showFieldMsg('Function', returnError, 'error');
+			}
+	}
+	</script>
+<div>
+  <form class="form-horizontal">
+    <fieldset>
+      <!-- Button -->
+      <div class="form-group">
+        <div class="col-md-4">
+          <button type="button" id="singlebutton" name="singlebutton" class="btn btn-primary" onClick="execute()">Try It</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+</div>
+
 </j:jelly>]]></xml>
     </sys_ui_macro>
 </record_update>

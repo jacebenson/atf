@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <client_script><![CDATA[
+function($scope) {
+	//This is the controller, we've included $scope in the function above because it's easy to work with
+	var c = this;
+	//We are going to simplify accessing g_form within the client script by setting it as a variable named g_form
+	var g_form = $scope.page.g_form;
+	//We are going to simplify accessing g_form within the HTML by setting it as a $scope attribute
+	$scope.g_form = $scope.page.g_form;
+	//Here we are going to create a new function
+	//g_form.setVisible('Try_It', false);
+	this.execute = function(){
+		var method = g_form.getValue('Method');
+		var va = g_form.getValue('Variable');
+		var p1 = g_form.getValue('Parameter_1');
+		var p2 = g_form.getValue('Parameter_2');
+		var p3 = g_form.getValue('Parameter_3');
+		var p4 = g_form.getValue('Parameter_4');
+		var params = (function(){
+			var fields = [va,p1,p2,p3,p4].filter(function(param, index){
+				return param.length>0;
+			});
+			return fields.map(function(param){
+				return '"' + param + '"';
+			});
+		})();
+		try{
+			var returnValue;
+			if(params.length === 0){
+				returnValue = g_form[method]();
+			} else {
+				if(va.length > 0 && p1.length === 0 && p2.length === 0 && p3.length === 0 && p4.length === 0){
+					returnValue = g_form[method](va);
+					console.log('va');
+				}
+				if(va.length > 0 && p1.length  >  0 && p2.length === 0 && p3.length === 0 && p4.length === 0){
+					returnValue = g_form[method](va, p1);
+					console.log('va,p1');
+				}
+				if(va.length > 0 && p1.length  >  0 && p2.length  >  0 && p3.length === 0 && p4.length === 0){
+					returnValue = g_form[method](va, p1, p2);
+					console.log('va,p1,p2');
+				}
+				if(va.length > 0 && p1.length  >  0 && p2.length  >  0 && p3.length  >  0 && p4.length === 0){
+					returnValue = g_form[method](va, p1, p2, p3);
+					console.log('va,p1,p2,p3');
+				}
+				if(va.length > 0 && p1.length  >  0 && p2.length  >  0 && p3.length  >  0 && p4.length  >  0){
+					returnValue = g_form[method](va, p1, p2, p3, p4);
+					console.log('va,p1,p2,p3,p4');
+				}
+			}
+			console.log('returnValue', returnValue);
+			g_form.hideFieldMsg('Function',true);
+			var d = new Date();
+			d = d.toTimeString().split(' ')[0];
+			var returnMessage = g_form.getValue('Function') + '\n// ' + d + ' returns ' + returnValue;
+			g_form.showFieldMsg('Function', returnMessage, 'info');
+		}catch(e){
+			var de = new Date();
+			de = de.toTimeString().split(' ')[0];
+			g_form.hideFieldMsg('Function',true);
+			var returnError = g_form.getValue('Function') + '\n// ' + de + ' returns ' + e.message;
+			g_form.showFieldMsg('Function', returnError, 'error');
+		}
+	};
+}]]></client_script>
         <controller_as>c</controller_as>
         <css/>
         <data_table>sp_instance</data_table>
@@ -23,16 +88,26 @@
         <sys_created_by>jacebenson</sys_created_by>
         <sys_created_on>2019-04-02 02:37:07</sys_created_on>
         <sys_id>4a2209351ba8330027d72f86ec4bcb69</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>ATF-Test-Widget</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sp_widget_4a2209351ba8330027d72f86ec4bcb69</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-04-02 02:37:18</sys_updated_on>
+        <sys_updated_on>2019-04-03 11:02:57</sys_updated_on>
         <template><![CDATA[<div>
-  Hello Widget
+  <form class="form-horizontal">
+    <fieldset>
+      <!-- Button -->
+      <div class="form-group">
+        <div class="col-md-4">
+          <button id="singlebutton" name="singlebutton" class="btn btn-primary" ng-click="c.execute()">Try It</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
 </div>]]></template>
     </sp_widget>
 </record_update>

@@ -31,16 +31,16 @@
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
-        <macro/>
+        <macro display_value="Test Macro">56c185351ba8330027d72f86ec4bcb3b</macro>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>Try_It</name>
-        <order>1000</order>
+        <name>try_it_macro</name>
+        <order>1100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Try It</question_text>
+        <question_text>Try It Macro</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -53,23 +53,23 @@
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
-        <sp_widget/>
+        <sp_widget display_value="ATF-Test-Widget">4a2209351ba8330027d72f86ec4bcb69</sp_widget>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2019-04-02 01:52:16</sys_created_on>
-        <sys_id>d5e734f91b68330027d72f86ec4bcbd5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Try It</sys_name>
+        <sys_created_on>2019-04-03 10:00:46</sys_created_on>
+        <sys_id>7e41ff461b20330027d72f86ec4bcb02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Try It Macro</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
-        <sys_update_name>item_option_new_d5e734f91b68330027d72f86ec4bcbd5</sys_update_name>
+        <sys_update_name>item_option_new_7e41ff461b20330027d72f86ec4bcb02</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-04-02 02:13:32</sys_updated_on>
+        <sys_updated_on>2019-04-03 10:02:05</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>7</type>
+        <type>14</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -83,22 +83,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=d5e734f91b68330027d72f86ec4bcbd5"/>
-    <fx_price action="delete_multiple" query="id=d5e734f91b68330027d72f86ec4bcbd5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e41ff461b20330027d72f86ec4bcb02"/>
+    <fx_price action="delete_multiple" query="id=7e41ff461b20330027d72f86ec4bcb02"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>d5e734f91b68330027d72f86ec4bcbd5</id>
+        <id>7e41ff461b20330027d72f86ec4bcb02</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2019-04-02 01:52:16</sys_created_on>
-        <sys_id>99e734f91b68330027d72f86ec4bcbd7</sys_id>
+        <sys_created_on>2019-04-03 10:00:46</sys_created_on>
+        <sys_id>fa413b861b20330027d72f86ec4bcb8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-04-02 01:52:16</sys_updated_on>
+        <sys_updated_on>2019-04-03 10:00:46</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -106,16 +106,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>d5e734f91b68330027d72f86ec4bcbd5</id>
+        <id>7e41ff461b20330027d72f86ec4bcb02</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2019-04-02 01:52:16</sys_created_on>
-        <sys_id>5de734f91b68330027d72f86ec4bcbd6</sys_id>
+        <sys_created_on>2019-04-03 10:00:46</sys_created_on>
+        <sys_id>ba41ff461b20330027d72f86ec4bcb04</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-04-02 01:52:16</sys_updated_on>
+        <sys_updated_on>2019-04-03 10:00:46</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
