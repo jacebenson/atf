@@ -30,6 +30,9 @@ function($scope) {
 			var returnValue;
 			if(params.length === 0){
 				returnValue = g_form[method]();
+			} else if (params.length === 1){
+				var param = va || p1 || p2 || p3 || p4;
+				returnValue = g_form[method](param);
 			} else {
 				if(va.length > 0 && p1.length === 0 && p2.length === 0 && p3.length === 0 && p4.length === 0){
 					returnValue = g_form[method](va);
@@ -88,14 +91,14 @@ function($scope) {
         <sys_created_by>jacebenson</sys_created_by>
         <sys_created_on>2019-04-02 02:37:07</sys_created_on>
         <sys_id>4a2209351ba8330027d72f86ec4bcb69</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>ATF-Test-Widget</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sp_widget_4a2209351ba8330027d72f86ec4bcb69</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-04-03 11:02:57</sys_updated_on>
+        <sys_updated_on>2019-04-29 15:38:20</sys_updated_on>
         <template><![CDATA[<div>
   <form class="form-horizontal">
     <fieldset>

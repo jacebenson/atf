@@ -10,14 +10,14 @@
         <sys_created_by>jacebenson</sys_created_by>
         <sys_created_on>2019-04-02 02:35:51</sys_created_on>
         <sys_id>56c185351ba8330027d72f86ec4bcb3b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Test Macro</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_ui_macro_56c185351ba8330027d72f86ec4bcb3b</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-04-03 10:36:15</sys_updated_on>
+        <sys_updated_on>2019-04-29 15:37:33</sys_updated_on>
         <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<script>
@@ -46,7 +46,10 @@
 				var returnValue;
 				if(params.length === 0){
 					returnValue = g_form[method]();
-				} else {
+				} else if (params.length === 1){
+		            var param = va || p1 || p2 || p3 || p4;
+		            returnValue = g_form[method](param);
+		        } else {
 					if(va.length > 0 ${AMP}${AMP} p1.length === 0 ${AMP}${AMP} p2.length === 0 ${AMP}${AMP} p3.length === 0 ${AMP}${AMP} p4.length === 0){
 						returnValue = g_form[method](va);
 					}
