@@ -2,6 +2,7 @@
     <sys_atf_test_suite action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>https://docs.servicenow.com/bundle/london-service-management-for-the-enterprise/page/product/planning-and-policy/concept/c_MarketingServiceManagement.html</description>
+        <input_filter/>
         <name>Marketing</name>
         <parent display_value="Service Management">3fe86c71db8523008096a455ca9619a5</parent>
         <sys_class_name>sys_atf_test_suite</sys_class_name>

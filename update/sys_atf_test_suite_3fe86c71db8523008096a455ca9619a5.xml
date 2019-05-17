@@ -2,6 +2,7 @@
     <sys_atf_test_suite action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>https://docs.servicenow.com/bundle/london-service-management-for-the-enterprise/page/product/it-services/concept/c_ServiceManagement.html</description>
+        <input_filter/>
         <name>Service Management</name>
         <parent display_value="OOB Tests">7da7f9d8db0123008096a455ca9619b5</parent>
         <sys_class_name>sys_atf_test_suite</sys_class_name>

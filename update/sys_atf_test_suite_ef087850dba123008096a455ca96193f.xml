@@ -2,6 +2,7 @@
     <sys_atf_test_suite action="INSERT_OR_UPDATE">
         <active>true</active>
         <description/>
+        <input_filter/>
         <name>User Role Inheritance</name>
         <parent display_value="API Testing">fbf9fd1cdb0123008096a455ca961917</parent>
         <sys_class_name>sys_atf_test_suite</sys_class_name>

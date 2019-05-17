@@ -73,6 +73,7 @@
         <ui_page display_value="Test UI Page">a9e1c5351ba8330027d72f86ec4bcb70</ui_page>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>

@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Set the values on the form as follows:
 State = Resolved
 and Resolution code = Solved (Permanently)
 and Resolution notes = Resolved by Automated Test</description>
         <display_name>Set Field Values</display_name>
         <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
         <order>16</order>
+        <snapshot/>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>

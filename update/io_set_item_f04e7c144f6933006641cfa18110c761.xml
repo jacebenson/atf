@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>4800</order>
+        <sc_cat_item display_value="Test Item">1ad474b51b68330027d72f86ec4bcb04</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-05-17 03:32:37</sys_created_on>
+        <sys_id>f04e7c144f6933006641cfa18110c761</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>mvrs.Test Item</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>io_set_item_f04e7c144f6933006641cfa18110c761</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-05-17 03:32:57</sys_updated_on>
+        <variable_set display_value="Multi Row Variable Set">a95ebc144f6933006641cfa18110c77d</variable_set>
+    </io_set_item>
+</record_update>

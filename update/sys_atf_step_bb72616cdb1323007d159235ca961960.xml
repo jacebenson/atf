@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Confirm that the following fields are mandatory: Close code, Close notes
 With a failure timeout of 5 Seconds</description>
         <display_name>Field State Validation</display_name>
         <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
         <order>25</order>
+        <snapshot/>
         <step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
