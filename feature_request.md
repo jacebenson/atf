@@ -1,0 +1,77 @@
+**What suite should these tests be added to?**
+- [ ] API Testing
+- [ ] HR Service Delivery
+  - [ ] Case and Knowledge
+  - [ ] Employee Service Center
+  - [ ] Enterpise Onboarding and Transistions
+  - [ ] Employee Document
+  - [ ] HR Integrations
+- [ ] Customer Service Management
+  - [ ] Customer Service
+  - [ ] Communities
+  - [ ] Field Service
+- [ ] Governance, Risk , and Compliance (GRC)
+  - [ ] Policy and Compliance
+  - [ ] Risk
+  - [ ] Audit
+  - [ ] Vendor Risk
+- [ ] Software Asset Management
+- [ ] Security Operations
+  - [ ] Security Incident Response
+  - [ ] Vulnerability Response
+  - [ ] Configuration Compliance
+  - [ ] Threat Intelligence
+  - [ ] Trusted Security Circles
+- [ ] IT Business Management
+  - [ ] Project Portfolio
+  - [ ] Financial
+  - [ ] Time Card
+  - [ ] Enterprise Release Management
+  - [ ] Agile Development
+  - [ ] Scaled Agile Frameworkf (SAFe)
+  - [ ] Test Management
+  - [ ] Business Planning Portal
+  - [ ] Cost
+- [ ] IT Operations Management
+  - [ ] Discovery
+  - [ ] Service Mapping
+  - [ ] Event Management
+  - [ ] Operational Intelligence
+  - [ ] Cloud Management
+- [ ] IT Service Management
+  - [ ] Asset
+  - [ ] Contract
+  - [ ] Procurement
+  - [ ] Product Catalog
+  - [ ] Benchmarks
+  - [ ] Change
+  - [ ] Continual Improvement
+  - [ ] Expense Line
+  - [ ] ITSM Virtual Agent
+  - [ ] Walk-up Experience
+  - [ ] Incident Communications
+  - [ ] On-call Scheduling
+  - [ ] Problem
+  - [ ] Release
+  - [ ] Request
+  - [ ] Service Catalog
+  - [ ] Service Desk
+  - [ ] Service Level
+  - [ ] Service Portfolio
+  - [ ] Vendor Performance
+- [ ] Service Management
+  - [ ] Planned Maintenance
+  - [ ] Facilities
+  - [ ] Finance
+  - [ ] Legal
+  - [ ] Marketing
+  - [ ] Coaching Loops
+  - [ ] Structured Problem Analysis
+
+
+**Describe the things needing testing you'd like*
+
+- [ ] Test Thing 1
+- [ ] Test Thing 2
+
+Follow the [README](https://atf.jacebenson.com/#contributing) to contribute.
