@@ -1,7 +1,7 @@
 
-baseURL = "http://example.com/"
+baseURL = "http://atf.jace.pro/"
 languageCode = "en-us"
-title = "Hugo Grayscale Theme"
+title = "ATF"
 theme = "hugograyscale"
 #googleAnalytics = ""
 [params]
