@@ -32,6 +32,8 @@ however, I've gone with Netlify to do this as that makes this really simple.  If
 If you'd like to contribute, please fork the repository and use a feature
 branch. Pull requests are warmly welcome.
 
+[Contributing Doc](https://github.com/jacebenson/atf/tree/docs/CONTRIBUTING.md)
+
 ## Links
 
 - Site: https://atf.jace.pro
