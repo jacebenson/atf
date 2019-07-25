@@ -6,5 +6,5 @@ theme = "hugograyscale"
 #googleAnalytics = ""
 [params]
     # Provide some metadata for search and indexing services
-    description = "A port of the Grayscale theme to Hugo"
-    author = "RunningStream"
+    description = "Automated Testing Framework tests that SHOULD have been"
+    author = "Jace Benson"
