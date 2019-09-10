@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Order item and confirm that ordering is successful</description>
+        <display_name>Order a Catalog Item (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="Order a Catalog Item (SP)">c0fede515f23030076861f9f2f7313db</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:37:39</sys_created_on>
+        <sys_id>3e3a82ed1b333300f1bf2136ec4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order a Catalog Item (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_3e3a82ed1b333300f1bf2136ec4bcba3</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:37:39</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Item">239946ad1b333300f1bf2136ec4bcba0</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3e3a82ed1b333300f1bf2136ec4bcba3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3e3a82ed1b333300f1bf2136ec4bcba3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:37:39</sys_created_on>
+        <sys_id>e73a86ed1b333300f1bf2136ec4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:37:39</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">b27f92915f23030076861f9f2f731356</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open "Test Item" in the "Service Portal" portal</description>
+        <display_name>Open a Catalog Item (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Open a Catalog Item (SP)">e81f02dc73e703008e6b0d573cf6a76f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:36:38</sys_created_on>
+        <sys_id>a2f9c6ad1b333300f1bf2136ec4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Catalog Item (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_a2f9c6ad1b333300f1bf2136ec4bcbd5</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:36:38</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Item">239946ad1b333300f1bf2136ec4bcba0</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a2f9c6ad1b333300f1bf2136ec4bcbd5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a2f9c6ad1b333300f1bf2136ec4bcbd5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:36:38</sys_created_on>
+        <sys_id>380acaad1b333300f1bf2136ec4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:36:38</sys_updated_on>
+        <value>81b75d3147032100ba13a5554ee4902b</value>
+        <variable display_value="">3731d6dc73e703008e6b0d573cf6a788</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a2f9c6ad1b333300f1bf2136ec4bcbd5</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:36:38</sys_created_on>
+        <sys_id>740acaad1b333300f1bf2136ec4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:36:38</sys_updated_on>
+        <value>1ad474b51b68330027d72f86ec4bcb04</value>
+        <variable display_value="">ac615adc73e703008e6b0d573cf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a2f9c6ad1b333300f1bf2136ec4bcbd5</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:36:38</sys_created_on>
+        <sys_id>b00acaad1b333300f1bf2136ec4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:36:38</sys_updated_on>
+        <value/>
+        <variable display_value="">3a6e5fb15f1013001f1e1f9f2f7313e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a2f9c6ad1b333300f1bf2136ec4bcbd5</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:36:38</sys_created_on>
+        <sys_id>fc0acaad1b333300f1bf2136ec4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:36:38</sys_updated_on>
+        <value>9f12251147132100ba13a5554ee490f4</value>
+        <variable display_value="">83d1dadc73e703008e6b0d573cf6a779</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Parameter 1 = Something</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:37:18</sys_created_on>
+        <sys_id>f70a42ed1b333300f1bf2136ec4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_f70a42ed1b333300f1bf2136ec4bcb7b</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:37:18</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Item">239946ad1b333300f1bf2136ec4bcba0</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f70a42ed1b333300f1bf2136ec4bcb7b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f70a42ed1b333300f1bf2136ec4bcb7b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:37:18</sys_created_on>
+        <sys_id>2e2ac6ad1b333300f1bf2136ec4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:37:18</sys_updated_on>
+        <value>1ad474b51b68330027d72f86ec4bcb04</value>
+        <variable display_value="">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f70a42ed1b333300f1bf2136ec4bcb7b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:37:18</sys_created_on>
+        <sys_id>6a2ac6ad1b333300f1bf2136ec4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:37:18</sys_updated_on>
+        <value>IO:8de734f91b68330027d72f86ec4bcbab=Something^EQ</value>
+        <variable display_value="">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f70a42ed1b333300f1bf2136ec4bcb7b</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:37:18</sys_created_on>
+        <sys_id>a62ac6ad1b333300f1bf2136ec4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:37:18</sys_updated_on>
+        <value/>
+        <variable display_value="">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+</record_update>

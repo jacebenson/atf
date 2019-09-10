@@ -2,58 +2,58 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description>Impersonate the user: ATF Change Management with user Id: change.atf</description>
+        <description>Impersonate the user: {{Step 1: Create user with rights.User}}</description>
         <display_name>Impersonate</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>14</order>
+        <order>2</order>
         <snapshot/>
         <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2019-01-26 04:27:30</sys_created_on>
-        <sys_id>eb72616cdb1323007d159235ca96191b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2019-09-10 02:36:13</sys_created_on>
+        <sys_id>94e9ce2d1b333300f1bf2136ec4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Impersonate</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
-        <sys_update_name>sys_atf_step_eb72616cdb1323007d159235ca96191b</sys_update_name>
+        <sys_update_name>sys_atf_step_94e9ce2d1b333300f1bf2136ec4bcbce</sys_update_name>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-01-26 04:43:49</sys_updated_on>
+        <sys_updated_on>2019-09-10 02:36:13</sys_updated_on>
         <table/>
-        <test display_value="Emergency Type Change Request workflow copy">db7229a8db1323007d159235ca9619b5</test>
+        <test display_value="Test Request Item">239946ad1b333300f1bf2136ec4bcba0</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=eb72616cdb1323007d159235ca96191b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=94e9ce2d1b333300f1bf2136ec4bcbce"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>eb72616cdb1323007d159235ca96191b</document_key>
+        <document_key>94e9ce2d1b333300f1bf2136ec4bcbce</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2019-01-26 04:27:30</sys_created_on>
-        <sys_id>e772616cdb1323007d159235ca96191c</sys_id>
+        <sys_created_on>2019-09-10 02:36:13</sys_created_on>
+        <sys_id>f6e94ead1b333300f1bf2136ec4bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-01-26 04:27:30</sys_updated_on>
-        <value>b6b364e253131300e321ddeeff7b121b</value>
+        <sys_updated_on>2019-09-10 02:36:13</sys_updated_on>
+        <value/>
         <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=eb72616cdb1323007d159235ca96191b"/>
+    <sys_element_mapping action="delete_multiple" query="id=94e9ce2d1b333300f1bf2136ec4bcbce"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>user</field>
-        <id>eb72616cdb1323007d159235ca96191b</id>
+        <id>94e9ce2d1b333300f1bf2136ec4bcbce</id>
         <sys_created_by>jacebenson</sys_created_by>
-        <sys_created_on>2019-01-26 04:37:37</sys_created_on>
-        <sys_id>3fc4adacdb1323007d159235ca96198f</sys_id>
+        <sys_created_on>2019-09-10 02:36:13</sys_created_on>
+        <sys_id>76e94ead1b333300f1bf2136ec4bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jacebenson</sys_updated_by>
-        <sys_updated_on>2019-01-26 04:37:37</sys_updated_on>
+        <sys_updated_on>2019-09-10 02:36:13</sys_updated_on>
         <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
-        <value>{{step['0392e16cdb1323007d159235ca96191a'].u_user}}</value>
+        <value>{{step['47b90aad1b333300f1bf2136ec4bcb99'].u_user}}</value>
     </sys_element_mapping>
 </record_update>

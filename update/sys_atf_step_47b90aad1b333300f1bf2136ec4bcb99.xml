@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>This step creates a user, a group, assigns roles to the group, and assigns the user to the group.</description>
+        <display_name>Create user with rights</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create a user with itil</notes>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Create user with rights">154f1ea2db9523008096a455ca96196e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>47b90aad1b333300f1bf2136ec4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create user with rights</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_47b90aad1b333300f1bf2136ec4bcb99</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <table/>
+        <test display_value="Test Request Item">239946ad1b333300f1bf2136ec4bcba0</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=47b90aad1b333300f1bf2136ec4bcb99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47b90aad1b333300f1bf2136ec4bcb99</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>46d94ead1b333300f1bf2136ec4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <value>Jace</value>
+        <variable display_value="">99af5ae2db9523008096a455ca961937</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47b90aad1b333300f1bf2136ec4bcb99</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>46d94ead1b333300f1bf2136ec4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <value>Itil</value>
+        <variable display_value="">b0ef5ee2db9523008096a455ca9619b7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47b90aad1b333300f1bf2136ec4bcb99</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>82d94ead1b333300f1bf2136ec4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <value>282bf1fac6112285017366cb5f867469</value>
+        <variable display_value="">93002226db9523008096a455ca9619fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47b90aad1b333300f1bf2136ec4bcb99</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>ced94ead1b333300f1bf2136ec4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <value>ITIL Fulfillers</value>
+        <variable display_value="">29802a26db9523008096a455ca961933</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=47b90aad1b333300f1bf2136ec4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_firstname</field>
+        <id>47b90aad1b333300f1bf2136ec4bcb99</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>06d94ead1b333300f1bf2136ec4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <table>var__m_atf_input_variable_154f1ea2db9523008096a455ca96196e</table>
+        <value>Jace</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_group</field>
+        <id>47b90aad1b333300f1bf2136ec4bcb99</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>4ed94ead1b333300f1bf2136ec4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <table>var__m_atf_input_variable_154f1ea2db9523008096a455ca96196e</table>
+        <value>ITIL Fulfillers</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_lastname</field>
+        <id>47b90aad1b333300f1bf2136ec4bcb99</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>c2d94ead1b333300f1bf2136ec4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <table>var__m_atf_input_variable_154f1ea2db9523008096a455ca96196e</table>
+        <value>Itil</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_roles</field>
+        <id>47b90aad1b333300f1bf2136ec4bcb99</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-10 02:35:54</sys_created_on>
+        <sys_id>02d94ead1b333300f1bf2136ec4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-10 02:35:54</sys_updated_on>
+        <table>var__m_atf_input_variable_154f1ea2db9523008096a455ca96196e</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
