@@ -1,48 +1,42 @@
-# ATF
+# [Academic Kickstart](https://sourcethemes.com/academic/)
 
-> Site about the scoped ATF application
+**Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
 
-## Installing / Getting started
+**Academic Kickstart** provides a minimal template to kickstart your new website.
 
-To get up and running you need [hugo](https://github.com/gohugoio/hugo/releases).
+- [**Get Started**](#install)
+- [View the documentation](https://sourcethemes.com/academic/docs/)
+- [Ask a question](http://discuss.gohugo.io/)
+- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
+- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
+- Support development of Academic:
+  - [Donate a coffee](https://paypal.me/cushen)
+  - [Become a backer on Patreon](https://www.patreon.com/cushen)
+  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
+  - [Wear the T-shirt](https://academic.threadless.com/)
 
-```shell
-git clone https://github.com/jacebenson/atf
-cd atf
-git checkout b docs
-path/to/hugo server --watch #should bind to localhost:1313
-```
+[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
 
-The code above clones this repo, goes into the new directory
-and then expects you to run `hugo server --watch`, which 
-generates and serves the site locally.
+## Install
 
-### Deploying / Publishing
+You can choose from one of the following four methods to install:
 
-It appears there are ways to allow Github to host hugo sites, 
-however, I've gone with Netlify to do this as that makes this really simple.  If you don't want to test locally, you can do that as well.
+* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
+* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
+* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
+* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
 
-1.  Logon to [netlify](https://netlify.com)
-2.  Add a new site from Github
-3.  It should have a Build Command of `hugo`
-4.  It should have a Publish Directory of `public`
+Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
 
-## Contributing
+## Ecosystem
 
-If you'd like to contribute, please fork the repository and use a feature
-branch. Pull requests are warmly welcome.
+* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
+* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
 
-[Contributing Doc](https://github.com/jacebenson/atf/tree/docs/CONTRIBUTING.md)
+## License
 
-## Links
+Copyright 2017-present [George Cushen](https://georgecushen.com).
 
-- Site: https://atf.jace.pro
-- Repository: https://github.com/jacebenson/atf/
-- Issue tracker: https://github.com/jacebenson/atf/issues
-  - In case of sensitive bugs like security vulnerabilities, please contact
-    jace.benson@protonmail.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
+Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
 
-## Licensing
-
-"The code in this project is licensed under MIT license."
+[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
