@@ -26,6 +26,7 @@ Name = Test</description>
         <table>sm_schedule</table>
         <test display_value="OAT: Service Management Planned Maintenance ">09c88e33db552300953e64d748961903</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=45e97454dba123008096a455ca9619f1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

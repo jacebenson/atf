@@ -29,6 +29,7 @@ Confirm the record was successfully inserted</description>
         <table>sm_schedule</table>
         <test display_value="OAT: Service Management Planned Maintenance ">09c88e33db552300953e64d748961903</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=c16a46b3db552300953e64d7489619a8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
