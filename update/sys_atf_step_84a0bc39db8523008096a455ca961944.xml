@@ -26,6 +26,7 @@
         <table>sn_sm_marketing_request</table>
         <test display_value="Create Marketing Request via standard gui">413964f1db8523008096a455ca961902</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=84a0bc39db8523008096a455ca961944"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

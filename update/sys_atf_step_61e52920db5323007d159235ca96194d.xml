@@ -28,6 +28,7 @@ Confirm the record was successfully updated</description>
         <table>chg_approval_def</table>
         <test display_value="Emergency Type Change Request workflow copy">db7229a8db1323007d159235ca9619b5</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=61e52920db5323007d159235ca96194d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

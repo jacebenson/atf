@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'incident' matching query:
+Caller = {{Step 1: Create user with rights.User}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <snapshot/>
+        <step_config display_value="Record Query">0270b8005f30220012b44adb7f46666a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:56:41</sys_created_on>
+        <sys_id>06ab51e01bc80010f1bf2136ec4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_06ab51e01bc80010f1bf2136ec4bcbdf</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:56:41</sys_updated_on>
+        <table>incident</table>
+        <test display_value="Incident on SP via RP">61aa95ec1b880010f1bf2136ec4bcb9d</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=06ab51e01bc80010f1bf2136ec4bcbdf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>06ab51e01bc80010f1bf2136ec4bcbdf</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:56:41</sys_created_on>
+        <sys_id>02db9dec1b880010f1bf2136ec4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:56:41</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">6fe5f8405f30220012b44adb7f4666e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>06ab51e01bc80010f1bf2136ec4bcbdf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:56:41</sys_created_on>
+        <sys_id>4adb9dec1b880010f1bf2136ec4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:56:41</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="">dd091e22675003007ba405225685ef69</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>06ab51e01bc80010f1bf2136ec4bcbdf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:56:41</sys_created_on>
+        <sys_id>4edb9dec1b880010f1bf2136ec4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:56:41</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9459c28673103300f660eeadfff6a7dd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>06ab51e01bc80010f1bf2136ec4bcbdf</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:56:41</sys_created_on>
+        <sys_id>c2db9dec1b880010f1bf2136ec4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:56:41</sys_updated_on>
+        <value>caller_id={{step['a4ca59ec1b880010f1bf2136ec4bcbc4'].u_user}}^EQ</value>
+        <variable display_value="">cf167c405f30220012b44adb7f46660d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=06ab51e01bc80010f1bf2136ec4bcbdf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>06ab51e01bc80010f1bf2136ec4bcbdf</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:56:41</sys_created_on>
+        <sys_id>06db9dec1b880010f1bf2136ec4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:56:41</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>06ab51e01bc80010f1bf2136ec4bcbdf</id>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:56:41</sys_created_on>
+        <sys_id>c6db9dec1b880010f1bf2136ec4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:56:41</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value>caller_id={{step['a4ca59ec1b880010f1bf2136ec4bcbc4'].u_user}}^EQ</value>
+    </sys_element_mapping>
+</record_update>
