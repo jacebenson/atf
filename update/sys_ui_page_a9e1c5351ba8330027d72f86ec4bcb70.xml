@@ -2,7 +2,7 @@
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
         <client_script/>
-        <description>This UI Page does nothing except render on UI16 Catalog Item.</description>
+        <description>This UI Page does nothing except render on UI16 Catalog Item. Really, but it's necessary to show on UI16 Item.</description>
         <direct>false</direct>
         <endpoint>x_8821_atf_Test UI Page.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
