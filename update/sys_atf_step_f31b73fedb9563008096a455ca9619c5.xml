@@ -25,6 +25,7 @@
         <table/>
         <test display_value="OAT:Test User Role Inheritance via API">a31bb7bedb9563008096a455ca961939</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=f31b73fedb9563008096a455ca9619c5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

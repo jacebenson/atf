@@ -28,6 +28,7 @@ and Model = Asus A53 Series</description>
         <table>sm_maint_plan</table>
         <test display_value="OAT: Service Management Planned Maintenance ">09c88e33db552300953e64d748961903</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=2f69ca33db552300953e64d748961978"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

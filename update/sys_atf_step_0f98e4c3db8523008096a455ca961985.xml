@@ -26,6 +26,7 @@
         <table/>
         <test display_value="OAT: Create Test Email via API">b9280276db0123008096a455ca9619cb</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=0f98e4c3db8523008096a455ca961985"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

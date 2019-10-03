@@ -12,6 +12,7 @@
         <description><![CDATA[<p>Test Item (Description Here.)</p>
 <p>Test in Classic: <a href="/com.glideapp.servicecatalog_cat_item_view.do?v&#61;1&amp;sysparm_id&#61;1ad474b51b68330027d72f86ec4bcb04" rel="nofollow">/com.glideapp.servicecatalog_cat_item_view.do?v&#61;1&amp;sysparm_id&#61;1ad474b51b68330027d72f86ec4bcb04</a></p>
 <p>Test in Service Portal: <a href="/sp?id&#61;sc_cat_item&amp;sys_id&#61;1ad474b51b68330027d72f86ec4bcb04" rel="nofollow">/sp?id&#61;sc_cat_item&amp;sys_id&#61;1ad474b51b68330027d72f86ec4bcb04</a></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -47,7 +48,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <request_method/>
-        <roles/>
+        <roles>snc_internal</roles>
         <sc_catalogs/>
         <sc_ic_item_staging/>
         <sc_ic_version/>
