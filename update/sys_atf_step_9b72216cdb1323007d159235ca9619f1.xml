@@ -26,6 +26,7 @@
         <table>change_request</table>
         <test display_value="Emergency Type Change Request workflow copy">db7229a8db1323007d159235ca9619b5</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=9b72216cdb1323007d159235ca9619f1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

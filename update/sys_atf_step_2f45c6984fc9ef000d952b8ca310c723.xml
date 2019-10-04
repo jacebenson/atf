@@ -25,6 +25,7 @@
         <table>incident</table>
         <test display_value="Incident Management Full Record Test">7905ce584fc9ef000d952b8ca310c786</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=2f45c6984fc9ef000d952b8ca310c723"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

@@ -25,6 +25,7 @@
         <table/>
         <test display_value="Aggregate API - Get">40c39da84f6123000ec54f00a310c7ab</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=d8c3d9e84f6123000ec54f00a310c797"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
