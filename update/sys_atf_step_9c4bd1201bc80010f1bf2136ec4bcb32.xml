@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Urgency = 3 - Low
+and Please describe your issue below = This is crucially important&#13;
+</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:54:29</sys_created_on>
+        <sys_id>9c4bd1201bc80010f1bf2136ec4bcb32</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_9c4bd1201bc80010f1bf2136ec4bcb32</sys_update_name>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:55:32</sys_updated_on>
+        <table/>
+        <test display_value="Incident on SP via RP">61aa95ec1b880010f1bf2136ec4bcb9d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=9c4bd1201bc80010f1bf2136ec4bcb32"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9c4bd1201bc80010f1bf2136ec4bcb32</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:54:29</sys_created_on>
+        <sys_id>3d5bd1201bc80010f1bf2136ec4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:54:29</sys_updated_on>
+        <value>3f1dd0320a0a0b99000a53f7604a2ef9</value>
+        <variable display_value="">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9c4bd1201bc80010f1bf2136ec4bcb32</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:54:29</sys_created_on>
+        <sys_id>795bd1201bc80010f1bf2136ec4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:54:29</sys_updated_on>
+        <value>IO:5a33d0ef0a0a0b9b007b906f6c589c57=3^IO:3f272c500a0a0b990059c24380a2bc02=This is crucially important&#13;
+^EQ</value>
+        <variable display_value="">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9c4bd1201bc80010f1bf2136ec4bcb32</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jacebenson</sys_created_by>
+        <sys_created_on>2019-09-19 06:54:29</sys_created_on>
+        <sys_id>b55bd1201bc80010f1bf2136ec4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacebenson</sys_updated_by>
+        <sys_updated_on>2019-09-19 06:54:29</sys_updated_on>
+        <value/>
+        <variable display_value="">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+</record_update>

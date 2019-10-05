@@ -151,7 +151,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-03 12:51:35</sys_updated_on>
         <template_reminder>Template reminder</template_reminder>
-        <type display_value="Test Step" name="sys_atf_step">b2223a04db37330018dd7b60399619cd</type>
+        <type display_value="Test Step" name="sys_atf_step">2a055262e135330078502406b63333ea</type>
         <wizard_redirect/>
     </sys_atf_step_config>
     <sys_translated_text action="delete_multiple" query="documentkey=154f1ea2db9523008096a455ca96196e"/>
