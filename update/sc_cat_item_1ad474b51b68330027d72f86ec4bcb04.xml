@@ -14,7 +14,6 @@
 <p>Test in Service Portal: <a href="/sp?id&#61;sc_cat_item&amp;sys_id&#61;1ad474b51b68330027d72f86ec4bcb04" rel="nofollow">/sp?id&#61;sc_cat_item&amp;sys_id&#61;1ad474b51b68330027d72f86ec4bcb04</a></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from display_value="Assert Text on Page (Custom UI)">59006f51777433004d957111a9106107</copied_from>
+        <description>Assert that the text 'Case commented for customer' is on the page.
+With a failure timeout of 5 Seconds</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Ignore: Validate 'Case commented for customerr' notification preference is available within timeout of 5sec</notes>
+        <order>19</order>
+        <snapshot/>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>2e451e48db60001032ffe1bb4b96196c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_2e451e48db60001032ffe1bb4b96196c</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:33:14</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2e451e48db60001032ffe1bb4b96196c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2e451e48db60001032ffe1bb4b96196c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>2a451e48db60001032ffe1bb4b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:22:07</sys_updated_on>
+        <value>Case commented for customer</value>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2e451e48db60001032ffe1bb4b96196c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>66451e48db60001032ffe1bb4b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:22:07</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2e451e48db60001032ffe1bb4b96196c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>2e451e48db60001032ffe1bb4b96196c</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>2e451e48db60001032ffe1bb4b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:22:07</sys_updated_on>
+        <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
+        <value>Case commented for customer</value>
+    </sys_element_mapping>
+</record_update>

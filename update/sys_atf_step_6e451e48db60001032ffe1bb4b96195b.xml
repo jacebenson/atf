@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Component Values (Custom UI)">4a3f9351777433004d957111a91061d2</copied_from>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: Business phone' = 9876543210
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"8d4adff0eb15d2d1475c07b1a0b2b503":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Business phone\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_phone]: Business phone with value +1 858 287 7834 in page area User Profile\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Business phone\",\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"Business phone\"},\"get_value_result\":\"+1 858 287 7834\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"phone\",\"sn_atf_mugshot_value\":\"+1 858 287 7834\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_phone\",\"hash\":\"8d4adff0eb15d2d1475c07b1a0b2b503\",\"html_value\":\"+1 858 287 7834\"}"}</mugshots_cache_json>
+        <notes>Set new business phone number</notes>
+        <order>14</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>6e451e48db60001032ffe1bb4b96195b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_6e451e48db60001032ffe1bb4b96195b</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:32:52</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=6e451e48db60001032ffe1bb4b96195b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6e451e48db60001032ffe1bb4b96195b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>aa451e48db60001032ffe1bb4b96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:22:07</sys_updated_on>
+        <value>8d4adff0eb15d2d1475c07b1a0b2b503=9876543210^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>

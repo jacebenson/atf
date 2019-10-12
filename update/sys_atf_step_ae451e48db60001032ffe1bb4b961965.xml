@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from display_value="Click Component (Custom UI)">cadfdb51777433004d957111a91061c5</copied_from>
+        <description>Click the component: 'Link &lt;a&gt;: Notification Preferences'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"5957ee1c5c7eb162f4bc31130651ef25":"{\"area\":\"Actions\",\"sn_atf_mugshot_short_description\":\"Link &lt;a&gt;: Notification Preferences\",\"inner_text\":\"Notification Preferences\",\"sn_atf_mugshot_long_description\":\"Link &lt;a&gt;: Notification Preferences in page area Actions\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Notification Preferences\",\"type\":\"\",\"get_value_result\":\"Notification Preferences\",\"sn_atf_mugshot_tag_display_name\":\"Link &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"hash\":\"5957ee1c5c7eb162f4bc31130651ef25\"}"}</mugshots_cache_json>
+        <notes>Ignore: Checking Notification Pref Link</notes>
+        <order>17</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>ae451e48db60001032ffe1bb4b961965</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_ae451e48db60001032ffe1bb4b961965</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:33:05</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ae451e48db60001032ffe1bb4b961965"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ae451e48db60001032ffe1bb4b961965</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:07</sys_created_on>
+        <sys_id>aa451e48db60001032ffe1bb4b961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:22:07</sys_updated_on>
+        <value>5957ee1c5c7eb162f4bc31130651ef25</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

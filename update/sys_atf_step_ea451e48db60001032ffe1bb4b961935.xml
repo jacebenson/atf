@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Component Values (Custom UI)">2136af55777433004d957111a91061ef</copied_from>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: Email' = abc@example.com
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"79d2224fa99d41269421598a718dc25a":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Email\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_email]: Email with value geo.warren@mailinator.com in page area User Profile\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Email\",\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"Email\"},\"get_value_result\":\"geo.warren@mailinator.com\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"email\",\"sn_atf_mugshot_value\":\"geo.warren@mailinator.com\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_email\",\"aria-label\":\"Email\",\"hash\":\"79d2224fa99d41269421598a718dc25a\",\"html_value\":\"geo.warren@mailinator.com\"}"}</mugshots_cache_json>
+        <notes>Set the new email address</notes>
+        <order>10</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:06</sys_created_on>
+        <sys_id>ea451e48db60001032ffe1bb4b961935</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_ea451e48db60001032ffe1bb4b961935</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:32:36</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ea451e48db60001032ffe1bb4b961935"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ea451e48db60001032ffe1bb4b961935</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:06</sys_created_on>
+        <sys_id>2a451e48db60001032ffe1bb4b961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:22:06</sys_updated_on>
+        <value>79d2224fa99d41269421598a718dc25a=abc@example.com^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>
