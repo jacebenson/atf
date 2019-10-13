@@ -3,7 +3,7 @@
         <active>true</active>
         <copied_from display_value="Assert Text on Page (Custom UI)">00de1f11777433004d957111a910619a</copied_from>
         <description>Assert that the text 'Lewis' is on the page.
-With a failure timeout of 10 Seconds</description>
+With a failure timeout of 60 Seconds</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
         <inputs/>
@@ -16,17 +16,17 @@ With a failure timeout of 10 Seconds</description>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-10-12 18:22:06</sys_created_on>
         <sys_id>a2451e48db60001032ffe1bb4b96192e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Assert Text on Page (Custom UI)</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_a2451e48db60001032ffe1bb4b96192e</sys_update_name>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-12 18:32:23</sys_updated_on>
+        <sys_updated_on>2019-10-13 18:18:02</sys_updated_on>
         <table/>
         <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
-        <timeout>1970-01-01 00:00:10</timeout>
+        <timeout>1970-01-01 00:01:00</timeout>
         <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=a2451e48db60001032ffe1bb4b96192e"/>
