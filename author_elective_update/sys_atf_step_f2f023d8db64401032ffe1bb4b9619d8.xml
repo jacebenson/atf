@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Impersonate">63491d62dbd52300c11df7b51d961922</copied_from>
+        <description>Impersonate the user:  with user Id: null</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>f2f023d8db64401032ffe1bb4b9619d8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_f2f023d8db64401032ffe1bb4b9619d8</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:39:49</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f2f023d8db64401032ffe1bb4b9619d8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f2f023d8db64401032ffe1bb4b9619d8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>32f023d8db64401032ffe1bb4b9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:17</sys_updated_on>
+        <value>85453c616fc331003b3c498f5d3ee4fa</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>d385b567dbeadb00536ad5b0cf961957</instance_id>
+        <instance_name>dev61134</instance_name>
+        <name>sys_atf_step_f2f023d8db64401032ffe1bb4b9619d8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Impersonate">63491d62dbd52300c11df7b51d961922</copied_from><description>Impersonate the user:  with user Id: null</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>f2f023d8db64401032ffe1bb4b9619d8</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_f2f023d8db64401032ffe1bb4b9619d8</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:39:49</sys_updated_on><table/><test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=f2f023d8db64401032ffe1bb4b9619d8"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f2f023d8db64401032ffe1bb4b9619d8</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>32f023d8db64401032ffe1bb4b9619d9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:31:17</sys_updated_on><value>85453c616fc331003b3c498f5d3ee4fa</value><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>207411465</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>d6bd1794db64401032ffe1bb4b9619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:39:49</sys_created_on>
+        <sys_id>fbe2af5cdb64401032ffe1bb4b96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dc66b64410000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:39:49</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>77e2af5c1b6440106f251aeddeb52b8a</update_guid>
+        <update_guid_history>77e2af5c1b6440106f251aeddeb52b8a:207411465,a7922b5c49644010b638f18e9a3e3d8e:-729334902,0932ef1c9c644010afccd3d38b3099ec:207411465,f4226f1c9a6440102436e003aff09b92:-729334902,4ab1231c0c644010933aa8b80145d4c6:207411465,c8916fd8186440105fa390acceffa50f:-729334902,32f023d8c8644010680a249128ae76da:-1698742632</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:39:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>265338ad620748f89b513038d3d34b31</sys_id>
+        <sys_metadata>f2f023d8db64401032ffe1bb4b9619d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_f2f023d8db64401032ffe1bb4b9619d8</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_f2f023d8db64401032ffe1bb4b9619d8">fbe2af5cdb64401032ffe1bb4b96198a</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:39:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

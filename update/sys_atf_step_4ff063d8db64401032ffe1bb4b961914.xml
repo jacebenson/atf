@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from display_value="Field Values Validation">ef726d2adbd52300c11df7b51d961926</copied_from>
+        <description>Validate that the form matches the following condition:
+Value contains {{Step 7: Record Query.First record}}
+and Value contains has been associated with the Case
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>13</order>
+        <snapshot/>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:18</sys_created_on>
+        <sys_id>4ff063d8db64401032ffe1bb4b961914</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_4ff063d8db64401032ffe1bb4b961914</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:55:59</sys_updated_on>
+        <table>sys_journal_field</table>
+        <test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=4ff063d8db64401032ffe1bb4b961914"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4ff063d8db64401032ffe1bb4b961914</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:18</sys_created_on>
+        <sys_id>43f063d8db64401032ffe1bb4b961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:18</sys_updated_on>
+        <value>sys_journal_field</value>
+        <variable display_value="">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4ff063d8db64401032ffe1bb4b961914</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:18</sys_created_on>
+        <sys_id>8ff063d8db64401032ffe1bb4b961915</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:18</sys_updated_on>
+        <value>valueLIKE{{step['3af023d8db64401032ffe1bb4b9619e4'].first_record}}^valueLIKEhas been associated with the Case^EQ</value>
+        <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4ff063d8db64401032ffe1bb4b961914"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4ff063d8db64401032ffe1bb4b961914</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:18</sys_created_on>
+        <sys_id>47f063d8db64401032ffe1bb4b961916</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:18</sys_updated_on>
+        <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
+        <value>valueLIKE{{step['3af023d8db64401032ffe1bb4b9619e4'].first_record}}^valueLIKEhas been associated with the Case^EQ</value>
+    </sys_element_mapping>
+</record_update>

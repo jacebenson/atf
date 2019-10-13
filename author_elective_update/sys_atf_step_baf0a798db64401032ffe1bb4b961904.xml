@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Record Update">0f68dd22dbd52300c11df7b51d961929</copied_from>
+        <description>Update a record in 'sn_customerservice_case' with the following values:
+Incident = (empty)
+Confirm the record was successfully updated</description>
+        <display_name>Record Update</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>baf0a798db64401032ffe1bb4b961904</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_baf0a798db64401032ffe1bb4b961904</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:36:20</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=baf0a798db64401032ffe1bb4b961904"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>baf0a798db64401032ffe1bb4b961904</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>32f0a798db64401032ffe1bb4b961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:17</sys_updated_on>
+        <value>0a7685d1d703120058c92cf65e610350</value>
+        <variable display_value="">501c8f535320220002c6435723dc34da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>baf0a798db64401032ffe1bb4b961904</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>3af023d8db64401032ffe1bb4b9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:17</sys_updated_on>
+        <value>sn_customerservice_case</value>
+        <variable display_value="">53fb0f535320220002c6435723dc34ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>baf0a798db64401032ffe1bb4b961904</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>76f023d8db64401032ffe1bb4b9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:17</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">46dbcb535320220002c6435723dc3409</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>baf0a798db64401032ffe1bb4b961904</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>7ef0a798db64401032ffe1bb4b961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:17</sys_updated_on>
+        <value>record_successfully_updated</value>
+        <variable display_value="">334b7bb7675003007ba405225685ef72</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>baf0a798db64401032ffe1bb4b961904</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:17</sys_created_on>
+        <sys_id>faf023d8db64401032ffe1bb4b9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:17</sys_updated_on>
+        <value>incident=^EQ</value>
+        <variable display_value="">bc4c43935320220002c6435723dc34a2</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>d385b567dbeadb00536ad5b0cf961957</instance_id>
+        <instance_name>dev61134</instance_name>
+        <name>sys_atf_step_baf0a798db64401032ffe1bb4b961904</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Record Update">0f68dd22dbd52300c11df7b51d961929</copied_from><description>Update a record in 'sn_customerservice_case' with the following values:
+Incident = (empty)
+Confirm the record was successfully updated</description><display_name>Record Update</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>baf0a798db64401032ffe1bb4b961904</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Record Update</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_baf0a798db64401032ffe1bb4b961904</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:36:20</sys_updated_on><table>sn_customerservice_case</table><test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=baf0a798db64401032ffe1bb4b961904"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>baf0a798db64401032ffe1bb4b961904</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>32f0a798db64401032ffe1bb4b961906</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:31:17</sys_updated_on><value>0a7685d1d703120058c92cf65e610350</value><variable display_value="">501c8f535320220002c6435723dc34da</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>baf0a798db64401032ffe1bb4b961904</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>3af023d8db64401032ffe1bb4b9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:31:17</sys_updated_on><value>sn_customerservice_case</value><variable display_value="">53fb0f535320220002c6435723dc34ec</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>baf0a798db64401032ffe1bb4b961904</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>76f023d8db64401032ffe1bb4b9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:31:17</sys_updated_on><value>1</value><variable display_value="">46dbcb535320220002c6435723dc3409</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>baf0a798db64401032ffe1bb4b961904</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>7ef0a798db64401032ffe1bb4b961905</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:31:17</sys_updated_on><value>record_successfully_updated</value><variable display_value="">334b7bb7675003007ba405225685ef72</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>baf0a798db64401032ffe1bb4b961904</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-13 18:31:17</sys_created_on><sys_id>faf023d8db64401032ffe1bb4b9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-13 18:31:17</sys_updated_on><value>incident=^EQ</value><variable display_value="">bc4c43935320220002c6435723dc34a2</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>935235525</payload_hash>
+        <record_name>Record Update</record_name>
+        <reverted_from/>
+        <source>d6bd1794db64401032ffe1bb4b9619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:36:20</sys_created_on>
+        <sys_id>b8226f1cdb64401032ffe1bb4b96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dc668338e0000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:36:20</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>34226f1c26644010da5e578df37a659b</update_guid>
+        <update_guid_history>34226f1c26644010da5e578df37a659b:935235525,06b1efd825644010f1ea676904135387:-1175916378,48916fd87a644010dd6e6f11742bdc18:935235525,b6f023d8f56440105dfb43482ec56fd1:-1475750985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:36:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>596c6fb5ff9a43f4b1f6bdba9c77c2d9</sys_id>
+        <sys_metadata>baf0a798db64401032ffe1bb4b961904</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_baf0a798db64401032ffe1bb4b961904</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_baf0a798db64401032ffe1bb4b961904">b8226f1cdb64401032ffe1bb4b96199b</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:36:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
