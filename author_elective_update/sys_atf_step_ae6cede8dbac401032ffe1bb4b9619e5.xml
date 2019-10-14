@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">2ec1da72db952300c11df7b51d9619d4</copied_from>
+        <description>Answer the questions on the form as follows:
+Product = </description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:40:29</sys_created_on>
+        <sys_id>ae6cede8dbac401032ffe1bb4b9619e5</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_ae6cede8dbac401032ffe1bb4b9619e5</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:58:27</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Create Product Case on Portal">e26cade8dbac401032ffe1bb4b961977</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ae6cede8dbac401032ffe1bb4b9619e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ae6cede8dbac401032ffe1bb4b9619e5</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:40:29</sys_created_on>
+        <sys_id>226cede8dbac401032ffe1bb4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:40:29</sys_updated_on>
+        <value/>
+        <variable display_value="">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ae6cede8dbac401032ffe1bb4b9619e5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:40:29</sys_created_on>
+        <sys_id>a66cede8dbac401032ffe1bb4b9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:40:29</sys_updated_on>
+        <value>de45c412c312310015519f2974d3ae1b</value>
+        <variable display_value="">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ae6cede8dbac401032ffe1bb4b9619e5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:40:29</sys_created_on>
+        <sys_id>e26cede8dbac401032ffe1bb4b9619e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:50:18</sys_updated_on>
+        <value>IO:e9b94c12c312310015519f2974d3ae78={{step['5b1e256cdbac401032ffe1bb4b96198e'].record_id}}^EQ</value>
+        <variable display_value="">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae6cede8dbac401032ffe1bb4b9619e5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>ae6cede8dbac401032ffe1bb4b9619e5</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:50:18</sys_created_on>
+        <sys_id>2aaea1acdbac401032ffe1bb4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:50:18</sys_updated_on>
+        <table>var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c</table>
+        <value>IO:e9b94c12c312310015519f2974d3ae78={{step['5b1e256cdbac401032ffe1bb4b96198e'].record_id}}^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>d385b567dbeadb00536ad5b0cf961957</instance_id>
+        <instance_name>dev61134</instance_name>
+        <name>sys_atf_step_ae6cede8dbac401032ffe1bb4b9619e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Set Variable Values (SP)">2ec1da72db952300c11df7b51d9619d4</copied_from><description>Answer the questions on the form as follows:
+Product = </description><display_name>Set Variable Values (SP)</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>8</order><snapshot/><step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:40:29</sys_created_on><sys_id>ae6cede8dbac401032ffe1bb4b9619e5</sys_id><sys_mod_count>13</sys_mod_count><sys_name>Set Variable Values (SP)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_ae6cede8dbac401032ffe1bb4b9619e5</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:58:27</sys_updated_on><table/><test display_value="CSM - Portal - UI - Create Product Case on Portal">e26cade8dbac401032ffe1bb4b961977</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ae6cede8dbac401032ffe1bb4b9619e5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae6cede8dbac401032ffe1bb4b9619e5</document_key><order>150</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:40:29</sys_created_on><sys_id>226cede8dbac401032ffe1bb4b9619e7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:40:29</sys_updated_on><value/><variable display_value="">2fba49d673142300688e0d573cf6a748</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae6cede8dbac401032ffe1bb4b9619e5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:40:29</sys_created_on><sys_id>a66cede8dbac401032ffe1bb4b9619e7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:40:29</sys_updated_on><value>de45c412c312310015519f2974d3ae1b</value><variable display_value="">d164adb48703030070870cf888cb0b30</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae6cede8dbac401032ffe1bb4b9619e5</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:40:29</sys_created_on><sys_id>e26cede8dbac401032ffe1bb4b9619e7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:50:18</sys_updated_on><value>IO:e9b94c12c312310015519f2974d3ae78={{step['5b1e256cdbac401032ffe1bb4b96198e'].record_id}}^EQ</value><variable display_value="">3f3525f48703030070870cf888cb0b37</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=ae6cede8dbac401032ffe1bb4b9619e5"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>variable_values</field><id>ae6cede8dbac401032ffe1bb4b9619e5</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:50:18</sys_created_on><sys_id>2aaea1acdbac401032ffe1bb4b9619f7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:50:18</sys_updated_on><table>var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c</table><value>IO:e9b94c12c312310015519f2974d3ae78={{step['5b1e256cdbac401032ffe1bb4b96198e'].record_id}}^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1227639497</payload_hash>
+        <record_name>Set Variable Values (SP)</record_name>
+        <reverted_from/>
+        <source>d6bd1794db64401032ffe1bb4b9619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:58:27</sys_created_on>
+        <sys_id>bd8039a0dbec401032ffe1bb4b96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dc8a1c3920000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:58:27</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>398039a0f2ec40104b6a51616cb6ef2f</update_guid>
+        <update_guid_history>398039a0f2ec40104b6a51616cb6ef2f:-1227639497,5270f5a0b9ec4010d16d8ebd13017f19:-2081761064,aeaea1ac5cac4010760a60707783ddf8:1359084665,229ee5acd3ac40109eb543aefe70b953:1297466551,384e21acaeac40108e4f6992f4748080:-674416074,1ebda56cddac4010361e9c3a7a0126cf:1648668597,39ad656ca8ac401094b58d28ee503238:-674416074,2a6cede8d5ac4010e2c6085442bea8e8:1267248247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:03:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>654db757f75d4700bd07fe0ecec36440</sys_id>
+        <sys_metadata>ae6cede8dbac401032ffe1bb4b9619e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_ae6cede8dbac401032ffe1bb4b9619e5</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_ae6cede8dbac401032ffe1bb4b9619e5">bd8039a0dbec401032ffe1bb4b96192f</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:03:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
