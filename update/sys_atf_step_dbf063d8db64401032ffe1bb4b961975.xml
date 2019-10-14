@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <copied_from display_value="Field Values Validation">9d76a9eadbd52300c11df7b51d9619fc</copied_from>
         <description>Validate that the form matches the following condition:
-Value contains {{Step 7: Record Query.First record}}
-and Value contains has been updated to state - In Progress
-With a failure timeout of 5 Seconds</description>
+Value contains has been updated to state - In Progress
+and Value contains {{Step 6: Record Query.First record}}
+and Element ID = {{Step 11: Run Server Side Script.u_output_string}}
+With a failure timeout of 15 Seconds</description>
         <display_name>Field Values Validation</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>20</order>
+        <order>21</order>
         <snapshot/>
         <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-10-13 18:31:19</sys_created_on>
         <sys_id>dbf063d8db64401032ffe1bb4b961975</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Field Values Validation</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_dbf063d8db64401032ffe1bb4b961975</sys_update_name>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-13 18:56:21</sys_updated_on>
+        <sys_updated_on>2019-10-14 03:29:04</sys_updated_on>
         <table>sys_journal_field</table>
         <test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test>
-        <timeout>1970-01-01 00:00:05</timeout>
+        <timeout>1970-01-01 00:00:15</timeout>
         <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=dbf063d8db64401032ffe1bb4b961975"/>
@@ -40,10 +41,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-10-13 18:31:19</sys_created_on>
         <sys_id>1ff063d8db64401032ffe1bb4b961976</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-13 18:31:19</sys_updated_on>
-        <value>valueLIKE{{step['3af023d8db64401032ffe1bb4b9619e4'].first_record}}^valueLIKEhas been updated to state - In Progress^EQ</value>
+        <sys_updated_on>2019-10-14 03:16:44</sys_updated_on>
+        <value>valueLIKEhas been updated to state - In Progress^valueLIKE{{step['f005af9cdb64401032ffe1bb4b9619a7'].first_record}}^element_id={{step['5a33192cdb2c401032ffe1bb4b9619c0'].u_output_string}}^EQ</value>
         <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -67,10 +68,10 @@ With a failure timeout of 5 Seconds</description>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-10-13 18:31:19</sys_created_on>
         <sys_id>d3f063d8db64401032ffe1bb4b961977</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-13 18:31:19</sys_updated_on>
+        <sys_updated_on>2019-10-14 03:16:44</sys_updated_on>
         <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
-        <value>valueLIKE{{step['3af023d8db64401032ffe1bb4b9619e4'].first_record}}^valueLIKEhas been updated to state - In Progress^EQ</value>
+        <value>valueLIKEhas been updated to state - In Progress^valueLIKE{{step['f005af9cdb64401032ffe1bb4b9619a7'].first_record}}^element_id={{step['5a33192cdb2c401032ffe1bb4b9619c0'].u_output_string}}^EQ</value>
     </sys_element_mapping>
 </record_update>

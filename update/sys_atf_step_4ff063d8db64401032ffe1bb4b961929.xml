@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <copied_from display_value="Record Delete">06e2616adbd52300c11df7b51d96197c</copied_from>
-        <description>Delete record '{{Step 11: Record Query.First record}}' and confirm record was deleted</description>
+        <description>Delete record '{{Step 12: Record Query.First record}}' and confirm record was deleted
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
         <display_name>Record Delete</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
-        <notes/>
-        <order>14</order>
+        <notes>Delete the work note so it is easier to test other journal entries</notes>
+        <order>15</order>
         <snapshot/>
         <step_config display_value="Record Delete">8df72288df60220062fe6c7a4df2636d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-10-13 18:31:18</sys_created_on>
         <sys_id>4ff063d8db64401032ffe1bb4b961929</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Record Delete</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_4ff063d8db64401032ffe1bb4b961929</sys_update_name>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-13 18:56:07</sys_updated_on>
+        <sys_updated_on>2019-10-14 03:09:14</sys_updated_on>
         <table>sys_journal_field</table>
         <test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test>
         <timeout/>
-        <warning_message/>
+        <warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=4ff063d8db64401032ffe1bb4b961929"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

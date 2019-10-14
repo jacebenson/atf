@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <copied_from display_value="Record Delete">6d4b29eedbd52300c11df7b51d9619e4</copied_from>
-        <description>Delete record '{{Step 25: Record Query.First record}}' and confirm record was deleted</description>
+        <description>Delete record '{{Step 26: Record Query.First record}}' and confirm record was deleted</description>
         <display_name>Record Delete</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>28</order>
+        <order>29</order>
         <snapshot/>
         <step_config display_value="Record Delete">8df72288df60220062fe6c7a4df2636d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-10-13 18:31:20</sys_created_on>
         <sys_id>1bf063d8db64401032ffe1bb4b9619a7</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Record Delete</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_1bf063d8db64401032ffe1bb4b9619a7</sys_update_name>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-13 18:56:46</sys_updated_on>
+        <sys_updated_on>2019-10-14 03:24:20</sys_updated_on>
         <table>sys_journal_field</table>
         <test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test>
         <timeout/>
