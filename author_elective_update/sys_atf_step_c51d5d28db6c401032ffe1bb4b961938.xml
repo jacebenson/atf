@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Record Insert">a0bf667adbd52300c11df7b51d96194e</copied_from>
+        <description>Insert a record into 'sys_user_has_role' with the following values:
+User = (empty)
+and Role = itil
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:33:29</sys_created_on>
+        <sys_id>c51d5d28db6c401032ffe1bb4b961938</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_c51d5d28db6c401032ffe1bb4b961938</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:37:14</sys_updated_on>
+        <table>sys_user_has_role</table>
+        <test display_value="CSM - Case - Service Management - UI - Create Problem from Case">811d99e4db6c401032ffe1bb4b9619f8</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c51d5d28db6c401032ffe1bb4b961938"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c51d5d28db6c401032ffe1bb4b961938</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:33:29</sys_created_on>
+        <sys_id>011d5d28db6c401032ffe1bb4b96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:33:29</sys_updated_on>
+        <value>sys_user_has_role</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c51d5d28db6c401032ffe1bb4b961938</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:33:29</sys_created_on>
+        <sys_id>4d1d5d28db6c401032ffe1bb4b961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:33:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c51d5d28db6c401032ffe1bb4b961938</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:33:29</sys_created_on>
+        <sys_id>891d5d28db6c401032ffe1bb4b961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:33:29</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c51d5d28db6c401032ffe1bb4b961938</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:33:29</sys_created_on>
+        <sys_id>c11d5d28db6c401032ffe1bb4b96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:33:29</sys_updated_on>
+        <value>user=85453c616fc331003b3c498f5d3ee4fa^role=282bf1fac6112285017366cb5f867469^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>d385b567dbeadb00536ad5b0cf961957</instance_id>
+        <instance_name>dev61134</instance_name>
+        <name>sys_atf_step_c51d5d28db6c401032ffe1bb4b961938</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Record Insert">a0bf667adbd52300c11df7b51d96194e</copied_from><description>Insert a record into 'sys_user_has_role' with the following values:
+User = (empty)
+and Role = itil
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 03:33:29</sys_created_on><sys_id>c51d5d28db6c401032ffe1bb4b961938</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_c51d5d28db6c401032ffe1bb4b961938</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 03:37:14</sys_updated_on><table>sys_user_has_role</table><test display_value="CSM - Case - Service Management - UI - Create Problem from Case">811d99e4db6c401032ffe1bb4b9619f8</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c51d5d28db6c401032ffe1bb4b961938"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c51d5d28db6c401032ffe1bb4b961938</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 03:33:29</sys_created_on><sys_id>011d5d28db6c401032ffe1bb4b96193a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 03:33:29</sys_updated_on><value>sys_user_has_role</value><variable display_value="">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c51d5d28db6c401032ffe1bb4b961938</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 03:33:29</sys_created_on><sys_id>4d1d5d28db6c401032ffe1bb4b961939</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 03:33:29</sys_updated_on><value>1</value><variable display_value="">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c51d5d28db6c401032ffe1bb4b961938</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 03:33:29</sys_created_on><sys_id>891d5d28db6c401032ffe1bb4b961939</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 03:33:29</sys_updated_on><value>record_successfully_inserted</value><variable display_value="">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c51d5d28db6c401032ffe1bb4b961938</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 03:33:29</sys_created_on><sys_id>c11d5d28db6c401032ffe1bb4b96193a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 03:33:29</sys_updated_on><value>user=85453c616fc331003b3c498f5d3ee4fa^role=282bf1fac6112285017366cb5f867469^EQ</value><variable display_value="">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-267271977</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>d6bd1794db64401032ffe1bb4b9619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:37:14</sys_created_on>
+        <sys_id>00fd1d68db6c401032ffe1bb4b9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dc85766fb0000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:37:14</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>88fd1d683c6c40104519224374e9dae7</update_guid>
+        <update_guid_history>88fd1d683c6c40104519224374e9dae7:-267271977,97ddd9689b6c4010d6ca9bbc37a8882c:1020002102,459d9568726c4010d30c69b8ba373a15:-267271977,0d1d5d28b86c40100557494fee54293b:1966130213</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:37:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>8075cceae2d14c76b8177673258c2cb1</sys_id>
+        <sys_metadata>c51d5d28db6c401032ffe1bb4b961938</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c51d5d28db6c401032ffe1bb4b961938</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c51d5d28db6c401032ffe1bb4b961938">00fd1d68db6c401032ffe1bb4b9619e8</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:37:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
