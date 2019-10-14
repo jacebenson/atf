@@ -84,4 +84,16 @@
         <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
         <value>{{step['9ff063d8db64401032ffe1bb4b961968'].first_record}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>93f063d8db64401032ffe1bb4b96196d</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:46:40</sys_created_on>
+        <sys_id>1e102d2cdb6c401032ffe1bb4b96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:46:40</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
 </record_update>

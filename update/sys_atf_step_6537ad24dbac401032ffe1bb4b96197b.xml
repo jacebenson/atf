@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the values on the form as follows:
+Assignment group = {{Step 2: Record Insert.Record}}
+and State = Assess</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>20</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:17:58</sys_created_on>
+        <sys_id>6537ad24dbac401032ffe1bb4b96197b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_6537ad24dbac401032ffe1bb4b96197b</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:26:51</sys_updated_on>
+        <table>change_request</table>
+        <test display_value="CSM - Case - Service Management - UI - Create CHG from  Case">7910a92cdb6c401032ffe1bb4b961954</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=6537ad24dbac401032ffe1bb4b96197b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6537ad24dbac401032ffe1bb4b96197b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:18:00</sys_created_on>
+        <sys_id>5d476564dbac401032ffe1bb4b9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:18:00</sys_updated_on>
+        <value>assignment_group={{step['11d3e120dbac401032ffe1bb4b9619eb'].record_id}}^state=-4^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6537ad24dbac401032ffe1bb4b96197b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:18:00</sys_created_on>
+        <sys_id>99476564dbac401032ffe1bb4b9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:18:00</sys_updated_on>
+        <value>change_request</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6537ad24dbac401032ffe1bb4b96197b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>6537ad24dbac401032ffe1bb4b96197b</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:18:00</sys_created_on>
+        <sys_id>19476564dbac401032ffe1bb4b9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:18:00</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>assignment_group={{step['11d3e120dbac401032ffe1bb4b9619eb'].record_id}}^state=-4^EQ</value>
+    </sys_element_mapping>
+</record_update>

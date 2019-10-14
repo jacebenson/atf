@@ -87,6 +87,18 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9ff063d8db64401032ffe1bb4b96197d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>9ff063d8db64401032ffe1bb4b96197d</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:46:40</sys_created_on>
+        <sys_id>1a102d2cdb6c401032ffe1bb4b96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:46:40</sys_updated_on>
+        <table>var__m_atf_input_variable_8df72288df60220062fe6c7a4df2636d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record_id</field>
         <id>9ff063d8db64401032ffe1bb4b96197d</id>
         <sys_created_by>djkersch</sys_created_by>
