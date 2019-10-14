@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from/>
+        <copied_from display_value="Create a User">328e61acdbac401032ffe1bb4b961953</copied_from>
         <description>Create and impersonate user 'ATF admin User'
 With roles: admin</description>
         <display_name>Create a User</display_name>
@@ -14,139 +14,115 @@ With roles: admin</description>
         <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>328e61acdbac401032ffe1bb4b961953</sys_id>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>ccc53568dbec401032ffe1bb4b9619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Create a User</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
-        <sys_update_name>sys_atf_step_328e61acdbac401032ffe1bb4b961953</sys_update_name>
+        <sys_update_name>sys_atf_step_ccc53568dbec401032ffe1bb4b9619e4</sys_update_name>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
         <table/>
-        <test display_value="CSM - Portal - UI - Create Product Case as a Customer on Portal">e26cade8dbac401032ffe1bb4b961977</test>
+        <test display_value="CSM - Portal - UI - Create Product Case as a Partner on Portal">48c53568dbec401032ffe1bb4b9619e1</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=328e61acdbac401032ffe1bb4b961953"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ccc53568dbec401032ffe1bb4b9619e4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>328e61acdbac401032ffe1bb4b961953</document_key>
+        <document_key>ccc53568dbec401032ffe1bb4b9619e4</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>229ee5acdbac401032ffe1bb4b961968</sys_id>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>18c53568dbec401032ffe1bb4b9619e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
         <value>2831a114c611228501d4ea6c309d626d</value>
         <variable display_value="">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>328e61acdbac401032ffe1bb4b961953</document_key>
+        <document_key>ccc53568dbec401032ffe1bb4b9619e4</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>6a9ee5acdbac401032ffe1bb4b961968</sys_id>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>40c53568dbec401032ffe1bb4b9619e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
-        <value>ATF admin</value>
-        <variable display_value="">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_atf_step</document>
-        <document_key>328e61acdbac401032ffe1bb4b961953</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>6e9ee5acdbac401032ffe1bb4b961967</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
         <value>1</value>
         <variable display_value="">98c44875ffa033008d3f5d9ad53bf1fa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>328e61acdbac401032ffe1bb4b961953</document_key>
+        <document_key>ccc53568dbec401032ffe1bb4b9619e4</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>a69ee5acdbac401032ffe1bb4b961968</sys_id>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>50c53568dbec401032ffe1bb4b9619e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
+        <value>ATF admin</value>
+        <variable display_value="">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ccc53568dbec401032ffe1bb4b9619e4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>9cc53568dbec401032ffe1bb4b9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
         <value>User</value>
         <variable display_value="">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>328e61acdbac401032ffe1bb4b961953</document_key>
+        <document_key>ccc53568dbec401032ffe1bb4b9619e4</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>e29ee5acdbac401032ffe1bb4b961968</sys_id>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>d8c53568dbec401032ffe1bb4b9619e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
         <value/>
         <variable display_value="">b27b2b29ff6033008d3f5d9ad53bf164</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=328e61acdbac401032ffe1bb4b961953"/>
+    <sys_element_mapping action="delete_multiple" query="id=ccc53568dbec401032ffe1bb4b9619e4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>first_name</field>
-        <id>328e61acdbac401032ffe1bb4b961953</id>
+        <id>ccc53568dbec401032ffe1bb4b9619e4</id>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>2a9ee5acdbac401032ffe1bb4b961967</sys_id>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>9cc53568dbec401032ffe1bb4b9619e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
         <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
         <value>ATF admin</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>groups</field>
-        <id>328e61acdbac401032ffe1bb4b961953</id>
-        <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>a29ee5acdbac401032ffe1bb4b961967</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
-        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>last_name</field>
-        <id>328e61acdbac401032ffe1bb4b961953</id>
+        <id>ccc53568dbec401032ffe1bb4b9619e4</id>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>669ee5acdbac401032ffe1bb4b961967</sys_id>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>d4c53568dbec401032ffe1bb4b9619e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
+        <sys_updated_on>2019-10-14 05:21:17</sys_updated_on>
         <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
         <value>User</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>roles</field>
-        <id>328e61acdbac401032ffe1bb4b961953</id>
-        <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-10-14 04:50:02</sys_created_on>
-        <sys_id>ea9ee5acdbac401032ffe1bb4b961967</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-10-14 04:50:02</sys_updated_on>
-        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
-        <value/>
     </sys_element_mapping>
 </record_update>
