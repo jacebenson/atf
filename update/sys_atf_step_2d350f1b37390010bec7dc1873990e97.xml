@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: q' = case
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"35b4fcbb31fa423339775fc89cf2bf07":"{\"area\":\"Find Answers, Faster/Search (minimum 3 characters)\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: q\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt;: q with value Search (minimum 3 characters) in page area Find Answers, Faster/Search (minimum 3 characters)\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"q\",\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"q\",\"sn_atf_mugshot_value\":\"Search (minimum 3 characters)\",\"tag\":\"input\",\"isDisabled\":false,\"placeholder\":\"Search (minimum 3 characters)\",\"aria-label\":\"Search (minimum 3 characters)\",\"hash\":\"35b4fcbb31fa423339775fc89cf2bf07\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot display_value="edfbf4eb824bb3d51401625a635a4a7c">6606479b37390010bec7dc1873990e2c</snapshot>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:30:24</sys_created_on>
+        <sys_id>2d350f1b37390010bec7dc1873990e97</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_2d350f1b37390010bec7dc1873990e97</sys_update_name>
+        <sys_updated_by>c1064b9b37390010bec7dc1873990e2c</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:33:51</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Search On Homepage">1d34039737390010bec7dc1873990e84</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2d350f1b37390010bec7dc1873990e97"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2d350f1b37390010bec7dc1873990e97</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:30:24</sys_created_on>
+        <sys_id>8445871b37390010bec7dc1873990ee0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:30:24</sys_updated_on>
+        <value>35b4fcbb31fa423339775fc89cf2bf07=case^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>
