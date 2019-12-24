@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from display_value="Assert Text on Page (Custom UI)">62451e48db60001032ffe1bb4b961969</copied_from>
+        <description>Assert that the text 'Case opened for customer' is on the page.
+With a failure timeout of 5 Seconds</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Ignore: Validate 'Case opened for customer' notification preference is available within timeout of 5sec</notes>
+        <order>10</order>
+        <snapshot/>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>e0509f1b37790010bec7dc1873990e5b</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_e0509f1b37790010bec7dc1873990e5b</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:58</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e0509f1b37790010bec7dc1873990e5b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0509f1b37790010bec7dc1873990e5b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>2c509f1b37790010bec7dc1873990e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0509f1b37790010bec7dc1873990e5b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>ec509f1b37790010bec7dc1873990e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>Case opened for customer</value>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e0509f1b37790010bec7dc1873990e5b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>e0509f1b37790010bec7dc1873990e5b</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>e0509f1b37790010bec7dc1873990e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
+        <value>Case opened for customer</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_e0509f1b37790010bec7dc1873990e5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from display_value="Assert Text on Page (Custom UI)">62451e48db60001032ffe1bb4b961969</copied_from><description>Assert that the text 'Case opened for customer' is on the page.
+With a failure timeout of 5 Seconds</description><display_name>Assert Text on Page (Custom UI)</display_name><inputs/><inputs/><mugshots_cache_json/><notes>Ignore: Validate 'Case opened for customer' notification preference is available within timeout of 5sec</notes><order>10</order><snapshot/><step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>e0509f1b37790010bec7dc1873990e5b</sys_id><sys_mod_count>33</sys_mod_count><sys_name>Assert Text on Page (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_e0509f1b37790010bec7dc1873990e5b</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:51:58</sys_updated_on><table/><test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=e0509f1b37790010bec7dc1873990e5b"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e0509f1b37790010bec7dc1873990e5b</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>2c509f1b37790010bec7dc1873990e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>text_on_page</value><variable display_value="">86e4f05cd703130089fca2285e610307</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e0509f1b37790010bec7dc1873990e5b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>ec509f1b37790010bec7dc1873990e5b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>Case opened for customer</value><variable display_value="">1c267c5cd703130089fca2285e61035b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=e0509f1b37790010bec7dc1873990e5b"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>text</field><id>e0509f1b37790010bec7dc1873990e5b</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>e0509f1b37790010bec7dc1873990e5c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table><value>Case opened for customer</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-397804899</payload_hash>
+        <record_name>Assert Text on Page (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:58</sys_created_on>
+        <sys_id>fae79b9337b90010bec7dc1873990e14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f363f57030000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:58</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>76e79b93a0b90010f478009c24853014</update_guid>
+        <update_guid_history>76e79b93a0b90010f478009c24853014:-397804899,7ee75b930bb90010b2671a87829dc0e3:-365356100,aae75b93a5b9001021e0a5df4d0b22b3:-332907301,2ee75b9375b900100ec1a053031d848b:-300458502,92e75b931eb90010d4e65a8b00ac1c4f:-268009703,06e71b9375b90010bbd0e214354d8ec5:-235560904,f9e71b93d7b900105f68d88ac71bd598:-203112105,ede71b9342b90010f3c7631e23c85736:-170663306,d5e7d79352b900104edd5b0ab8f908dd:-138214507,1b97539304b900108293ac3be390765b:-105765708,ac371b53e7b900108de2b1e1b28b1d12:-138214507,6f061313ddb90010e65303989ab90ff1:-105765708,a2f41b9f47790010789d88d72b1d10e0:-138214507,6294939fb67900102c9bab6aba85b08f:-170663306,db33971f65790010e45e9afc7d2e3a42:-138214507,4b825bdb26790010153da9822bf22e32:-170663306,0a81979bae790010c27b44c9ed2fd72b:429802383,28509f1b46790010d4ea9b3a786b275d:-1265335496</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>5154d16f6f194d00839ff94ae2924000</sys_id>
+        <sys_metadata>e0509f1b37790010bec7dc1873990e5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_e0509f1b37790010bec7dc1873990e5b</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_e0509f1b37790010bec7dc1873990e5b">fae79b9337b90010bec7dc1873990e14</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

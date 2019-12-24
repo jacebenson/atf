@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Assert Text on Page (Custom UI)">62eb7a1f37f50010bec7dc1873990eaa</copied_from>
+        <description>Assert that the text 'Thanks for taking the survey, your opinion counts!' is on the page.
+With a failure timeout of 5 Seconds</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>11</order>
+        <snapshot display_value="3d775e395783d8080403abdc9b6536a1">ef60c79337390010bec7dc1873990e78</snapshot>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>e7fe83d737790010bec7dc1873990eed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_e7fe83d737790010bec7dc1873990eed</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:13:38</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Accept Proposed Solution On Case">c3fe0f9737790010bec7dc1873990e37</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e7fe83d737790010bec7dc1873990eed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e7fe83d737790010bec7dc1873990eed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>a7fe83d737790010bec7dc1873990eee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <value>Thanks for taking the survey, your opinion counts!</value>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e7fe83d737790010bec7dc1873990eed</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>e3fe83d737790010bec7dc1873990eee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e7fe83d737790010bec7dc1873990eed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>e7fe83d737790010bec7dc1873990eed</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>2ffe83d737790010bec7dc1873990eee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
+        <value>Thanks for taking the survey, your opinion counts!</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_e7fe83d737790010bec7dc1873990eed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Assert Text on Page (Custom UI)">62eb7a1f37f50010bec7dc1873990eaa</copied_from><description>Assert that the text 'Thanks for taking the survey, your opinion counts!' is on the page.
+With a failure timeout of 5 Seconds</description><display_name>Assert Text on Page (Custom UI)</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>11</order><snapshot display_value="3d775e395783d8080403abdc9b6536a1">ef60c79337390010bec7dc1873990e78</snapshot><step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:12:57</sys_created_on><sys_id>e7fe83d737790010bec7dc1873990eed</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Assert Text on Page (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_e7fe83d737790010bec7dc1873990eed</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:13:38</sys_updated_on><table/><test display_value="CSM - Portal - UI - Accept Proposed Solution On Case">c3fe0f9737790010bec7dc1873990e37</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=e7fe83d737790010bec7dc1873990eed"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e7fe83d737790010bec7dc1873990eed</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:12:57</sys_created_on><sys_id>a7fe83d737790010bec7dc1873990eee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:12:57</sys_updated_on><value>Thanks for taking the survey, your opinion counts!</value><variable display_value="">1c267c5cd703130089fca2285e61035b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e7fe83d737790010bec7dc1873990eed</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:12:57</sys_created_on><sys_id>e3fe83d737790010bec7dc1873990eee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:12:57</sys_updated_on><value>text_on_page</value><variable display_value="">86e4f05cd703130089fca2285e610307</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=e7fe83d737790010bec7dc1873990eed"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>text</field><id>e7fe83d737790010bec7dc1873990eed</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:12:57</sys_created_on><sys_id>2ffe83d737790010bec7dc1873990eee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:12:57</sys_updated_on><table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table><value>Thanks for taking the survey, your opinion counts!</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-2028067142</payload_hash>
+        <record_name>Assert Text on Page (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:13:38</sys_created_on>
+        <sys_id>6d2f47d737790010bec7dc1873990eca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f361c3fbf0000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:13:38</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>e52f47d7fd790010c9e43bad112859ca</update_guid>
+        <update_guid_history>e52f47d7fd790010c9e43bad112859ca:-2028067142,e3fe83d7de7900107333a33ac4b726f0:-284098757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:13:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>812a752f03234b7b940a95aa993dd3a1</sys_id>
+        <sys_metadata>e7fe83d737790010bec7dc1873990eed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_e7fe83d737790010bec7dc1873990eed</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_e7fe83d737790010bec7dc1873990eed">6d2f47d737790010bec7dc1873990eca</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:13:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="CSM: Create Product Case as Customer from CSM Portal">c6580e7adb552300c11df7b51d9619ed</copied_from>
+        <description>This test would create a Product Case from CSM portal as a customer. Note: OOB a customer doesn't have view access to the record so this will create it, but they don't have access to view it.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>CSM - Portal - UI - Create Product Case as a Customer on Portal</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:40:28</sys_created_on>
+        <sys_id>e26cade8dbac401032ffe1bb4b961977</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CSM - Portal - UI - Create Product Case as a Customer on Portal</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_test_e26cade8dbac401032ffe1bb4b961977</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:20:24</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=e26cade8dbac401032ffe1bb4b961977"/>
+</record_update>

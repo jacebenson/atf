@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that browser submits 'Case' form to server within 5 Seconds of clicking UI Action 'Save'.</description>
+        <display_name>Click a UI Action</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-23 23:18:28</sys_created_on>
+        <sys_id>f08b4adf37f10010bec7dc1873990eb6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_f08b4adf37f10010bec7dc1873990eb6</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-23 23:22:36</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <test display_value="CSM - Case - UI - Escalate a Case">83aa0a9f37f10010bec7dc1873990e6a</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f08b4adf37f10010bec7dc1873990eb6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f08b4adf37f10010bec7dc1873990eb6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-23 23:18:28</sys_created_on>
+        <sys_id>6d9b421337350010bec7dc1873990e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-23 23:18:28</sys_updated_on>
+        <value>sn_customerservice_case</value>
+        <variable display_value="">3eee292353e0220002c6435723dc343c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f08b4adf37f10010bec7dc1873990eb6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-23 23:18:28</sys_created_on>
+        <sys_id>a59b421337350010bec7dc1873990e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-23 23:18:28</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">7600f16353e0220002c6435723dc34d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f08b4adf37f10010bec7dc1873990eb6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-23 23:18:28</sys_created_on>
+        <sys_id>a99b421337350010bec7dc1873990e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-23 23:18:28</sys_updated_on>
+        <value>c2403034c33231005f76b2c712d3ae86</value>
+        <variable display_value="">7c5f6d2353e0220002c6435723dc34f6</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_f08b4adf37f10010bec7dc1873990eb6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Confirm that browser submits 'Case' form to server within 5 Seconds of clicking UI Action 'Save'.</description><display_name>Click a UI Action</display_name><inputs/><mugshots_cache_json/><notes/><order>5</order><snapshot/><step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-23 23:18:28</sys_created_on><sys_id>f08b4adf37f10010bec7dc1873990eb6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Click a UI Action</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_f08b4adf37f10010bec7dc1873990eb6</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-23 23:22:36</sys_updated_on><table>sn_customerservice_case</table><test display_value="CSM - Case - UI - Escalate a Case">83aa0a9f37f10010bec7dc1873990e6a</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=f08b4adf37f10010bec7dc1873990eb6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f08b4adf37f10010bec7dc1873990eb6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-23 23:18:28</sys_created_on><sys_id>6d9b421337350010bec7dc1873990e18</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-23 23:18:28</sys_updated_on><value>sn_customerservice_case</value><variable display_value="">3eee292353e0220002c6435723dc343c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f08b4adf37f10010bec7dc1873990eb6</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-23 23:18:28</sys_created_on><sys_id>a59b421337350010bec7dc1873990e18</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-23 23:18:28</sys_updated_on><value>form_submitted_to_server</value><variable display_value="">7600f16353e0220002c6435723dc34d5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>f08b4adf37f10010bec7dc1873990eb6</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-23 23:18:28</sys_created_on><sys_id>a99b421337350010bec7dc1873990e18</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-23 23:18:28</sys_updated_on><value>c2403034c33231005f76b2c712d3ae86</value><variable display_value="">7c5f6d2353e0220002c6435723dc34f6</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>889313138</payload_hash>
+        <record_name>Click a UI Action</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-23 23:22:36</sys_created_on>
+        <sys_id>1a8c8a5337350010bec7dc1873990e9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f3511ccea0000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-23 23:22:36</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>928c8a534f350010ce319da4ab4d329d</update_guid>
+        <update_guid_history>928c8a534f350010ce319da4ab4d329d:889313138,a59b4213e53500102dfd3b944bcf831a:1272990867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-23 23:22:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>cee0f3d6bdea4d6a9060b1513e3febe9</sys_id>
+        <sys_metadata>f08b4adf37f10010bec7dc1873990eb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_f08b4adf37f10010bec7dc1873990eb6</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_f08b4adf37f10010bec7dc1873990eb6">1a8c8a5337350010bec7dc1873990e9d</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-23 23:22:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

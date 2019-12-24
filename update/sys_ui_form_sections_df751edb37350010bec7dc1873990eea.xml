@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="df751edb37350010bec7dc1873990eea" sys_domain="global" table="customer_account" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>djkersch</sys_created_by>
+            <sys_created_on>2019-12-24 00:01:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13755edb37350010bec7dc1873990e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="7279b39237110010bec7dc1873990e4d">df751edb37350010bec7dc1873990eea</sys_ui_form>
+            <sys_ui_section caption="Company" display_value="Company" name="customer_account" sys_domain="global" view="7279b39237110010bec7dc1873990e4d">d7751edb37350010bec7dc1873990ef1</sys_ui_section>
+            <sys_updated_by>djkersch</sys_updated_by>
+            <sys_updated_on>2019-12-24 00:01:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>djkersch</sys_created_by>
+            <sys_created_on>2019-12-24 00:01:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3751edb37350010bec7dc1873990ef1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="7279b39237110010bec7dc1873990e4d">df751edb37350010bec7dc1873990eea</sys_ui_form>
+            <sys_ui_section caption="Information" display_value="Information" name="customer_account" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">1f751edb37350010bec7dc1873990eec</sys_ui_section>
+            <sys_updated_by>djkersch</sys_updated_by>
+            <sys_updated_on>2019-12-24 00:01:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>customer_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>djkersch</sys_created_by>
+            <sys_created_on>2019-12-24 00:01:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df751edb37350010bec7dc1873990eea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_df751edb37350010bec7dc1873990eea</sys_update_name>
+            <sys_updated_by>djkersch</sys_updated_by>
+            <sys_updated_on>2019-12-24 00:01:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Sys_popup,vendor" name="sys_popup,vendor">7279b39237110010bec7dc1873990e4d</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

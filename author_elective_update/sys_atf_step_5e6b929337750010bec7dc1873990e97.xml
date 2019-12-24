@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open a new 'Time Worked' form</description>
+        <display_name>Open a New Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:27:44</sys_created_on>
+        <sys_id>5e6b929337750010bec7dc1873990e97</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_5e6b929337750010bec7dc1873990e97</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:34:55</sys_updated_on>
+        <table>task_time_worked</table>
+        <test display_value="CSM - Time Worked - UI -  Time Recording">40ea5a5337750010bec7dc1873990e7c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5e6b929337750010bec7dc1873990e97"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5e6b929337750010bec7dc1873990e97</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:27:44</sys_created_on>
+        <sys_id>907b529337750010bec7dc1873990ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:27:44</sys_updated_on>
+        <value/>
+        <variable display_value="">27d4e1c25320220002c6435723dc3486</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5e6b929337750010bec7dc1873990e97</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:27:44</sys_created_on>
+        <sys_id>947b529337750010bec7dc1873990ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:27:44</sys_updated_on>
+        <value>task_time_worked</value>
+        <variable display_value="">bb84ed825320220002c6435723dc3400</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_5e6b929337750010bec7dc1873990e97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open a new 'Time Worked' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:27:44</sys_created_on><sys_id>5e6b929337750010bec7dc1873990e97</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_5e6b929337750010bec7dc1873990e97</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:34:55</sys_updated_on><table>task_time_worked</table><test display_value="CSM - Time Worked - UI -  Time Recording">40ea5a5337750010bec7dc1873990e7c</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=5e6b929337750010bec7dc1873990e97"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>5e6b929337750010bec7dc1873990e97</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:27:44</sys_created_on><sys_id>907b529337750010bec7dc1873990ea8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:27:44</sys_updated_on><value/><variable display_value="">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>5e6b929337750010bec7dc1873990e97</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:27:44</sys_created_on><sys_id>947b529337750010bec7dc1873990ea8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:27:44</sys_updated_on><value>task_time_worked</value><variable display_value="">bb84ed825320220002c6435723dc3400</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1634621913</payload_hash>
+        <record_name>Open a New Form</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:34:55</sys_created_on>
+        <sys_id>211d921737750010bec7dc1873990e96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f355401c60000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:34:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>a91d92179d7500105511698268105695</update_guid>
+        <update_guid_history>a91d92179d7500105511698268105695:-1634621913,089b56933c7500104547afd8213fe2d9:145954022,987bd2931f750010654147b6b4c104c0:1926529957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:35:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>4f7d272621f24438a53568d1fb827164</sys_id>
+        <sys_metadata>5e6b929337750010bec7dc1873990e97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_5e6b929337750010bec7dc1873990e97</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_5e6b929337750010bec7dc1873990e97">211d921737750010bec7dc1873990e96</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:35:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

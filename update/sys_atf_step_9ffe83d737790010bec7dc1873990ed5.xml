@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Open Service Portal Page">d686325737f50010bec7dc1873990e83</copied_from>
+        <description>Open Ticket Form for Case page in the Customer Support portal with the following query params:
+sys_id = {​{Step 5: Run Server Side Script.Output String}}
+table = sn_customerservice_case
+</description>
+        <display_name>Open Service Portal Page</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <snapshot display_value="0356aa23bb47e452e78b9030dbfd502d">d860479337390010bec7dc1873990ee8</snapshot>
+        <step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:56</sys_created_on>
+        <sys_id>9ffe83d737790010bec7dc1873990ed5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_9ffe83d737790010bec7dc1873990ed5</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Accept Proposed Solution On Case">c3fe0f9737790010bec7dc1873990e37</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=9ffe83d737790010bec7dc1873990ed5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9ffe83d737790010bec7dc1873990ed5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>17fe83d737790010bec7dc1873990ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <value>89275a53cb13020000f8d856634c9c51</value>
+        <variable display_value="">5a7e65d577332300e46abe41a91061cb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9ffe83d737790010bec7dc1873990ed5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>53fe83d737790010bec7dc1873990ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <value>{"sys_id":"{​{Step 5: Run Server Side Script.Output String}}","table":"sn_customerservice_case"}</value>
+        <variable display_value="">839e29d577332300e46abe41a9106134</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9ffe83d737790010bec7dc1873990ed5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>9ffe83d737790010bec7dc1873990ed6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <value>65285631c3a1120058879f2974d3aeed</value>
+        <variable display_value="">ca8ea5d577332300e46abe41a91061b6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9ffe83d737790010bec7dc1873990ed5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>9ffe83d737790010bec7dc1873990ed5</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:12:57</sys_created_on>
+        <sys_id>9bfe83d737790010bec7dc1873990ed7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:12:57</sys_updated_on>
+        <table>var__m_atf_input_variable_fc7e65d577332300e46abe41a9106106</table>
+        <value>{"sys_id":"{{step['5bfe83d737790010bec7dc1873990eb9'].u_output_string}}","table":"sn_customerservice_case"}</value>
+    </sys_element_mapping>
+</record_update>

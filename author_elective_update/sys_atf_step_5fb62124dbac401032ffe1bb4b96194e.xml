@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open the 'Change Request' form with id '{{Step 7: Record Query.First record}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>20</order>
+        <snapshot/>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:03</sys_created_on>
+        <sys_id>5fb62124dbac401032ffe1bb4b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_5fb62124dbac401032ffe1bb4b96194e</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:03</sys_updated_on>
+        <table>change_request</table>
+        <test display_value="CSM - Case - Service Management - UI - Create CHG from  Case">7910a92cdb6c401032ffe1bb4b961954</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5fb62124dbac401032ffe1bb4b96194e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5fb62124dbac401032ffe1bb4b96194e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:05</sys_created_on>
+        <sys_id>15d62d24dbac401032ffe1bb4b96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:05</sys_updated_on>
+        <value>change_request</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5fb62124dbac401032ffe1bb4b96194e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:05</sys_created_on>
+        <sys_id>51d62d24dbac401032ffe1bb4b96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:05</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5fb62124dbac401032ffe1bb4b96194e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:05</sys_created_on>
+        <sys_id>99d62d24dbac401032ffe1bb4b96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fb62124dbac401032ffe1bb4b96194e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>5fb62124dbac401032ffe1bb4b96194e</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:05</sys_created_on>
+        <sys_id>51d62d24dbac401032ffe1bb4b96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:05</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['7110e92cdb6c401032ffe1bb4b9619ad'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>5fb62124dbac401032ffe1bb4b96194e</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:05</sys_created_on>
+        <sys_id>19d62d24dbac401032ffe1bb4b96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:05</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>d385b567dbeadb00536ad5b0cf961957</instance_id>
+        <instance_name>dev61134</instance_name>
+        <name>sys_atf_step_5fb62124dbac401032ffe1bb4b96194e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open the 'Change Request' form with id '{{Step 7: Record Query.First record}}'</description><display_name>Open an Existing Record</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>20</order><snapshot/><step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:16:03</sys_created_on><sys_id>5fb62124dbac401032ffe1bb4b96194e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open an Existing Record</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_5fb62124dbac401032ffe1bb4b96194e</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:16:03</sys_updated_on><table>change_request</table><test display_value="CSM - Case - Service Management - UI - Create CHG from  Case">7910a92cdb6c401032ffe1bb4b961954</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=5fb62124dbac401032ffe1bb4b96194e"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>5fb62124dbac401032ffe1bb4b96194e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:16:05</sys_created_on><sys_id>15d62d24dbac401032ffe1bb4b96191f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:16:05</sys_updated_on><value>change_request</value><variable display_value="">b124164e53a0220002c6435723dc34c5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>5fb62124dbac401032ffe1bb4b96194e</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:16:05</sys_created_on><sys_id>51d62d24dbac401032ffe1bb4b96191f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:16:05</sys_updated_on><value/><variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>5fb62124dbac401032ffe1bb4b96194e</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:16:05</sys_created_on><sys_id>99d62d24dbac401032ffe1bb4b96191e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:16:05</sys_updated_on><value/><variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=5fb62124dbac401032ffe1bb4b96194e"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>5fb62124dbac401032ffe1bb4b96194e</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:16:05</sys_created_on><sys_id>51d62d24dbac401032ffe1bb4b96191e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:16:05</sys_updated_on><table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table><value>{{step['7110e92cdb6c401032ffe1bb4b9619ad'].first_record}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>view</field><id>5fb62124dbac401032ffe1bb4b96194e</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 04:16:05</sys_created_on><sys_id>19d62d24dbac401032ffe1bb4b96191e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 04:16:05</sys_updated_on><table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table><value/></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1132743249</payload_hash>
+        <record_name>Open an Existing Record</record_name>
+        <reverted_from/>
+        <source>d6bd1794db64401032ffe1bb4b9619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:05</sys_created_on>
+        <sys_id>15d62d24dbac401032ffe1bb4b961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dc87afa820000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:05</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>5dd62d242eac4010952b9647e02c4720</update_guid>
+        <update_guid_history>5dd62d242eac4010952b9647e02c4720:-1132743249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 04:16:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0a3be5882b6648b3870726ecebbdb389</sys_id>
+        <sys_metadata>5fb62124dbac401032ffe1bb4b96194e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_5fb62124dbac401032ffe1bb4b96194e</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_5fb62124dbac401032ffe1bb4b96194e">15d62d24dbac401032ffe1bb4b961921</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 04:16:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

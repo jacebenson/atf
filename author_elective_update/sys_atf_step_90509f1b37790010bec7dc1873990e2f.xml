@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from display_value="Click Component (Custom UI)">2a451e48db60001032ffe1bb4b961932</copied_from>
+        <description>Click the component: 'Button &lt;span&gt;: geo.warren@mailinator.com'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"ad288185eba43c2d4eff5436b9a2949e":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;span&gt;: geo.warren@mailinator.com\",\"inner_text\":\"geo.warren@mailinator.com\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;span&gt;: geo.warren@mailinator.com in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"geo.warren@mailinator.com\",\"index\":0,\"get_value_result\":\"geo.warren@mailinator.com\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;span&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"span\",\"isDisabled\":false,\"hash\":\"ad288185eba43c2d4eff5436b9a2949e\"}"}</mugshots_cache_json>
+        <notes>Updating Email address</notes>
+        <order>10</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>90509f1b37790010bec7dc1873990e2f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_90509f1b37790010bec7dc1873990e2f</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:50:38</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=90509f1b37790010bec7dc1873990e2f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>90509f1b37790010bec7dc1873990e2f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>9c509f1b37790010bec7dc1873990e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>ad288185eba43c2d4eff5436b9a2949e</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_90509f1b37790010bec7dc1873990e2f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from display_value="Click Component (Custom UI)">2a451e48db60001032ffe1bb4b961932</copied_from><description>Click the component: 'Button &lt;span&gt;: geo.warren@mailinator.com'</description><display_name>Click Component (Custom UI)</display_name><inputs/><mugshots_cache_json>{"ad288185eba43c2d4eff5436b9a2949e":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;span&gt;: geo.warren@mailinator.com\",\"inner_text\":\"geo.warren@mailinator.com\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;span&gt;: geo.warren@mailinator.com in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"geo.warren@mailinator.com\",\"index\":0,\"get_value_result\":\"geo.warren@mailinator.com\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;span&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"span\",\"isDisabled\":false,\"hash\":\"ad288185eba43c2d4eff5436b9a2949e\"}"}</mugshots_cache_json><notes>Updating Email address</notes><order>10</order><snapshot/><step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>90509f1b37790010bec7dc1873990e2f</sys_id><sys_mod_count>15</sys_mod_count><sys_name>Click Component (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_90509f1b37790010bec7dc1873990e2f</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:50:38</sys_updated_on><table/><test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=90509f1b37790010bec7dc1873990e2f"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>90509f1b37790010bec7dc1873990e2f</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>9c509f1b37790010bec7dc1873990e2f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>ad288185eba43c2d4eff5436b9a2949e</value><variable display_value="">ee05588b73730300c79260bdfaf6a749</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>180143558</payload_hash>
+        <record_name>Click Component (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:50:38</sys_created_on>
+        <sys_id>5397539337b90010bec7dc1873990e98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f363e1e3c0000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:50:38</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>db975393adb90010bafa63eceb9a5197</update_guid>
+        <update_guid_history>db975393adb90010bafa63eceb9a5197:180143558,2037d7533ab90010bdc5bfff79dbf0ef:417616680,f70653137ab90010e817660d29ca373a:180143558,3af45b9fba7900108a7a77932dbcb203:417616680,9294939f98790010c71e97ec43b34352:461272201,a333971f627900104c4202a9869bd366:417616680,10821bdb5d7900107a22a8d0f7bf6d6d:461272201,f181579b6679001092959b78fbd369fb:307492002,10509f1b26790010374bba1e50ac9331:-1303677497</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>26d16c8dda984367b125bf3261262ac9</sys_id>
+        <sys_metadata>90509f1b37790010bec7dc1873990e2f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_90509f1b37790010bec7dc1873990e2f</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_90509f1b37790010bec7dc1873990e2f">5397539337b90010bec7dc1873990e98</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

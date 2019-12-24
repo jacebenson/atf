@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Open Service Portal Page">26451e48db60001032ffe1bb4b96191f</copied_from>
+        <description>Open Profile page in the Customer Service portal</description>
+        <display_name>Open Service Portal Page</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Open the csm_profile page</notes>
+        <order>5</order>
+        <snapshot display_value="57db92109e39367ca9a26b8adaecea8e">2687df5337b90010bec7dc1873990e28</snapshot>
+        <step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:44</sys_created_on>
+        <sys_id>5c509f1b37790010bec7dc1873990e1a</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_5c509f1b37790010bec7dc1873990e1a</sys_update_name>
+        <sys_updated_by>45879f5337b90010bec7dc1873990ef5</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:50:18</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5c509f1b37790010bec7dc1873990e1a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c509f1b37790010bec7dc1873990e1a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:44</sys_created_on>
+        <sys_id>58509f1b37790010bec7dc1873990e1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:19:50</sys_updated_on>
+        <value>2086b814c3221200f3897bfaa2d3aea8</value>
+        <variable display_value="">5a7e65d577332300e46abe41a91061cb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c509f1b37790010bec7dc1873990e1a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:44</sys_created_on>
+        <sys_id>94509f1b37790010bec7dc1873990e1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:44</sys_updated_on>
+        <value/>
+        <variable display_value="">839e29d577332300e46abe41a9106134</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c509f1b37790010bec7dc1873990e1a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:44</sys_created_on>
+        <sys_id>d0509f1b37790010bec7dc1873990e1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:24:40</sys_updated_on>
+        <value>3cb70b6bc332120071d07bfaa2d3ae4d</value>
+        <variable display_value="">ca8ea5d577332300e46abe41a91061b6</variable>
+    </sys_variable_value>
+</record_update>

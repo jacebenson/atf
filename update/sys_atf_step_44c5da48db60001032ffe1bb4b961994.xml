@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Update a record in 'sys_user' with the following values:
+Class = Contact
+and Email = geo.warren@mailinator.com
+and Business phone = +1 858 287 7834
+Confirm the record was successfully updated
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Record Update</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Update the user to be a contact user and set some default fields</notes>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:47</sys_created_on>
+        <sys_id>44c5da48db60001032ffe1bb4b961994</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_44c5da48db60001032ffe1bb4b961994</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:18:34</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
+        <timeout/>
+        <warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=44c5da48db60001032ffe1bb4b961994"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44c5da48db60001032ffe1bb4b961994</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:48</sys_created_on>
+        <sys_id>06e5d688db60001032ffe1bb4b9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:24:48</sys_updated_on>
+        <value/>
+        <variable display_value="">501c8f535320220002c6435723dc34da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44c5da48db60001032ffe1bb4b961994</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:48</sys_created_on>
+        <sys_id>42e5d688db60001032ffe1bb4b9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:24:48</sys_updated_on>
+        <value>record_successfully_updated</value>
+        <variable display_value="">334b7bb7675003007ba405225685ef72</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44c5da48db60001032ffe1bb4b961994</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:48</sys_created_on>
+        <sys_id>4ee5d688db60001032ffe1bb4b9619b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:26:48</sys_updated_on>
+        <value>sys_class_name=customer_contact^email=geo.warren@mailinator.com^phone=+1 858 287 7834^EQ</value>
+        <variable display_value="">bc4c43935320220002c6435723dc34a2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44c5da48db60001032ffe1bb4b961994</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:48</sys_created_on>
+        <sys_id>8ae5d688db60001032ffe1bb4b9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:24:48</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="">53fb0f535320220002c6435723dc34ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44c5da48db60001032ffe1bb4b961994</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:48</sys_created_on>
+        <sys_id>c6e5d688db60001032ffe1bb4b9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:24:48</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">46dbcb535320220002c6435723dc3409</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=44c5da48db60001032ffe1bb4b961994"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>44c5da48db60001032ffe1bb4b961994</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:48</sys_created_on>
+        <sys_id>cee5d688db60001032ffe1bb4b9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:24:48</sys_updated_on>
+        <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>44c5da48db60001032ffe1bb4b961994</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:24:48</sys_created_on>
+        <sys_id>0ee5d688db60001032ffe1bb4b9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:24:48</sys_updated_on>
+        <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+        <value>{{step['5c955288db60001032ffe1bb4b961923'].user}}</value>
+    </sys_element_mapping>
+</record_update>

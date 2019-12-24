@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;button&gt;: Submit'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"14652f7a545ff7ac943ee73cc3989a99":"{\"area\":\"Take Survey\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Submit\",\"inner_text\":\"Submit\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Submit in page area Take Survey\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Submit\",\"index\":1,\"type\":\"submit\",\"get_value_result\":\"Submit\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Submit\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"14652f7a545ff7ac943ee73cc3989a99\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>11</order>
+        <snapshot display_value="3d775e395783d8080403abdc9b6536a1">ef60c79337390010bec7dc1873990e78</snapshot>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 02:32:39</sys_created_on>
+        <sys_id>b8087ad737f50010bec7dc1873990e0d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_b8087ad737f50010bec7dc1873990e0d</sys_update_name>
+        <sys_updated_by>4750079337390010bec7dc1873990ec7</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:09:20</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Provide Feedback on Survey">37f1e2db37750010bec7dc1873990e0d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b8087ad737f50010bec7dc1873990e0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8087ad737f50010bec7dc1873990e0d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 02:32:39</sys_created_on>
+        <sys_id>1208bad737f50010bec7dc1873990e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 02:32:39</sys_updated_on>
+        <value>14652f7a545ff7ac943ee73cc3989a99</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

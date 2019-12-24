@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Click Component (Custom UI)">9ee5ab55777433004d957111a91061eb</copied_from>
+        <description>Click the component: 'Button &lt;span&gt;: geo.warren@mailinator.com'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"ad288185eba43c2d4eff5436b9a2949e":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;span&gt;: geo.warren@mailinator.com\",\"inner_text\":\"geo.warren@mailinator.com\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;span&gt;: geo.warren@mailinator.com in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"geo.warren@mailinator.com\",\"index\":0,\"get_value_result\":\"geo.warren@mailinator.com\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;span&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"span\",\"isDisabled\":false,\"hash\":\"ad288185eba43c2d4eff5436b9a2949e\"}"}</mugshots_cache_json>
+        <notes>Updating Email address</notes>
+        <order>9</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:06</sys_created_on>
+        <sys_id>2a451e48db60001032ffe1bb4b961932</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_2a451e48db60001032ffe1bb4b961932</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:32:29</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2a451e48db60001032ffe1bb4b961932"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2a451e48db60001032ffe1bb4b961932</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:06</sys_created_on>
+        <sys_id>26451e48db60001032ffe1bb4b961933</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:27:57</sys_updated_on>
+        <value>ad288185eba43c2d4eff5436b9a2949e</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

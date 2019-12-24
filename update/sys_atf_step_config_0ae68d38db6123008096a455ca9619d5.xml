@@ -160,7 +160,7 @@ function checkForNotification( notification, document, recipients ) {
         <sys_updated_by>jacebenson</sys_updated_by>
         <sys_updated_on>2018-10-31 21:16:41</sys_updated_on>
         <template_reminder>Checks if a notification sent appropriately.</template_reminder>
-        <type display_value="Test Step" name="sys_atf_step">2a055262e135330078502406b63333ea</type>
+        <type display_value="Test Step" name="sys_atf_step">d731482637150010bec7dc1873990e91</type>
         <wizard_redirect/>
     </sys_atf_step_config>
     <sys_translated_text action="delete_multiple" query="documentkey=0ae68d38db6123008096a455ca9619d5"/>

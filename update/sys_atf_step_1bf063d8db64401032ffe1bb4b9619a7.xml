@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Delete">6d4b29eedbd52300c11df7b51d9619e4</copied_from>
+        <description>Delete record '{{Step 26: Record Query.First record}}' and confirm record was deleted</description>
+        <display_name>Record Delete</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>29</order>
+        <snapshot/>
+        <step_config display_value="Record Delete">8df72288df60220062fe6c7a4df2636d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:20</sys_created_on>
+        <sys_id>1bf063d8db64401032ffe1bb4b9619a7</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Record Delete</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_1bf063d8db64401032ffe1bb4b9619a7</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:24:20</sys_updated_on>
+        <table>sys_journal_field</table>
+        <test display_value="CSM - Case - Service Management - UI - Create Incident from  Case">7ef06798db64401032ffe1bb4b9619fb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=1bf063d8db64401032ffe1bb4b9619a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1bf063d8db64401032ffe1bb4b9619a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:20</sys_created_on>
+        <sys_id>13f063d8db64401032ffe1bb4b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">d13d0b935320220002c6435723dc34c8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1bf063d8db64401032ffe1bb4b9619a7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:20</sys_created_on>
+        <sys_id>5ff063d8db64401032ffe1bb4b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:20</sys_updated_on>
+        <value/>
+        <variable display_value="">8f7d0f935320220002c6435723dc3471</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1bf063d8db64401032ffe1bb4b9619a7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:20</sys_created_on>
+        <sys_id>9bf063d8db64401032ffe1bb4b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:20</sys_updated_on>
+        <value>record_successfully_deleted</value>
+        <variable display_value="">c7e483f3671003007ba405225685effb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1bf063d8db64401032ffe1bb4b9619a7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:20</sys_created_on>
+        <sys_id>d3f063d8db64401032ffe1bb4b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:20</sys_updated_on>
+        <value>sys_journal_field</value>
+        <variable display_value="">3d6d8b935320220002c6435723dc349c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1bf063d8db64401032ffe1bb4b9619a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>1bf063d8db64401032ffe1bb4b9619a7</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 03:46:41</sys_created_on>
+        <sys_id>26102d2cdb6c401032ffe1bb4b9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 03:46:41</sys_updated_on>
+        <table>var__m_atf_input_variable_8df72288df60220062fe6c7a4df2636d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>1bf063d8db64401032ffe1bb4b9619a7</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-13 18:31:20</sys_created_on>
+        <sys_id>d7f063d8db64401032ffe1bb4b9619a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-13 18:31:20</sys_updated_on>
+        <table>var__m_atf_input_variable_8df72288df60220062fe6c7a4df2636d</table>
+        <value>{{step['1bf063d8db64401032ffe1bb4b961992'].first_record}}</value>
+    </sys_element_mapping>
+</record_update>

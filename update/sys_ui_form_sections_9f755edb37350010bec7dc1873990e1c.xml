@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9f755edb37350010bec7dc1873990e1c" sys_domain="global" table="customer_account" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>djkersch</sys_created_by>
+            <sys_created_on>2019-12-24 00:01:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df755edb37350010bec7dc1873990e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="customer_account" name="customer_account" sys_domain="global" view="02b3b59f37310010bec7dc1873990e39">9f755edb37350010bec7dc1873990e1c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="02b3b59f37310010bec7dc1873990e39">db755edb37350010bec7dc1873990e1e</sys_ui_section>
+            <sys_updated_by>djkersch</sys_updated_by>
+            <sys_updated_on>2019-12-24 00:01:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>customer_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>djkersch</sys_created_by>
+            <sys_created_on>2019-12-24 00:01:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f755edb37350010bec7dc1873990e1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9f755edb37350010bec7dc1873990e1c</sys_update_name>
+            <sys_updated_by>djkersch</sys_updated_by>
+            <sys_updated_on>2019-12-24 00:01:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Case" name="case">02b3b59f37310010bec7dc1873990e39</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

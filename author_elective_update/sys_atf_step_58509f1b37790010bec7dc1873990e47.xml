@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from display_value="Assert Text on Page (Custom UI)">26451e48db60001032ffe1bb4b961962</copied_from>
+        <description>Assert that the text '9876543210' is on the page.
+With a failure timeout of 60 Seconds</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validating update of Business Phone with timeout of 10secs</notes>
+        <order>14</order>
+        <snapshot/>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>58509f1b37790010bec7dc1873990e47</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_58509f1b37790010bec7dc1873990e47</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:53</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout>1970-01-01 00:01:00</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=58509f1b37790010bec7dc1873990e47"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58509f1b37790010bec7dc1873990e47</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>54509f1b37790010bec7dc1873990e48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>9876543210</value>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58509f1b37790010bec7dc1873990e47</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>90509f1b37790010bec7dc1873990e48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=58509f1b37790010bec7dc1873990e47"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>58509f1b37790010bec7dc1873990e47</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>58509f1b37790010bec7dc1873990e48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
+        <value>9876543210</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_58509f1b37790010bec7dc1873990e47</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from display_value="Assert Text on Page (Custom UI)">26451e48db60001032ffe1bb4b961962</copied_from><description>Assert that the text '9876543210' is on the page.
+With a failure timeout of 60 Seconds</description><display_name>Assert Text on Page (Custom UI)</display_name><inputs/><inputs/><mugshots_cache_json/><notes>Validating update of Business Phone with timeout of 10secs</notes><order>14</order><snapshot/><step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>58509f1b37790010bec7dc1873990e47</sys_id><sys_mod_count>21</sys_mod_count><sys_name>Assert Text on Page (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_58509f1b37790010bec7dc1873990e47</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:51:53</sys_updated_on><table/><test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test><timeout>1970-01-01 00:01:00</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=58509f1b37790010bec7dc1873990e47"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58509f1b37790010bec7dc1873990e47</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>54509f1b37790010bec7dc1873990e48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>9876543210</value><variable display_value="">1c267c5cd703130089fca2285e61035b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58509f1b37790010bec7dc1873990e47</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>90509f1b37790010bec7dc1873990e48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>text_on_page</value><variable display_value="">86e4f05cd703130089fca2285e610307</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=58509f1b37790010bec7dc1873990e47"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>text</field><id>58509f1b37790010bec7dc1873990e47</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>58509f1b37790010bec7dc1873990e48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table><value>9876543210</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1459817250</payload_hash>
+        <record_name>Assert Text on Page (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:53</sys_created_on>
+        <sys_id>fde71b9337b90010bec7dc1873990e90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f363f44f50000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:53</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>79e71b9329b90010275fad9636dce790</update_guid>
+        <update_guid_history>79e71b9329b90010275fad9636dce790:-1459817250,6de71b93c0b900100b784e8ea61ea52e:-2126599555,55e7d7935db9001033804a8bebb80bd5:1501585436,53975393c3b900107e30178c1f693670:834803131,2c371b5381b900106b1b8c303748920a:1501585436,a706531330b900107acb16c6f9d4b106:834803131,26f41b9f1279001064910dca3d987ee8:1501585436,2a94939f5879001083cf7eeef49c697a:-2126599555,5f33971f747900101f457aa2fe6e4e4a:1501585436,f682d7dbf6790010791fcf62eaf0fdcf:-2126599555,ce81979b54790010ceae1d71f75ea316:-484823978,9c509f1bbe790010738862a376510349:1958947253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>109a0e0219a148f8841a1a4ad904f040</sys_id>
+        <sys_metadata>58509f1b37790010bec7dc1873990e47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_58509f1b37790010bec7dc1873990e47</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_58509f1b37790010bec7dc1873990e47">fde71b9337b90010bec7dc1873990e90</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Click Component (Custom UI)">ee451e48db60001032ffe1bb4b96192a</copied_from>
+        <description>Click the component: 'Button &lt;button&gt;: Save'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"0fcba220ddd6fade7b5bdf2ccdaf52e9":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Save\",\"inner_text\":\"Save\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Save in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Save\",\"index\":1,\"type\":\"button\",\"get_value_result\":\"Save\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Save\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"0fcba220ddd6fade7b5bdf2ccdaf52e9\"}"}</mugshots_cache_json>
+        <notes>Save</notes>
+        <order>8</order>
+        <snapshot display_value="b78a66d0c35a84a2484ebb3a99ddd0ed">dd861b1337b90010bec7dc1873990e45</snapshot>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>18509f1b37790010bec7dc1873990e27</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_18509f1b37790010bec7dc1873990e27</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:50:48</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=18509f1b37790010bec7dc1873990e27"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>18509f1b37790010bec7dc1873990e27</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>14509f1b37790010bec7dc1873990e28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>0fcba220ddd6fade7b5bdf2ccdaf52e9</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

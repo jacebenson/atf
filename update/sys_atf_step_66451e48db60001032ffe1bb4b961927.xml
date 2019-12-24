@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Component Values (Custom UI)">999e5b11777433004d957111a910618e</copied_from>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: Last name' = Lewis
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"80227f230b2695d24e365dd159bc2be6":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Last name\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_last_name]: Last name with value Warren in page area User Profile\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Last name\",\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"Last name\"},\"get_value_result\":\"Warren\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"last_name\",\"sn_atf_mugshot_value\":\"Warren\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_last_name\",\"hash\":\"80227f230b2695d24e365dd159bc2be6\",\"html_value\":\"Warren\"}"}</mugshots_cache_json>
+        <notes>Updating Last Name to Lewis</notes>
+        <order>6</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:06</sys_created_on>
+        <sys_id>66451e48db60001032ffe1bb4b961927</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_66451e48db60001032ffe1bb4b961927</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:32:08</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Update Support Profile">aa451e48db60001032ffe1bb4b961917</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=66451e48db60001032ffe1bb4b961927"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>66451e48db60001032ffe1bb4b961927</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-12 18:22:06</sys_created_on>
+        <sys_id>66451e48db60001032ffe1bb4b961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-12 18:22:06</sys_updated_on>
+        <value>80227f230b2695d24e365dd159bc2be6=Lewis^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>

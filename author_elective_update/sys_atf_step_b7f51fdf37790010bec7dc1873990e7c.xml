@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: q' = New Last Name
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"403b8304d97f0c98f3eab2e25cf81efc":"{\"area\":\"Typeahead Search\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: q\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt;: q with value Search in page area Typeahead Search\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"q\",\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"q\",\"sn_atf_mugshot_value\":\"Search\",\"tag\":\"input\",\"isDisabled\":false,\"placeholder\":\"Search\",\"aria-label\":\"Search\",\"hash\":\"403b8304d97f0c98f3eab2e25cf81efc\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>7</order>
+        <snapshot display_value="3e7cf960fba30681cb56e2ffaafd4739">f0869b1337b90010bec7dc1873990e1f</snapshot>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:43:49</sys_created_on>
+        <sys_id>b7f51fdf37790010bec7dc1873990e7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_b7f51fdf37790010bec7dc1873990e7c</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:47:48</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b7f51fdf37790010bec7dc1873990e7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b7f51fdf37790010bec7dc1873990e7c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:43:50</sys_created_on>
+        <sys_id>3b06531337b90010bec7dc1873990e4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:43:50</sys_updated_on>
+        <value>403b8304d97f0c98f3eab2e25cf81efc=New Last Name^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_b7f51fdf37790010bec7dc1873990e7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from/><description>Set the components on the page as follows:
+'Text &lt;input&gt;: q' = New Last Name
+</description><display_name>Set Component Values (Custom UI)</display_name><inputs/><mugshots_cache_json>{"403b8304d97f0c98f3eab2e25cf81efc":"{\"area\":\"Typeahead Search\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: q\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt;: q with value Search in page area Typeahead Search\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"q\",\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"q\",\"sn_atf_mugshot_value\":\"Search\",\"tag\":\"input\",\"isDisabled\":false,\"placeholder\":\"Search\",\"aria-label\":\"Search\",\"hash\":\"403b8304d97f0c98f3eab2e25cf81efc\",\"html_value\":\"\"}"}</mugshots_cache_json><notes/><order>7</order><snapshot display_value="3e7cf960fba30681cb56e2ffaafd4739">f0869b1337b90010bec7dc1873990e1f</snapshot><step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:43:49</sys_created_on><sys_id>b7f51fdf37790010bec7dc1873990e7c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Set Component Values (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_b7f51fdf37790010bec7dc1873990e7c</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:47:48</sys_updated_on><table/><test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=b7f51fdf37790010bec7dc1873990e7c"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>b7f51fdf37790010bec7dc1873990e7c</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:43:50</sys_created_on><sys_id>3b06531337b90010bec7dc1873990e4c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:43:50</sys_updated_on><value>403b8304d97f0c98f3eab2e25cf81efc=New Last Name^EQ</value><variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-370646646</payload_hash>
+        <record_name>Set Component Values (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:47:48</sys_created_on>
+        <sys_id>c2f6135337b90010bec7dc1873990eef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f363b88b50000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:47:48</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4ef613536cb9001023d240c0163327ee</update_guid>
+        <update_guid_history>4ef613536cb9001023d240c0163327ee:-370646646,3f06531373b900103f8c31fc113a824d:201831056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:48:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0483b8ec284647e4af01ead31c06b110</sys_id>
+        <sys_metadata>b7f51fdf37790010bec7dc1873990e7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_b7f51fdf37790010bec7dc1873990e7c</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_b7f51fdf37790010bec7dc1873990e7c">c2f6135337b90010bec7dc1873990eef</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:48:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

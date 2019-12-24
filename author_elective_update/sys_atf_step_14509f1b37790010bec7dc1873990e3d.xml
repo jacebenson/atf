@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from display_value="Click Component (Custom UI)">aa451e48db60001032ffe1bb4b961958</copied_from>
+        <description>Click the component: 'Button &lt;span&gt;: +1 858 287 7834'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"7a4a709488d1303194009f59e0e610a1":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;span&gt;: +1 858 287 7834\",\"inner_text\":\"+1 858 287 7834\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;span&gt;: +1 858 287 7834 in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"+1 858 287 7834\",\"index\":0,\"get_value_result\":\"+1 858 287 7834\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;span&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"span\",\"isDisabled\":false,\"hash\":\"7a4a709488d1303194009f59e0e610a1\"}"}</mugshots_cache_json>
+        <notes>Updating Buisness Phone Number</notes>
+        <order>14</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>14509f1b37790010bec7dc1873990e3d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_14509f1b37790010bec7dc1873990e3d</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:50:37</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=14509f1b37790010bec7dc1873990e3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>14509f1b37790010bec7dc1873990e3d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>10509f1b37790010bec7dc1873990e3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>7a4a709488d1303194009f59e0e610a1</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_14509f1b37790010bec7dc1873990e3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from display_value="Click Component (Custom UI)">aa451e48db60001032ffe1bb4b961958</copied_from><description>Click the component: 'Button &lt;span&gt;: +1 858 287 7834'</description><display_name>Click Component (Custom UI)</display_name><inputs/><mugshots_cache_json>{"7a4a709488d1303194009f59e0e610a1":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;span&gt;: +1 858 287 7834\",\"inner_text\":\"+1 858 287 7834\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;span&gt;: +1 858 287 7834 in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"+1 858 287 7834\",\"index\":0,\"get_value_result\":\"+1 858 287 7834\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;span&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"span\",\"isDisabled\":false,\"hash\":\"7a4a709488d1303194009f59e0e610a1\"}"}</mugshots_cache_json><notes>Updating Buisness Phone Number</notes><order>14</order><snapshot/><step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>14509f1b37790010bec7dc1873990e3d</sys_id><sys_mod_count>15</sys_mod_count><sys_name>Click Component (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_14509f1b37790010bec7dc1873990e3d</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:50:37</sys_updated_on><table/><test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=14509f1b37790010bec7dc1873990e3d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>14509f1b37790010bec7dc1873990e3d</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>10509f1b37790010bec7dc1873990e3e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>7a4a709488d1303194009f59e0e610a1</value><variable display_value="">ee05588b73730300c79260bdfaf6a749</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1375578932</payload_hash>
+        <record_name>Click Component (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:50:38</sys_created_on>
+        <sys_id>5797539337b90010bec7dc1873990e88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f363e1d410000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:50:38</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>df97539303b900102f6c5325e1348f87</update_guid>
+        <update_guid_history>df97539303b900102f6c5325e1348f87:-1375578932,2c37d7538ab900103086ee2fafc680fe:-1331923411,2706531335b900105f12e1cee347c41e:-1375578932,3ef41b9fa6790010f6d9c2ab6e26f3f3:-1331923411,1a94939f8a7900107b7b4c72185aaf6e:-1288267890,a733971ff87900105b741da497b63156:-1331923411,7e825bdbdc7900109455e57e97f11822:-1288267890,ce81979be17900106f2308b6088fc60a:-46039019,90509f1b27790010a2aea6845bb7153f:-834453032</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0223431a4bdf47bcb39cd1e32fbb6944</sys_id>
+        <sys_metadata>14509f1b37790010bec7dc1873990e3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_14509f1b37790010bec7dc1873990e3d</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_14509f1b37790010bec7dc1873990e3d">5797539337b90010bec7dc1873990e88</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

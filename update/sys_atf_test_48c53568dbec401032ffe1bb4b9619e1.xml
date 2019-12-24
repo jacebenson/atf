@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="CSM - Portal - UI - Create Product Case as a Customer on Portal">e26cade8dbac401032ffe1bb4b961977</copied_from>
+        <description>This test would create a Product Case from CSM portal as a partner. Note: OOB a partner doesn't have view access to the record so this will create it, but they don't have access to view it.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>CSM - Portal - UI - Create Product Case as a Partner on Portal</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:21:17</sys_created_on>
+        <sys_id>48c53568dbec401032ffe1bb4b9619e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CSM - Portal - UI - Create Product Case as a Partner on Portal</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_test_48c53568dbec401032ffe1bb4b9619e1</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:21:47</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=48c53568dbec401032ffe1bb4b9619e1"/>
+</record_update>

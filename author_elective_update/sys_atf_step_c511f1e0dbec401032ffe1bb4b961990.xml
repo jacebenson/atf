@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open Form page in the Service Portal  portal</description>
+        <display_name>Open a Form (SP)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>9</order>
+        <snapshot/>
+        <step_config display_value="Open a Form (SP)">ca58a941e7020300b2888f49c2f6a95e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>c511f1e0dbec401032ffe1bb4b961990</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open a Form (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_c511f1e0dbec401032ffe1bb4b961990</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:03:04</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <test display_value="CSM - Portal - UI - Create Product Case on Portal">e26cade8dbac401032ffe1bb4b961977</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c511f1e0dbec401032ffe1bb4b961990"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c511f1e0dbec401032ffe1bb4b961990</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>132139e0dbec401032ffe1bb4b961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <value/>
+        <variable display_value="">a38ae181e7020300b2888f49c2f6a92e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c511f1e0dbec401032ffe1bb4b961990</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>5f2139e0dbec401032ffe1bb4b961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <value/>
+        <variable display_value="">a266791b23101300ab65ff5e17bf654b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c511f1e0dbec401032ffe1bb4b961990</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>972139e0dbec401032ffe1bb4b961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <value>ed5f8ec347730200ba13a5554ee49046</value>
+        <variable display_value="">757a6181e7020300b2888f49c2f6a9f7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c511f1e0dbec401032ffe1bb4b961990</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>972139e0dbec401032ffe1bb4b961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <value>sn_customerservice_case</value>
+        <variable display_value="">ee6aa11723101300ab65ff5e17bf65db</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c511f1e0dbec401032ffe1bb4b961990</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>9b2139e0dbec401032ffe1bb4b961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <value>{{step['ee6cede8dbac401032ffe1bb4b9619e9'].record_id}}</value>
+        <variable display_value="">38a5351b23101300ab65ff5e17bf65fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c511f1e0dbec401032ffe1bb4b961990</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>d32139e0dbec401032ffe1bb4b961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <value>81b75d3147032100ba13a5554ee4902b</value>
+        <variable display_value="">5d5a2181e7020300b2888f49c2f6a9dc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c511f1e0dbec401032ffe1bb4b961990"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>page_id</field>
+        <id>c511f1e0dbec401032ffe1bb4b961990</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>13213da0dbec401032ffe1bb4b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>param_sys_id</field>
+        <id>c511f1e0dbec401032ffe1bb4b961990</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>d3213da0dbec401032ffe1bb4b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table>
+        <value>{{step['ee6cede8dbac401032ffe1bb4b9619e9'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>param_view</field>
+        <id>c511f1e0dbec401032ffe1bb4b961990</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>97213da0dbec401032ffe1bb4b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>portal_id</field>
+        <id>c511f1e0dbec401032ffe1bb4b961990</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>1f213da0dbec401032ffe1bb4b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>c511f1e0dbec401032ffe1bb4b961990</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>5b213da0dbec401032ffe1bb4b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>c511f1e0dbec401032ffe1bb4b961990</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:01:17</sys_created_on>
+        <sys_id>df213da0dbec401032ffe1bb4b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:01:17</sys_updated_on>
+        <table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>d385b567dbeadb00536ad5b0cf961957</instance_id>
+        <instance_name>dev61134</instance_name>
+        <name>sys_atf_step_c511f1e0dbec401032ffe1bb4b961990</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open Form page in the Service Portal  portal</description><display_name>Open a Form (SP)</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>9</order><snapshot/><step_config display_value="Open a Form (SP)">ca58a941e7020300b2888f49c2f6a95e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>c511f1e0dbec401032ffe1bb4b961990</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Open a Form (SP)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_c511f1e0dbec401032ffe1bb4b961990</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:03:04</sys_updated_on><table>sn_customerservice_case</table><test display_value="CSM - Portal - UI - Create Product Case on Portal">e26cade8dbac401032ffe1bb4b961977</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c511f1e0dbec401032ffe1bb4b961990"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c511f1e0dbec401032ffe1bb4b961990</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>132139e0dbec401032ffe1bb4b961905</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><value/><variable display_value="">a38ae181e7020300b2888f49c2f6a92e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c511f1e0dbec401032ffe1bb4b961990</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>5f2139e0dbec401032ffe1bb4b961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><value/><variable display_value="">a266791b23101300ab65ff5e17bf654b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c511f1e0dbec401032ffe1bb4b961990</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>972139e0dbec401032ffe1bb4b961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><value>ed5f8ec347730200ba13a5554ee49046</value><variable display_value="">757a6181e7020300b2888f49c2f6a9f7</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c511f1e0dbec401032ffe1bb4b961990</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>972139e0dbec401032ffe1bb4b961905</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><value>sn_customerservice_case</value><variable display_value="">ee6aa11723101300ab65ff5e17bf65db</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c511f1e0dbec401032ffe1bb4b961990</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>9b2139e0dbec401032ffe1bb4b961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><value>{{step['ee6cede8dbac401032ffe1bb4b9619e9'].record_id}}</value><variable display_value="">38a5351b23101300ab65ff5e17bf65fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c511f1e0dbec401032ffe1bb4b961990</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>d32139e0dbec401032ffe1bb4b961905</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><value>81b75d3147032100ba13a5554ee4902b</value><variable display_value="">5d5a2181e7020300b2888f49c2f6a9dc</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=c511f1e0dbec401032ffe1bb4b961990"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>page_id</field><id>c511f1e0dbec401032ffe1bb4b961990</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>13213da0dbec401032ffe1bb4b961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>param_sys_id</field><id>c511f1e0dbec401032ffe1bb4b961990</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>d3213da0dbec401032ffe1bb4b961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table><value>{{step['ee6cede8dbac401032ffe1bb4b9619e9'].record_id}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>param_view</field><id>c511f1e0dbec401032ffe1bb4b961990</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>97213da0dbec401032ffe1bb4b961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>portal_id</field><id>c511f1e0dbec401032ffe1bb4b961990</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>1f213da0dbec401032ffe1bb4b961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>query_params</field><id>c511f1e0dbec401032ffe1bb4b961990</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>5b213da0dbec401032ffe1bb4b961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>table</field><id>c511f1e0dbec401032ffe1bb4b961990</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-10-14 05:01:17</sys_created_on><sys_id>df213da0dbec401032ffe1bb4b961935</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-10-14 05:01:17</sys_updated_on><table>var__m_atf_input_variable_ca58a941e7020300b2888f49c2f6a95e</table><value/></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-41912014</payload_hash>
+        <record_name>Open a Form (SP)</record_name>
+        <reverted_from/>
+        <source>d6bd1794db64401032ffe1bb4b9619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:03:05</sys_created_on>
+        <sys_id>ad91f124dbec401032ffe1bb4b961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dc8a5ff6c0000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:03:05</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>2991f12442ec4010a10298411faf8a01</update_guid>
+        <update_guid_history>2991f12442ec4010a10298411faf8a01:-41912014,132139e071ec4010f053056a195b9908:-713408148</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-10-14 05:03:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7aa2bf38fce6442a9bc87370c1f95271</sys_id>
+        <sys_metadata>c511f1e0dbec401032ffe1bb4b961990</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Form (SP)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c511f1e0dbec401032ffe1bb4b961990</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c511f1e0dbec401032ffe1bb4b961990">ad91f124dbec401032ffe1bb4b961901</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-10-14 05:03:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
