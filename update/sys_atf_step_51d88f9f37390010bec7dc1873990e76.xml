@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'alm_hardware' with the following values:
+Account = {{Step 2: Record Insert.Record}}
+and Model category = {{Step 4: Record Insert.Record}}
+and Model = {{Step 3: Record Insert.Record}}
+and Display name = ATF - Hardware Asset
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:46:55</sys_created_on>
+        <sys_id>51d88f9f37390010bec7dc1873990e76</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_51d88f9f37390010bec7dc1873990e76</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:48:49</sys_updated_on>
+        <table>alm_hardware</table>
+        <test display_value="CSM - Case - UI - Assign Asset on Case">6ef64f1f37390010bec7dc1873990ec3</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=51d88f9f37390010bec7dc1873990e76"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>51d88f9f37390010bec7dc1873990e76</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:46:55</sys_created_on>
+        <sys_id>42090f9f37390010bec7dc1873990e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:46:55</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>51d88f9f37390010bec7dc1873990e76</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:46:55</sys_created_on>
+        <sys_id>4a0943df37390010bec7dc1873990e9e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:48:49</sys_updated_on>
+        <value>account={{step['6547031f37390010bec7dc1873990e31'].record_id}}^model_category={{step['e128c75f37390010bec7dc1873990ec1'].record_id}}^model={{step['adb7c35f37390010bec7dc1873990e9b'].record_id}}^display_name=ATF - Hardware Asset^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>51d88f9f37390010bec7dc1873990e76</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:46:55</sys_created_on>
+        <sys_id>860943df37390010bec7dc1873990e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:46:55</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>51d88f9f37390010bec7dc1873990e76</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:46:55</sys_created_on>
+        <sys_id>c20943df37390010bec7dc1873990e9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:46:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=51d88f9f37390010bec7dc1873990e76"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>51d88f9f37390010bec7dc1873990e76</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:46:55</sys_created_on>
+        <sys_id>0e090f9f37390010bec7dc1873990e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:46:55</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>51d88f9f37390010bec7dc1873990e76</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 03:46:55</sys_created_on>
+        <sys_id>ce090f9f37390010bec7dc1873990e83</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:48:49</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>account={{step['6547031f37390010bec7dc1873990e31'].record_id}}^model_category={{step['e128c75f37390010bec7dc1873990ec1'].record_id}}^model={{step['adb7c35f37390010bec7dc1873990e9b'].record_id}}^display_name=ATF - Hardware Asset^EQ</value>
+    </sys_element_mapping>
+</record_update>
