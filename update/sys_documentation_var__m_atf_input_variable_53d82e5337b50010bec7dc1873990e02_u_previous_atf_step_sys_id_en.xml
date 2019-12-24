@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_previous_atf_step_sys_id" label="Previous ATF Step Sys ID" language="en" table="var__m_atf_input_variable_53d82e5337b50010bec7dc1873990e02">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_previous_atf_step_sys_id</element>
+            <help/>
+            <hint/>
+            <label>Previous ATF Step Sys ID</label>
+            <language>en</language>
+            <name>var__m_atf_input_variable_53d82e5337b50010bec7dc1873990e02</name>
+            <plural>Previous ATF Step Sys ID</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>djkersch</sys_created_by>
+            <sys_created_on>2019-12-24 02:03:09</sys_created_on>
+            <sys_id>4641fa5f37b50010bec7dc1873990e5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Previous ATF Step Sys ID</sys_name>
+            <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+            <sys_update_name>sys_documentation_var__m_atf_input_variable_53d82e5337b50010bec7dc1873990e02_u_previous_atf_step_sys_id_en</sys_update_name>
+            <sys_updated_by>djkersch</sys_updated_by>
+            <sys_updated_on>2019-12-24 02:03:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

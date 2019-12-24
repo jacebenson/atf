@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_config">
+    <sys_atf_step_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_order_constraint/>
+        <can_mutate_page>false</can_mutate_page>
+        <category display_value="Server">317c4dc20b202200a8d7a12cf6673aa8</category>
+        <class_name/>
+        <class_type>script</class_type>
+        <description_generator><![CDATA[function generateDescription() {
+    // the global variable 'step' represents the current glide record
+     var description = gs.getMessage("Run a script that outputs a string");
+	// your code here
+	return description;
+}
+ generateDescription();
+]]></description_generator>
+        <html_description><![CDATA[<p>Executes a script on the server that outputs a string.</p>]]></html_description>
+        <icon>icon-article-document</icon>
+        <inputs/>
+        <name>Convert a previous step output to a string</name>
+        <order>2501</order>
+        <outputs/>
+        <step_env display_value="Server - Independent">6c2bcea1870312009dccc9ded0e3ecca</step_env>
+        <step_execution_generator><![CDATA[// The inputs are a map of the variables defined in the inputs related list below.
+// Inputs are consumed in the step configuration. Input
+// values may be hardcoded or mapped from the outputs of a previous step.
+// If a test author using your step uses mapping to pass in an output from a previous 
+// test step then when referencing the input variable the mapping will be resolved 
+// automatically
+//  Example:
+//      var myRecords = new GlideRecord(inputs.table);
+//
+// The outputs are a map of the variables defined in the outputs related list.
+// Outputs should be set (assigned) in order to pass data out of a test step that
+// can be consumed my mapping as an input to subsequent steps. 
+//  Example:
+//      outputs.table = gr.getRecordClassName()
+//
+//
+// Note that inputs and outputs are strongly typed as defined in their variable definition.
+// Their behavior is the same as a dictionary defined field of the same type in a table.
+//
+// The stepResult is a simple API for controlling the step pass/fail and logging with three
+// methods:
+//      stepResult.setFailed: Causes step to fail
+//
+//      stepResult.setSuccess: Causes step to succeed
+//
+//      stepResult.setOutputMessage: Log a message to step results after step executes.
+//            Can only be called once or will overwrite previous 
+//            message
+//
+// If neither setFailed or setSuccess is called the default is to succeed.
+//
+// See 'Record Query' for an example of a scripted step config 
+// or see test 'Check change approvals get generated'
+//
+// Example usage of step timeout in script
+//      var counter = 0;
+//      // 'timeout' is a field on the step form
+//      while (counter <= timeout) {
+//            if (desiredOutcome) {
+//                stepResult.setOutputMessage('Success!');
+//                stepResult.setSuccess();
+//                return;
+//            }
+//            counter++;
+//            gs.sleep(1000);
+//      }
+//
+//      // desired outcome did not occur within the timeout
+//      stepResult.setOutputMessage('Failure!');
+//      stepResult.setFailed();
+//
+(function executeStep(inputs, outputs, stepResult, timeout) {
+	
+	var outputId = inputs.u_previous_atf_step_output_id;
+	var gr = steps(inputs.u_previous_atf_step_sys_id).outputId;
+	var sys_id_string = gr.sys_id.toString();
+	outputs.u_previous_atf_step_output_as_string = sys_id_string;
+	stepResult.setOutputMessage(gs.getMessage("Successfully outputed the sys id to '{0}'", [sys_id_string]));
+	return true;
+
+}(inputs, outputs, stepResult, timeout));
+]]></step_execution_generator>
+        <sys_class_name>sys_atf_step_config</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 01:30:32</sys_created_on>
+        <sys_id>53d82e5337b50010bec7dc1873990e02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Convert a previous step output to a string</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_config_53d82e5337b50010bec7dc1873990e02</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 02:11:09</sys_updated_on>
+        <template_reminder>Server-side like script to output a string</template_reminder>
+        <type display_value="Test Step" name="sys_atf_step">d731482637150010bec7dc1873990e91</type>
+        <wizard_redirect/>
+    </sys_atf_step_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=53d82e5337b50010bec7dc1873990e02"/>
+    <sys_variable_value action="delete_multiple" query="document_key=53d82e5337b50010bec7dc1873990e02"/>
+</record_update>
