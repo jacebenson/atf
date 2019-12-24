@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from display_value="Click Component (Custom UI)">ae451e48db60001032ffe1bb4b961965</copied_from>
+        <description>Click the component: 'Link &lt;a&gt;: Notification Preferences'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"5957ee1c5c7eb162f4bc31130651ef25":"{\"area\":\"Actions\",\"sn_atf_mugshot_short_description\":\"Link &lt;a&gt;: Notification Preferences\",\"inner_text\":\"Notification Preferences\",\"sn_atf_mugshot_long_description\":\"Link &lt;a&gt;: Notification Preferences in page area Actions\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Notification Preferences\",\"type\":\"\",\"get_value_result\":\"Notification Preferences\",\"sn_atf_mugshot_tag_display_name\":\"Link &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"hash\":\"5957ee1c5c7eb162f4bc31130651ef25\"}"}</mugshots_cache_json>
+        <notes>Ignore: Checking Notification Pref Link</notes>
+        <order>13</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>94509f1b37790010bec7dc1873990e4b</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_94509f1b37790010bec7dc1873990e4b</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:55</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=94509f1b37790010bec7dc1873990e4b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>94509f1b37790010bec7dc1873990e4b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>90509f1b37790010bec7dc1873990e4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>5957ee1c5c7eb162f4bc31130651ef25</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_94509f1b37790010bec7dc1873990e4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from display_value="Click Component (Custom UI)">ae451e48db60001032ffe1bb4b961965</copied_from><description>Click the component: 'Link &lt;a&gt;: Notification Preferences'</description><display_name>Click Component (Custom UI)</display_name><inputs/><mugshots_cache_json>{"5957ee1c5c7eb162f4bc31130651ef25":"{\"area\":\"Actions\",\"sn_atf_mugshot_short_description\":\"Link &lt;a&gt;: Notification Preferences\",\"inner_text\":\"Notification Preferences\",\"sn_atf_mugshot_long_description\":\"Link &lt;a&gt;: Notification Preferences in page area Actions\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Notification Preferences\",\"type\":\"\",\"get_value_result\":\"Notification Preferences\",\"sn_atf_mugshot_tag_display_name\":\"Link &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"hash\":\"5957ee1c5c7eb162f4bc31130651ef25\"}"}</mugshots_cache_json><notes>Ignore: Checking Notification Pref Link</notes><order>13</order><snapshot/><step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>94509f1b37790010bec7dc1873990e4b</sys_id><sys_mod_count>25</sys_mod_count><sys_name>Click Component (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_94509f1b37790010bec7dc1873990e4b</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:51:55</sys_updated_on><table/><test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=94509f1b37790010bec7dc1873990e4b"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>94509f1b37790010bec7dc1873990e4b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>90509f1b37790010bec7dc1873990e4c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>5957ee1c5c7eb162f4bc31130651ef25</value><variable display_value="">ee05588b73730300c79260bdfaf6a749</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1128677912</payload_hash>
+        <record_name>Click Component (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:55</sys_created_on>
+        <sys_id>92e75b9337b90010bec7dc1873990e4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f363f4d840000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>1ee75b93e9b90010c4ab8107e5ec684a</update_guid>
+        <update_guid_history>1ee75b93e9b90010c4ab8107e5ec684a:1128677912,4ee71b9392b9001037778826fb9190c0:1085022391,75e71b9307b9001004219e1d401ff894:1041366870,69e71b93bab90010b58e9870c1c43b32:997711349,51e7d793e6b9001077101dda187915d9:954055828,db97539392b9001073aab8a43967c26b:910400307,28371b53f9b90010b0a7d682d603830e:954055828,23065313a1b90010ba5e3f0a6b395c02:910400307,aef41b9f287900108323c2f8cede1ce3:954055828,2694939f39790010f0219779e092317e:997711349,d733971fb7790010c2ed61df04129046:954055828,c3825bdb48790010ba01ec9ae1e3f02e:997711349,ca81979b00790010ebaf39a3072ac91a:1266627580,e8509f1b9079001023ab27b48862bd59:1339833479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>137b343087b147a093c62f1591c04590</sys_id>
+        <sys_metadata>94509f1b37790010bec7dc1873990e4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_94509f1b37790010bec7dc1873990e4b</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_94509f1b37790010bec7dc1873990e4b">92e75b9337b90010bec7dc1873990e4b</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

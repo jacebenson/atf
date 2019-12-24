@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Set Component Values (Custom UI)">66451e48db60001032ffe1bb4b961927</copied_from>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: Last name' = Lewis
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"80227f230b2695d24e365dd159bc2be6":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Last name\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_last_name]: Last name with value Warren in page area User Profile\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Last name\",\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"Last name\"},\"get_value_result\":\"Warren\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"last_name\",\"sn_atf_mugshot_value\":\"Warren\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_last_name\",\"hash\":\"80227f230b2695d24e365dd159bc2be6\",\"html_value\":\"Warren\"}"}</mugshots_cache_json>
+        <notes>Updating Last Name to Lewis</notes>
+        <order>6</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>58509f1b37790010bec7dc1873990e23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_58509f1b37790010bec7dc1873990e23</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Portal - UI - Update Support Profile copy">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=58509f1b37790010bec7dc1873990e23"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>58509f1b37790010bec7dc1873990e23</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>d8509f1b37790010bec7dc1873990e24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>80227f230b2695d24e365dd159bc2be6=Lewis^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_58509f1b37790010bec7dc1873990e23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Set Component Values (Custom UI)">66451e48db60001032ffe1bb4b961927</copied_from><description>Set the components on the page as follows:
+'Text &lt;input&gt;: Last name' = Lewis
+</description><display_name>Set Component Values (Custom UI)</display_name><inputs/><mugshots_cache_json>{"80227f230b2695d24e365dd159bc2be6":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Last name\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [sp_formfield_last_name]: Last name with value Warren in page area User Profile\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Last name\",\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"Last name\"},\"get_value_result\":\"Warren\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"last_name\",\"sn_atf_mugshot_value\":\"Warren\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"sp_formfield_last_name\",\"hash\":\"80227f230b2695d24e365dd159bc2be6\",\"html_value\":\"Warren\"}"}</mugshots_cache_json><notes>Updating Last Name to Lewis</notes><order>6</order><snapshot/><step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>58509f1b37790010bec7dc1873990e23</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Component Values (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_58509f1b37790010bec7dc1873990e23</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><table/><test display_value="CSM - Portal - UI - Update Support Profile copy">cc501f1b37790010bec7dc1873990e30</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=58509f1b37790010bec7dc1873990e23"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>58509f1b37790010bec7dc1873990e23</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>d8509f1b37790010bec7dc1873990e24</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>80227f230b2695d24e365dd159bc2be6=Lewis^EQ</value><variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>516122972</payload_hash>
+        <record_name>Set Component Values (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>d4509f1b37790010bec7dc1873990e26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f3620ecc40000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>10509f1bd879001043e7b3fc441cfa26</update_guid>
+        <update_guid_history>10509f1bd879001043e7b3fc441cfa26:516122972</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:24:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1ac5a78f9ab6450084287ddf083e4000</sys_id>
+        <sys_metadata>58509f1b37790010bec7dc1873990e23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_58509f1b37790010bec7dc1873990e23</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_58509f1b37790010bec7dc1873990e23">d4509f1b37790010bec7dc1873990e26</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:24:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

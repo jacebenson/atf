@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from display_value="Click Component (Custom UI)">ee451e48db60001032ffe1bb4b961938</copied_from>
+        <description>Click the component: 'Button &lt;button&gt;: Save'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"0fcba220ddd6fade7b5bdf2ccdaf52e9":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Save\",\"inner_text\":\"Save\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Save in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Save\",\"index\":1,\"type\":\"button\",\"get_value_result\":\"Save\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Save\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"0fcba220ddd6fade7b5bdf2ccdaf52e9\"}"}</mugshots_cache_json>
+        <notes>Save the email</notes>
+        <order>11</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>50509f1b37790010bec7dc1873990e36</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_50509f1b37790010bec7dc1873990e36</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:52</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=50509f1b37790010bec7dc1873990e36"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>50509f1b37790010bec7dc1873990e36</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:45</sys_created_on>
+        <sys_id>5c509f1b37790010bec7dc1873990e36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:18:45</sys_updated_on>
+        <value>0fcba220ddd6fade7b5bdf2ccdaf52e9</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_50509f1b37790010bec7dc1873990e36</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from display_value="Click Component (Custom UI)">ee451e48db60001032ffe1bb4b961938</copied_from><description>Click the component: 'Button &lt;button&gt;: Save'</description><display_name>Click Component (Custom UI)</display_name><inputs/><mugshots_cache_json>{"0fcba220ddd6fade7b5bdf2ccdaf52e9":"{\"area\":\"User Profile\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Save\",\"inner_text\":\"Save\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Save in page area User Profile\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Save\",\"index\":1,\"type\":\"button\",\"get_value_result\":\"Save\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Save\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"0fcba220ddd6fade7b5bdf2ccdaf52e9\"}"}</mugshots_cache_json><notes>Save the email</notes><order>11</order><snapshot/><step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>50509f1b37790010bec7dc1873990e36</sys_id><sys_mod_count>17</sys_mod_count><sys_name>Click Component (Custom UI)</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_50509f1b37790010bec7dc1873990e36</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:51:52</sys_updated_on><table/><test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=50509f1b37790010bec7dc1873990e36"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>50509f1b37790010bec7dc1873990e36</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 04:18:45</sys_created_on><sys_id>5c509f1b37790010bec7dc1873990e36</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 04:18:45</sys_updated_on><value>0fcba220ddd6fade7b5bdf2ccdaf52e9</value><variable display_value="">ee05588b73730300c79260bdfaf6a749</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>292132462</payload_hash>
+        <record_name>Click Component (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:52</sys_created_on>
+        <sys_id>69e71b9337b90010bec7dc1873990e1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f363f3fff0000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:52</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>e1e71b93c0b9001024f2934a08820e1e</update_guid>
+        <update_guid_history>e1e71b93c0b9001024f2934a08820e1e:292132462,53975393e9b90010bb1ef63e904bb890:248476941,a837d75374b90010f42b009cccf1daf6:292132462,b7065313eab90010b674997519452c26:248476941,bef41b9f65790010a96176fa7766ccfb:292132462,9694939fa4790010fdf0c09e56523f66:335787983,2b33971fb07900107ba0b0dc79cbaa5e:292132462,fa825bdb81790010da86cf19bfa67b1a:335787983,4e81979b7f7900108b0c50785103e902:840020950,dc509f1b697900107da869821aee3837:107665463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:51:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>00db534fb8e74570800126d64179cce4</sys_id>
+        <sys_metadata>50509f1b37790010bec7dc1873990e36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_50509f1b37790010bec7dc1873990e36</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_50509f1b37790010bec7dc1873990e36">69e71b9337b90010bec7dc1873990e1e</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:51:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

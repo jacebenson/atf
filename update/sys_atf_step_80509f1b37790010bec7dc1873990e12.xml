@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Impersonate">ae451e48db60001032ffe1bb4b96191a</copied_from>
+        <description>Impersonate the user: {{Step 1: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Change to any Customer for which update profile need to be performed</notes>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:44</sys_created_on>
+        <sys_id>80509f1b37790010bec7dc1873990e12</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_80509f1b37790010bec7dc1873990e12</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:52:39</sys_updated_on>
+        <table/>
+        <test display_value="CSP - Portal - UI - Update Support Profile">cc501f1b37790010bec7dc1873990e30</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=80509f1b37790010bec7dc1873990e12"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>80509f1b37790010bec7dc1873990e12</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:44</sys_created_on>
+        <sys_id>94509f1b37790010bec7dc1873990e13</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:34:17</sys_updated_on>
+        <value>a8f98bb0eb32010045e1a5115206fe3a</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=80509f1b37790010bec7dc1873990e12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>80509f1b37790010bec7dc1873990e12</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 04:18:44</sys_created_on>
+        <sys_id>1c509f1b37790010bec7dc1873990e13</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 04:39:27</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['48501f1b37790010bec7dc1873990e34'].user}}</value>
+    </sys_element_mapping>
+</record_update>
