@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the values on the form as follows:
+Task = {{Step 2: Record Insert.Record}}
+and Time worked = 4 Hours
+and Comments = Time spent on the Case {{Step 2: Record Insert.Record}}</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:29:10</sys_created_on>
+        <sys_id>c79bd29337750010bec7dc1873990ec6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_c79bd29337750010bec7dc1873990ec6</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:35:09</sys_updated_on>
+        <table>task_time_worked</table>
+        <test display_value="CSM - Time Worked - UI -  Time Recording">40ea5a5337750010bec7dc1873990e7c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c79bd29337750010bec7dc1873990ec6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c79bd29337750010bec7dc1873990ec6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:29:10</sys_created_on>
+        <sys_id>65cb969337750010bec7dc1873990e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:29:10</sys_updated_on>
+        <value>task_time_worked</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c79bd29337750010bec7dc1873990ec6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:29:10</sys_created_on>
+        <sys_id>69cb969337750010bec7dc1873990e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:29:10</sys_updated_on>
+        <value>task={{step['237b169337750010bec7dc1873990e01'].record_id}}^time_worked=javascript:gs.getDurationDate('0 4:0:0')^comments=Time spent on the Case {{step['237b169337750010bec7dc1873990e01'].record_id}}^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c79bd29337750010bec7dc1873990ec6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>c79bd29337750010bec7dc1873990ec6</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:29:10</sys_created_on>
+        <sys_id>e1cb969337750010bec7dc1873990e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:29:10</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>task={{step['237b169337750010bec7dc1873990e01'].record_id}}^time_worked=javascript:gs.getDurationDate('0 4:0:0')^comments=Time spent on the Case {{step['237b169337750010bec7dc1873990e01'].record_id}}^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_c79bd29337750010bec7dc1873990ec6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Set the values on the form as follows:
+Task = {{Step 2: Record Insert.Record}}
+and Time worked = 4 Hours
+and Comments = Time spent on the Case {{Step 2: Record Insert.Record}}</description><display_name>Set Field Values</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:29:10</sys_created_on><sys_id>c79bd29337750010bec7dc1873990ec6</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_c79bd29337750010bec7dc1873990ec6</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:35:09</sys_updated_on><table>task_time_worked</table><test display_value="CSM - Time Worked - UI -  Time Recording">40ea5a5337750010bec7dc1873990e7c</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c79bd29337750010bec7dc1873990ec6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c79bd29337750010bec7dc1873990ec6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:29:10</sys_created_on><sys_id>65cb969337750010bec7dc1873990e0e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:29:10</sys_updated_on><value>task_time_worked</value><variable display_value="">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c79bd29337750010bec7dc1873990ec6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:29:10</sys_created_on><sys_id>69cb969337750010bec7dc1873990e0e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:29:10</sys_updated_on><value>task={{step['237b169337750010bec7dc1873990e01'].record_id}}^time_worked=javascript:gs.getDurationDate('0 4:0:0')^comments=Time spent on the Case {{step['237b169337750010bec7dc1873990e01'].record_id}}^EQ</value><variable display_value="">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=c79bd29337750010bec7dc1873990ec6"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>c79bd29337750010bec7dc1873990ec6</id><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:29:10</sys_created_on><sys_id>e1cb969337750010bec7dc1873990e0e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:29:10</sys_updated_on><table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table><value>task={{step['237b169337750010bec7dc1873990e01'].record_id}}^time_worked=javascript:gs.getDurationDate('0 4:0:0')^comments=Time spent on the Case {{step['237b169337750010bec7dc1873990e01'].record_id}}^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-157779461</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:35:09</sys_created_on>
+        <sys_id>492d161737750010bec7dc1873990e0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f355438950000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:35:09</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>c12d1617977500107ea70e3067d2420c</update_guid>
+        <update_guid_history>c12d1617977500107ea70e3067d2420c:-157779461,291d921787750010c219fa1b7ebc5891:-994109572,65cb9693bf75001003b8ab4a29c1e510:-157779461</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:35:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>324d17b9c2824ba086e96bd634c49900</sys_id>
+        <sys_metadata>c79bd29337750010bec7dc1873990ec6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_c79bd29337750010bec7dc1873990ec6</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_c79bd29337750010bec7dc1873990ec6">492d161737750010bec7dc1873990e0c</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:35:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

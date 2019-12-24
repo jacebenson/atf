@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Submit the current form and confirm form submitted to server</description>
+        <display_name>Submit a Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:29:20</sys_created_on>
+        <sys_id>dfcbd69337750010bec7dc1873990efb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Submit a Form</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_update_name>sys_atf_step_dfcbd69337750010bec7dc1873990efb</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:35:09</sys_updated_on>
+        <table/>
+        <test display_value="CSM - Time Worked - UI -  Time Recording">40ea5a5337750010bec7dc1873990e7c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dfcbd69337750010bec7dc1873990efb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dfcbd69337750010bec7dc1873990efb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:29:20</sys_created_on>
+        <sys_id>37cb5a9337750010bec7dc1873990e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:29:20</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF">29192d90db0123008096a455ca96193d</application>
+        <file_path/>
+        <instance_id>a06153bfdbc157800e785d00cf961911</instance_id>
+        <instance_name>dev54623</instance_name>
+        <name>sys_atf_step_dfcbd69337750010bec7dc1873990efb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:29:20</sys_created_on><sys_id>dfcbd69337750010bec7dc1873990efb</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package><sys_policy/><sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope><sys_update_name>sys_atf_step_dfcbd69337750010bec7dc1873990efb</sys_update_name><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:35:09</sys_updated_on><table/><test display_value="CSM - Time Worked - UI -  Time Recording">40ea5a5337750010bec7dc1873990e7c</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=dfcbd69337750010bec7dc1873990efb"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>dfcbd69337750010bec7dc1873990efb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>djkersch</sys_created_by><sys_created_on>2019-12-24 00:29:20</sys_created_on><sys_id>37cb5a9337750010bec7dc1873990e7e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>djkersch</sys_updated_by><sys_updated_on>2019-12-24 00:29:20</sys_updated_on><value>form_submitted_to_server</value><variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1730996763</payload_hash>
+        <record_name>Submit a Form</record_name>
+        <reverted_from/>
+        <source>a3e7755737b10010bec7dc1873990ee4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:35:10</sys_created_on>
+        <sys_id>892d161737750010bec7dc1873990e23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f35543a380000001</sys_recorded_at>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:35:10</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>052d16174e75001080ac0e839fbd4723</update_guid>
+        <update_guid_history>052d16174e75001080ac0e839fbd4723:1730996763,012d1617fd7500109d5a57ed635dfd10:1825646586,211d1ed3f67500106485e19127c7caf6:1920296409,7bcb5a9378750010a1959a24406e987f:1825646586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2019-12-24 00:35:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>4820134c3a8849399d0c228d30b1c111</sys_id>
+        <sys_metadata>dfcbd69337750010bec7dc1873990efb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit a Form</sys_name>
+        <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
+        <sys_scope_delete display_value="">b8ae09e26a7641c4b3740ff63b9abf90</sys_scope_delete>
+        <sys_update_name>sys_atf_step_dfcbd69337750010bec7dc1873990efb</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_dfcbd69337750010bec7dc1873990efb">892d161737750010bec7dc1873990e23</sys_update_version>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 00:35:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
