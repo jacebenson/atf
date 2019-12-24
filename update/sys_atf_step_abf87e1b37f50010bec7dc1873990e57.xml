@@ -8,20 +8,20 @@
         <mugshots_cache_json>{"26c66f380ac9fcc855f639044a569607":"{\"area\":\"Take Survey\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: 5\",\"inner_text\":\"5\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: 5 in page area Take Survey\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"5\",\"type\":\"submit\",\"get_value_result\":\"5\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"5\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"26c66f380ac9fcc855f639044a569607\"}"}</mugshots_cache_json>
         <notes/>
         <order>10</order>
-        <snapshot/>
+        <snapshot display_value="e9ea31e594b78e882b25063f8e80661d">f260439337390010bec7dc1873990e2c</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-12-24 02:37:06</sys_created_on>
         <sys_id>abf87e1b37f50010bec7dc1873990e57</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_abf87e1b37f50010bec7dc1873990e57</sys_update_name>
-        <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-12-24 02:37:06</sys_updated_on>
+        <sys_updated_by>4750079337390010bec7dc1873990ec7</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:09:17</sys_updated_on>
         <table/>
         <test display_value="CSM - Portal - UI - Provide Feedback on Survey">37f1e2db37750010bec7dc1873990e0d</test>
         <timeout/>

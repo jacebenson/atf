@@ -8,20 +8,20 @@
         <mugshots_cache_json>{"d862a20db15f02f91872cdacaceb32cf":"{\"area\":\"Case Ticket Action\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Accept Solution\",\"inner_text\":\"Accept Solution\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Accept Solution in page area Case Ticket Action\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Accept Solution\",\"type\":\"button\",\"get_value_result\":\"Accept Solution\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"name\":\"accept\",\"sn_atf_mugshot_value\":\"Accept Solution\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"d862a20db15f02f91872cdacaceb32cf\"}"}</mugshots_cache_json>
         <notes/>
         <order>8</order>
-        <snapshot display_value="175d1cbddcd9ee646eecbf3bcec1a417">9cf8b61b37f50010bec7dc1873990efb</snapshot>
+        <snapshot display_value="b96106866432838396541943cb44d6af">d560479337390010bec7dc1873990efc</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-12-24 02:31:29</sys_created_on>
         <sys_id>27b732d737f50010bec7dc1873990ece</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_27b732d737f50010bec7dc1873990ece</sys_update_name>
-        <sys_updated_by>a5e83e1b37f50010bec7dc1873990eba</sys_updated_by>
-        <sys_updated_on>2019-12-24 02:36:37</sys_updated_on>
+        <sys_updated_by>4750079337390010bec7dc1873990ec7</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:09:10</sys_updated_on>
         <table/>
         <test display_value="CSM - Portal - UI - Provide Feedback on Survey">37f1e2db37750010bec7dc1873990e0d</test>
         <timeout/>

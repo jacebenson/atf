@@ -2,73 +2,73 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description>Assert that the text 'Thanks for taking the survey, your opinion counts!' is on the page.
+        <description>Assert that the text 'State Open' is on the page.
 With a failure timeout of 5 Seconds</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>12</order>
-        <snapshot display_value="3d775e395783d8080403abdc9b6536a1">ef60c79337390010bec7dc1873990e78</snapshot>
+        <order>10</order>
+        <snapshot display_value="df3e6731f6cd1f54750b320d2263fa9f">1fa04f9337390010bec7dc1873990e51</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-12-24 02:49:45</sys_created_on>
-        <sys_id>62eb7a1f37f50010bec7dc1873990eaa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2019-12-24 03:06:39</sys_created_on>
+        <sys_id>17cff25337390010bec7dc1873990e54</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Assert Text on Page (Custom UI)</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
-        <sys_update_name>sys_atf_step_62eb7a1f37f50010bec7dc1873990eaa</sys_update_name>
-        <sys_updated_by>4750079337390010bec7dc1873990ec7</sys_updated_by>
-        <sys_updated_on>2019-12-24 03:09:22</sys_updated_on>
+        <sys_update_name>sys_atf_step_17cff25337390010bec7dc1873990e54</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:12:26</sys_updated_on>
         <table/>
-        <test display_value="CSM - Portal - UI - Provide Feedback on Survey">37f1e2db37750010bec7dc1873990e0d</test>
+        <test display_value="CSM - Portal - UI - Provide requested info on case">968d3e9f37f50010bec7dc1873990e02</test>
         <timeout>1970-01-01 00:00:05</timeout>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=62eb7a1f37f50010bec7dc1873990eaa"/>
+    <sys_variable_value action="delete_multiple" query="document_key=17cff25337390010bec7dc1873990e54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>62eb7a1f37f50010bec7dc1873990eaa</document_key>
+        <document_key>17cff25337390010bec7dc1873990e54</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-12-24 02:49:45</sys_created_on>
-        <sys_id>24fbfa1f37f50010bec7dc1873990ec3</sys_id>
+        <sys_created_on>2019-12-24 03:06:39</sys_created_on>
+        <sys_id>10dff65337390010bec7dc1873990e57</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-12-24 02:49:45</sys_updated_on>
+        <sys_updated_on>2019-12-24 03:06:39</sys_updated_on>
         <value>text_on_page</value>
         <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>62eb7a1f37f50010bec7dc1873990eaa</document_key>
+        <document_key>17cff25337390010bec7dc1873990e54</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-12-24 02:49:45</sys_created_on>
-        <sys_id>e4fbfa1f37f50010bec7dc1873990ec3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-12-24 03:06:39</sys_created_on>
+        <sys_id>d0dff65337390010bec7dc1873990e57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-12-24 02:50:26</sys_updated_on>
-        <value>Thanks for taking the survey, your opinion counts!</value>
+        <sys_updated_on>2019-12-24 03:12:26</sys_updated_on>
+        <value>State Open</value>
         <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=62eb7a1f37f50010bec7dc1873990eaa"/>
+    <sys_element_mapping action="delete_multiple" query="id=17cff25337390010bec7dc1873990e54"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>text</field>
-        <id>62eb7a1f37f50010bec7dc1873990eaa</id>
+        <id>17cff25337390010bec7dc1873990e54</id>
         <sys_created_by>djkersch</sys_created_by>
-        <sys_created_on>2019-12-24 02:49:45</sys_created_on>
-        <sys_id>a0fbfa1f37f50010bec7dc1873990ec3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-12-24 03:06:39</sys_created_on>
+        <sys_id>9cdff65337390010bec7dc1873990e56</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>djkersch</sys_updated_by>
-        <sys_updated_on>2019-12-24 02:50:26</sys_updated_on>
+        <sys_updated_on>2019-12-24 03:12:26</sys_updated_on>
         <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
-        <value>Thanks for taking the survey, your opinion counts!</value>
+        <value>State Open</value>
     </sys_element_mapping>
 </record_update>

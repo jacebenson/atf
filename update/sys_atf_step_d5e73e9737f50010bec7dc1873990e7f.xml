@@ -8,20 +8,20 @@
         <mugshots_cache_json>{"8a77d545ba4372eea8d6ea9a4b876c2f":"{\"area\":\"Take Survey\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Get Started\",\"inner_text\":\"Get Started\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Get Started in page area Take Survey\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Get Started\",\"type\":\"submit\",\"get_value_result\":\"Get Started\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Get Started\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"8a77d545ba4372eea8d6ea9a4b876c2f\"}"}</mugshots_cache_json>
         <notes/>
         <order>9</order>
-        <snapshot display_value="dcff46eacaa2c2482bb5d26303da32cb">70f87e1b37f50010bec7dc1873990efd</snapshot>
+        <snapshot display_value="94fdbf5940d75b1da09d544f32127308">6160479337390010bec7dc1873990e73</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>djkersch</sys_created_by>
         <sys_created_on>2019-12-24 02:32:08</sys_created_on>
         <sys_id>d5e73e9737f50010bec7dc1873990e7f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF" source="x_8821_atf">29192d90db0123008096a455ca96193d</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">29192d90db0123008096a455ca96193d</sys_scope>
         <sys_update_name>sys_atf_step_d5e73e9737f50010bec7dc1873990e7f</sys_update_name>
-        <sys_updated_by>a5e83e1b37f50010bec7dc1873990eba</sys_updated_by>
-        <sys_updated_on>2019-12-24 02:36:39</sys_updated_on>
+        <sys_updated_by>4750079337390010bec7dc1873990ec7</sys_updated_by>
+        <sys_updated_on>2019-12-24 03:09:12</sys_updated_on>
         <table/>
         <test display_value="CSM - Portal - UI - Provide Feedback on Survey">37f1e2db37750010bec7dc1873990e0d</test>
         <timeout/>
